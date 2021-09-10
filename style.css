@@ -1,0 +1,71 @@
+@import url("notosans/noto.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+.slidev-layout {
+    font-size: 250% !important;
+    padding: 0 4rem !important;
+}
+
+a, h1, h2, h3, li, p, td, th, tr {
+    font-family: "Noto Sans", sans-serif !important;
+    font-size: revert !important;
+    font-weight: 300 !important;
+    letter-spacing: revert !important;
+    line-height: revert !important;
+    margin: revert !important;
+    padding: revert !important;
+    opacity: revert !important;
+    text-transform: revert !important;
+    border: revert !important;
+    text-decoration: none !important;
+}
+
+ol {
+    padding: revert !important;
+}
+
+li, ul, td, th {
+    line-height: 1.5 !important;
+    padding: 0.25rem 2rem !important;
+}
+
+th, td {
+    border: 1px solid silver !important;
+}
+
+blockquote {
+    font-size: 50% !important;
+    margin: -1rem 0 2rem 2rem;
+    padding: 0.25rem 1rem !important;
+}
+
+:not(pre) > code:before,
+:not(pre) > code:after {
+    content: '';
+    padding: 0.5rem;
+}
+
+pre.slidev-code code {
+    font-size: 150%;
+    line-height: 1.5;
+    font-variant-ligatures: none;
+}
+
+table {
+    font-size: 75%;
+}
+
+pre ~ p {
+    margin: 2rem 0 1rem 0 !important;
+}
+
+.sxs .slidev-code {
+    width: 45%;
+    float: left;
+  }
+
+  .sxs p {
+    width: 10%;
+    float: left;
+    text-align: center;
+  }
