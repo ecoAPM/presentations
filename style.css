@@ -1,0 +1,141 @@
+@import url("notosans/noto.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+.slidev-layout {
+	font-size: 250% !important;
+}
+
+a,
+h1,
+h2,
+h3,
+li,
+p,
+td,
+th,
+tr {
+	font-family: "Noto Sans", sans-serif !important;
+	font-size: revert !important;
+	font-weight: 300 !important;
+	letter-spacing: revert !important;
+	line-height: revert !important;
+	margin: revert !important;
+	padding: revert !important;
+	opacity: revert !important;
+	text-transform: revert !important;
+	border: revert !important;
+	text-decoration: none !important;
+}
+
+p {
+	line-height: 1.25 !important;
+}
+
+ol {
+	padding: revert !important;
+}
+
+li,
+ul,
+td,
+th {
+	line-height: 1.5 !important;
+	padding: 0.25rem 2rem !important;
+}
+
+th,
+td {
+	border: 1px solid silver !important;
+}
+
+blockquote {
+	font-size: 50% !important;
+	margin: -1rem 0 2rem 2rem;
+	padding: 0.25rem 1rem !important;
+}
+
+:not(pre) > code:before,
+:not(pre) > code:after {
+	content: "";
+	padding: 0.5rem;
+}
+
+pre code {
+	font-size: 150%;
+	line-height: 1.5;
+	font-variant-ligatures: none;
+}
+
+table {
+	font-size: 75%;
+}
+
+pre ~ p,
+div ~ p {
+	margin: 1rem 0 !important;
+}
+
+hr {
+	margin: 4rem 8rem;
+}
+
+.cover img.profile {
+	width: 20%;
+	float: left;
+}
+
+.cover img.logo {
+	width: 20%;
+	float: right;
+}
+
+.contact img {
+	width: 25%;
+	float: left;
+	margin: 1rem 4rem 4rem 1rem;
+	clear: both;
+}
+
+.small * {
+	font-size: 75%;
+}
+
+.small h3 {
+	margin: 1rem !important;
+}
+
+.sxs pre {
+	width: 45%;
+	float: left;
+}
+
+.sxs pre ~ p,
+.sxs div ~ p {
+	width: 10%;
+	float: left;
+	text-align: center;
+}
+
+.sxs h3 {
+	margin: 0 0 1rem 0 !important;
+}
+
+.sxs ul {
+	float: left;
+	width: 50%;
+}
+
+.sxs li {
+	float: left;
+	width: 50%;
+}
+
+.grid-container {
+	grid-template-columns: 2fr 1fr !important;
+	grid-template-rows: min-content 2fr 1fr min-content !important;
+	grid-template-areas: "top top" "note main" "note next" "bottom bottom" !important;
+}
+
+.grid-container .grid-section.note * {
+	font-size: 2rem;
+}
