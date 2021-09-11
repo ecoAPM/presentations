@@ -1,0 +1,60 @@
+﻿using System.Data;
+using System.Text;
+using System.Threading.Tasks;
+using Dapper;
+using Microsoft.Data.Sqlite;
+
+namespace Phones.Data
+{
+	public class Initializer
+	{
+		private readonly IDbConnection _db;
+
+		public Initializer(IDbConnection db)
+			=> _db = db;
+
+		public async Task Run()
+		{
+			var alreadyDone = await _db.QuerySingleAsync<bool>($@"SELECT EXISTS ({TableQuery(_db)})");
+			if (alreadyDone)
+				return;
+
+			var query = new StringBuilder($@"CREATE TABLE PhoneInfo
+			(
+				ID SMALLINT PRIMARY KEY {Identity(_db)},
+				Name VARCHAR(20),
+				Store VARCHAR(20),
+				URL VARCHAR(200),
+				PriceSelector VARCHAR(200)
+			);
+
+			INSERT INTO PhoneInfo (Name, Store, URL, PriceSelector) VALUES
+			('Moto G', 'Amazon', 'https://www.amazon.com/dp/B0CWHXVLXG', '.a-price .a-offscreen')
+			, ('Moto G', 'BestBuy', 'https://api.bestbuy.com/v1/products/6576777.json?show=salePrice&apiKey=I4hMgLvGgFPEVBI7MjbQEGWa', '{{""salePrice"":[ ]?([\d\.]+)}}')
+			, ('Moto G', 'Newegg', 'https://www.newegg.com/p/23B-000H-00409', '""FinalPrice"":[ ]?([\d\.]+),')
+			, ('Moto G', 'Motorola', 'https://www.motorola.com/us/en/p/phones/moto-g/g-5g-gen-3/pmipmgl36mr?pn=PB0L0000US', ',""price"":([\d\.]+),')
+			");
+
+			for (var x = 10; x <= 100; x++)
+			{
+				for (var y = 1; y < 10; y++)
+				{
+					query.AppendLine($@", ('jkPhone {x}', 'Fake Store {y}', 'http://localhost', '#price')");
+				}
+			}
+
+			query.AppendLine(";");
+			await _db.ExecuteAsync(query.ToString());
+		}
+
+		private static string TableQuery(IDbConnection db)
+			=> db is SqliteConnection
+				? $@"SELECT * FROM sqlite_master WHERE type='table' AND name = '{"PhoneInfo".ToLowerInvariant()}'"
+				: $@"SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = '{"PhoneInfo".ToLowerInvariant()}'";
+
+		private static string Identity(IDbConnection db)
+			=> db is SqliteConnection
+				? ""
+				: "GENERATED ALWAYS AS IDENTITY";
+	}
+}

@@ -1,0 +1,32 @@
+﻿@using Phones.Models;
+@model PhoneViewModel
+
+<article>
+	<section class="bkg" style="background-image: url('data:image/png;base64,@Model.ImageData')"></section>
+	<section class="info">
+		<h2>@Model.Name</h2>
+
+		<table>
+			<tbody>
+			@foreach (var priceInfo in Model.Prices)
+			{
+				<tr>
+					<th>
+						<a href="@priceInfo.Link">
+							<img src="@priceInfo.LogoURL" alt="@priceInfo.Store logo"/>
+						</a>
+					</th>
+					<td>
+						<a href="@priceInfo.Link">
+							@(priceInfo.Price?.ToString("C") ?? "(unknown)")
+						</a>
+					</td>
+					<td>
+						@(priceInfo.PercentOfAverage?.ToString("P") ?? "(unknown)")
+					</td>
+				</tr>
+			}
+			</tbody>
+		</table>
+	</section>
+</article>
