@@ -1,0 +1,11 @@
+@using MotoG.Models;
+@model IEnumerable<PhoneInfo>
+
+<ul>
+	@foreach (var name in Model.Select(p => p.Name).Distinct())
+	{
+		<li>
+			<a href="/Home/Info/@name">@name</a>
+		</li>
+	}
+</ul>
