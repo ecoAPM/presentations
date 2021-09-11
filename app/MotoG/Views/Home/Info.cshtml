@@ -1,0 +1,24 @@
+﻿@using MotoG.Models;
+@model IEnumerable<PriceDisplay>
+
+<article>
+	<h2>@Model.First().PhoneInfo.Name</h2>
+
+	<table>
+		<tbody>
+		@foreach (var phone in Model)
+		{
+			<tr>
+				<th>
+					<img src="data:image/x-icon;base64,@phone.Logo" alt="@phone.PhoneInfo.Store logo"/>
+				</th>
+				<td>
+					<a href="@phone.PhoneInfo.URL">
+						@(phone.Price?.ToString("C") ?? "(unknown)")
+					</a>
+				</td>
+			</tr>
+		}
+		</tbody>
+	</table>
+</article>
