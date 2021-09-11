@@ -1,0 +1,11 @@
+@using Phones.Models;
+@model IEnumerable<string>
+
+<ul>
+	@foreach (var name in Model)
+	{
+		<li>
+			<a href="/Home/Info/@name">@name</a>
+		</li>
+	}
+</ul>
