@@ -183,25 +183,25 @@
     "@slidev/types" "0.25.4"
     js-yaml "^4.1.0"
 
-"@slidev/theme-default@0.19.1":
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/@slidev/theme-default/-/theme-default-0.19.1.tgz#2862091deca5bab84d148f92f93d9f603edc0527"
-  integrity sha512-SB98kdLzFevpKONZcIla5byQdTiIqaf+jKJi8Shy0pxUDT+aMpkfKq1yudgjnN9yt7E/NH7xB9menZHQov0zDw==
+"@slidev/theme-default@0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@slidev/theme-default/-/theme-default-0.21.0.tgz#36d32d7237df3ac9cfa73c09d8a36c42d49096a3"
+  integrity sha512-8t4WaS0iowe/2VeCmy70rFlpbrvzMIuVgEcej+uhNcjGekyp6DI/kkR80u5LBpegTWc3GsTejZB+i5U1utmkSw==
   dependencies:
-    "@slidev/types" "^0.19.6"
+    "@slidev/types" "^0.22.7"
     codemirror-theme-vars "^0.1.1"
     prism-theme-vars "^0.2.2"
-    theme-vitesse "^0.1.11"
+    theme-vitesse "^0.1.12"
 
 "@slidev/types@0.25.4":
   version "0.25.4"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.25.4.tgz#ad3f01b1de426727f9fd4d5ad29a971362766eb2"
   integrity sha512-c/Ea4IwJB+gpZl/0ADqWqkUUrsFsYiswM+FXdtLfrvF05h/n49BQ7jrNLkazkDBy9r8a2c+gpA55UQu4vBPnuQ==
 
-"@slidev/types@^0.19.6":
-  version "0.19.9"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.19.9.tgz#ed29b8f92b5bf501cbeb83f597e0a7e13ae9b580"
-  integrity sha512-hpQeTIUbCwTFOw5m1h5TuJkwJhpZ77VUIaI4PDUboB1Unk9jaNl9Ok0dvLMWN9vlsKmqeVxhkonXTWNKPUBHjQ==
+"@slidev/types@^0.22.7":
+  version "0.22.7"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.22.7.tgz#abe1c81fedd5db1475428832f65253f95722a6d8"
+  integrity sha512-mCVKQbcGTv6d6n9aHpYNp5U04HF+FMbpY083vqpJ6Folc805BB1Am02eubaW0J6nM+dSOu2dDgPY+kIjs75sAQ==
 
 "@types/estree@^0.0.48":
   version "0.0.48"
@@ -2004,7 +2004,7 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-theme-vitesse@^0.1.11:
+theme-vitesse@^0.1.12:
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/theme-vitesse/-/theme-vitesse-0.1.12.tgz#0b30c2c2a83c2e4bacb603238c508ce9154e2b7d"
   integrity sha512-lJLDcQm9/It6Aj+dr6FUHx8Ppy7COi53Ui2iSP5B4DJxNM+spaUPIPIOileSM8kZn60KsfLsV6eQzoknuQa7/A==
