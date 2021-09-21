@@ -1627,10 +1627,10 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-notosans@4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/notosans/-/notosans-4.0.4.tgz#71c58d0959b351e7e3aa16fb001ebaad5e0169a1"
-  integrity sha512-mnmVIHCYXS8hSUVLDGhAazxJ3Txmlsi8K9Oyz9IGbpUPdY/hITt0ReiEexu03UNO0yKLGSGfY57FoGd+DBw9MQ==
+notosans@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/notosans/-/notosans-5.0.0.tgz#77ee612a9de2a6b79f82c16a6accbfd6f9be33e5"
+  integrity sha512-P43+ZKprxdmpq2Qvy6KZCA6aNXHI33kMRgFi46HWSW+Q7wMhuFnnJcscwyasUA8dSnyxGtVWXBgdFO/QtlpkTQ==
 
 npm-run-path@^4.0.1:
   version "4.0.1"
