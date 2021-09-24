@@ -32,13 +32,7 @@ namespace Phones.Controllers
 
 			foreach (var p in phoneInfo)
 			{
-				var price = new PriceViewModel
-				{
-					Store = p.Store,
-					Link = p.URL,
-					LogoURL = await _priceDisplay.GetLogoURL(p.URL),
-					Price = await _priceDisplay.GetPrice(p)
-				};
+				var price = await GetPriceViewModel(p);
 				prices.Add(price);
 			}
 
@@ -57,5 +51,14 @@ namespace Phones.Controllers
 
 			return View(phone);
 		}
+
+		private async Task<PriceViewModel> GetPriceViewModel(PhoneInfo p) =>
+			new PriceViewModel
+			{
+				Store = p.Store,
+				Link = p.URL,
+				LogoURL = await _priceDisplay.GetLogoURL(p.URL),
+				Price = await _priceDisplay.GetPrice(p)
+			};
 	}
 }
