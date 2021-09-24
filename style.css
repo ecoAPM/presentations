@@ -65,7 +65,7 @@ blockquote {
 	padding: 0.5rem;
 }
 
-pre code {
+pre code, code[class*="language-"] {
 	font-size: 150%;
 	line-height: 1.5;
 	font-variant-ligatures: none;
