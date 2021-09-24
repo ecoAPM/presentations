@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -48,10 +50,18 @@ namespace Phones.Services
 					return await _http.GetAsync(info.URL);
 				});
 
+		private static readonly IDictionary<string, string> _images = new ConcurrentDictionary<string, string>();
+
 		public async Task<string> GetImageData(string name)
 		{
-			var contents = await File.ReadAllBytesAsync($"{name}.png");
-			return Convert.ToBase64String(contents);
+			if (!_images.ContainsKey(name))
+			{
+				var contents = await File.ReadAllBytesAsync($"{name}.png");
+				var base64 = Convert.ToBase64String(contents);
+				_images.Add(name, base64);
+			}
+
+			return _images[name];
 		}
 
 		private async Task<decimal?> GetPrice(HttpResponseMessage response, PhoneInfo info)
