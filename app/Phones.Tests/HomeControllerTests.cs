@@ -2,10 +2,10 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using NSubstitute;
 using Phones.Controllers;
 using Phones.Models;
 using Phones.Services;
+using Rocks;
 using Xunit;
 
 namespace Phones.Tests
@@ -16,12 +16,12 @@ namespace Phones.Tests
 		public async Task CanGetPhoneNamesForList()
 		{
 			//arrange
-			var infoService = Substitute.For<IPhoneInfoService>();
-			infoService.GetNames().Returns(new[] { "Phone 1", "Phone 2", "Phone 3" });
+			var infoService = Rock.Create<IPhoneInfoService>();
+			infoService.Methods().GetNames().Returns(Task.FromResult(new[] { "Phone 1", "Phone 2", "Phone 3" }.AsEnumerable()));
 
-			var displayService = Substitute.For<IPriceDisplayService>();
+			var displayService = Rock.Make<IPriceDisplayService>();
 
-			var controller = new HomeController(infoService, displayService);
+			var controller = new HomeController(infoService.Instance(), displayService.Instance());
 
 			//act
 			var response = await controller.Index() as ViewResult;
@@ -35,19 +35,20 @@ namespace Phones.Tests
 		public async Task CanGetPriceInfo()
 		{
 			//arrange
-			var infoService = Substitute.For<IPhoneInfoService>();
+			var infoService = Rock.Create<IPhoneInfoService>();
 			var info = new[]
 			{
 				new PhoneInfo { Name = "Phone 1", Store = "Store 1" },
 				new PhoneInfo { Name = "Phone 1", Store = "Store 2" },
 				new PhoneInfo { Name = "Phone 1", Store = "Store 3" }
 			};
-			infoService.GetInfo(Arg.Any<string>()).Returns(info);
+			infoService.Methods().GetInfo(Arg.Any<string>()).Returns(Task.FromResult(info.AsEnumerable()));
 
-			var displayService = Substitute.For<IPriceDisplayService>();
-			displayService.GetPriceViewModel(Arg.Any<PhoneInfo>()).Returns(new PriceViewModel());
+			var displayService = Rock.Create<IPriceDisplayService>();
+			displayService.Methods().GetPriceViewModel(Arg.Any<PhoneInfo>()).Returns(Task.FromResult(new PriceViewModel()));
+			displayService.Methods().GetImageData(Arg.Any<string>()).Returns("");
 
-			var controller = new HomeController(infoService, displayService);
+			var controller = new HomeController(infoService.Instance(), displayService.Instance());
 
 			//act
 			var response = await controller.Info("Phone 1") as ViewResult;

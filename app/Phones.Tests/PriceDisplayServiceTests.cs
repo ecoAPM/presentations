@@ -1,8 +1,8 @@
 ﻿using System;
 using AngleSharp;
 using Microsoft.Extensions.Caching.Memory;
-using NSubstitute;
 using Phones.Services;
+using Rocks;
 using Xunit;
 
 namespace Phones.Tests
@@ -13,9 +13,9 @@ namespace Phones.Tests
 		public void ImageDataIsBase64Encoded()
 		{
 			//arrange
-			var browser = Substitute.For<IBrowsingContext>();
-			var cache = Substitute.For<IMemoryCache>();
-			var service = new PriceDisplayService(browser, cache);
+			var browser = Rock.Create<IBrowsingContext>();
+			var cache = Rock.Create<IMemoryCache>();
+			var service = new PriceDisplayService(browser.Instance(), cache.Instance());
 
 			//act
 			var imageData = service.GetImageData("Moto G");
