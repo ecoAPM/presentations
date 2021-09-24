@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Threading.Tasks;
 using Dapper;
 using Phones.Models;
@@ -18,15 +17,9 @@ namespace Phones.Services
 			=> await _db.QueryAsync<PhoneInfo>("SELECT * FROM PhoneInfo");
 
 		public async Task<IEnumerable<PhoneInfo>> GetInfo(string name)
-		{
-			var phones = await GetAll();
-			return phones.Where(p => p.Name == name);
-		}
+			=> await _db.QueryAsync<PhoneInfo>("SELECT * FROM PhoneInfo WHERE Name = @Name", new { Name = name });
 
 		public async Task<IEnumerable<string>> GetNames()
-		{
-			var phones = await GetAll();
-			return phones.Select(p => p.Name).Distinct();
-		}
+			=> await _db.QueryAsync<string>("SELECT DISTINCT Name, LENGTH(Name) FROM PhoneInfo ORDER BY LENGTH(Name), Name");
 	}
 }
