@@ -28,7 +28,7 @@ namespace Phones.Controllers
 		{
 			var phoneInfo = await _phoneInfo.GetInfo(id);
 
-			var priceTasks = phoneInfo.Select(GetPriceViewModel);
+			var priceTasks = phoneInfo.Select(p => _priceDisplay.GetPriceViewModel(p));
 			var prices = await Task.WhenAll(priceTasks);
 
 			foreach (var info in prices)
@@ -45,20 +45,6 @@ namespace Phones.Controllers
 			};
 
 			return View(phone);
-		}
-
-		private async Task<PriceViewModel> GetPriceViewModel(PhoneInfo p)
-		{
-			var logoURL = _priceDisplay.GetLogoURL(p.URL);
-			var price = _priceDisplay.GetPrice(p);
-			
-			return new PriceViewModel
-			{
-				Store = p.Store,
-				Link = p.URL,
-				LogoURL = await logoURL,
-				Price = await price
-			};
 		}
 	}
 }
