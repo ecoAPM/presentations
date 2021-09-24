@@ -18,6 +18,20 @@ namespace Phones.Services
 			_browser = browser;
 		}
 
+		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo p)
+		{
+			var logoURL = GetLogoURL(p.URL);
+			var price = GetPrice(p);
+			
+			return new PriceViewModel
+			{
+				Store = p.Store,
+				Link = p.URL,
+				LogoURL = await logoURL,
+				Price = await price
+			};
+		}
+
 		public string GetImageData(string name)
 		{
 			var contents = File.ReadAllBytes($"{name}.png");
