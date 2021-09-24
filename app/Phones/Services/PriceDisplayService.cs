@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using AngleSharp;
 using AngleSharp.Dom;
 using AngleSharp.Io;
+using Microsoft.Extensions.Caching.Memory;
 using Phones.Models;
 
 namespace Phones.Services
@@ -17,29 +18,36 @@ namespace Phones.Services
 	{
 		private readonly HttpClient _http;
 		private readonly IBrowsingContext _browser;
+		private readonly IMemoryCache _cache;
 
-		public PriceDisplayService(IHttpClientFactory http, IBrowsingContext browser)
+		public PriceDisplayService(IHttpClientFactory http, IBrowsingContext browser, IMemoryCache cache)
 		{
 			_http = http.CreateClient();
 			_browser = browser;
+			_cache = cache;
 		}
 
 		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo info)
-		{
-			var response = _http.GetAsync(info.URL);
-			var logoURL = "https://" + new Url(info.URL).Host.Replace("api.", "") + "/favicon.ico";
-			var price = GetPrice(await response, info);
+			=> await _cache.GetOrCreateAsync(info.Name + info.Store,
+				async entry =>
+				{
+					entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromHours(1);
 
-			return new PriceViewModel
-			{
-				Store = info.Store,
-				Link = info.URL,
-				LogoURL = logoURL,
-				Price = await price
-			};
-		}
+					var response = _http.GetAsync(info.URL);
+					var logoURL = "https://" + new Url(info.URL).Host.Replace("api.", "") + "/favicon.ico";
+					var price = GetPrice(await response, info);
 
-		private readonly IDictionary<string,string> _images = new ConcurrentDictionary<string, string>();
+					return new PriceViewModel
+					{
+						Store = info.Store,
+						Link = info.URL,
+						LogoURL = logoURL,
+						Price = await price
+					};
+				});
+
+		private readonly IDictionary<string, string> _images = new ConcurrentDictionary<string, string>();
+
 		public async Task<string> GetImageData(string name)
 		{
 			if (!_images.ContainsKey(name))
@@ -47,7 +55,7 @@ namespace Phones.Services
 				var contents = await File.ReadAllBytesAsync($"{name}.png");
 				var base64 = Convert.ToBase64String(contents);
 				_images.Add(name, base64);
-		}
+			}
 
 			return _images[name];
 		}

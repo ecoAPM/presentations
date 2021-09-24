@@ -3,6 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Net.Http;
 using AngleSharp;
+using Microsoft.Extensions.Caching.Memory;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using AngleSharp.Text;
@@ -22,7 +23,8 @@ namespace Phones.Tests
 			//arrange
 			var http = Substitute.For<IHttpClientFactory>();
 			var browser = Substitute.For<IBrowsingContext>();
-			var service = new PriceDisplayService(http, browser);
+			var cache = Substitute.For<IMemoryCache>();
+			var service = new PriceDisplayService(http, browser, cache);
 
 			//act
 			var imageData = await service.GetImageData("Moto G");
@@ -45,7 +47,8 @@ namespace Phones.Tests
 			var factory = Substitute.For<IDocumentFactory>();
 			browser.GetServices<IDocumentFactory>().Returns(new [] { factory });
 
-			var service = new PriceDisplayService(http, browser);
+			var cache = Substitute.For<IMemoryCache>();
+			var service = new PriceDisplayService(http, browser, cache);
 
 			var phone = new PhoneInfo
 			{
@@ -73,7 +76,8 @@ namespace Phones.Tests
 			var factory = Substitute.For<IDocumentFactory>();
 			browser.GetServices<IDocumentFactory>().Returns(new [] { factory });
 
-			var service = new PriceDisplayService(http, browser);
+			var cache = Substitute.For<IMemoryCache>();
+			var service = new PriceDisplayService(http, browser, cache);
 
 			var phone = new PhoneInfo
 			{
@@ -112,7 +116,8 @@ namespace Phones.Tests
 			factory.CreateAsync(Arg.Any<IBrowsingContext>(), Arg.Any<CreateDocumentOptions>(), Arg.Any<CancellationToken>()).Returns(Task.FromResult(dom));
 			browser.GetServices<IDocumentFactory>().Returns(new [] { factory });
 
-			var service = new PriceDisplayService(http, browser);
+			var cache = Substitute.For<IMemoryCache>();
+			var service = new PriceDisplayService(http, browser, cache);
 
 			var phone = new PhoneInfo
 			{
