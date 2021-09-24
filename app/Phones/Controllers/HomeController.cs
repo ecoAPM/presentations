@@ -28,13 +28,8 @@ namespace Phones.Controllers
 		{
 			var phoneInfo = await _phoneInfo.GetInfo(id);
 
-			var prices = new List<PriceViewModel>();
-
-			foreach (var p in phoneInfo)
-			{
-				var price = await GetPriceViewModel(p);
-				prices.Add(price);
-			}
+			var priceTasks = phoneInfo.Select(GetPriceViewModel);
+			var prices = await Task.WhenAll(priceTasks);
 
 			foreach (var info in prices)
 			{
