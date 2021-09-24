@@ -1,5 +1,6 @@
 ﻿using System;
 using AngleSharp;
+using Microsoft.Extensions.Caching.Memory;
 using NSubstitute;
 using Phones.Services;
 using Xunit;
@@ -13,7 +14,8 @@ namespace Phones.Tests
 		{
 			//arrange
 			var browser = Substitute.For<IBrowsingContext>();
-			var service = new PriceDisplayService(browser);
+			var cache = Substitute.For<IMemoryCache>();
+			var service = new PriceDisplayService(browser, cache);
 
 			//act
 			var imageData = service.GetImageData("Moto G");
