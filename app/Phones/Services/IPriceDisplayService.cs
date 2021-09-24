@@ -6,7 +6,6 @@ namespace Phones.Services
 	public interface IPriceDisplayService
 	{
 		string GetImageData(string name);
-		Task<string> GetLogoURL(string url);
-		Task<decimal?> GetPrice(PhoneInfo info);
+		Task<PriceViewModel> GetPriceViewModel(PhoneInfo info);
 	}
 }

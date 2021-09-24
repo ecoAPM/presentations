@@ -45,6 +45,8 @@ namespace Phones.Tests
 			infoService.GetInfo(Arg.Any<string>()).Returns(info);
 
 			var displayService = Substitute.For<IPriceDisplayService>();
+			displayService.GetPriceViewModel(Arg.Any<PhoneInfo>()).Returns(new PriceViewModel());
+
 			var controller = new HomeController(infoService, displayService);
 
 			//act

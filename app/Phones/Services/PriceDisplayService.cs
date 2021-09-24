@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using AngleSharp;
@@ -19,40 +18,43 @@ namespace Phones.Services
 			_browser = browser;
 		}
 
+		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo info)
+		{
+			var dom = await _browser.OpenAsync(info.URL);
+			var logoURL = GetLogoURL(dom, info);
+			var price = GetPrice(dom, info);
+
+			return new PriceViewModel
+			{
+				Store = info.Store,
+				Link = info.URL,
+				LogoURL = logoURL,
+				Price = price
+			};
+		}
+
 		public string GetImageData(string name)
 		{
 			var contents = File.ReadAllBytes($"{name}.png");
 			return Convert.ToBase64String(contents);
 		}
 
-		public async Task<string> GetLogoURL(string url)
+		private static string GetLogoURL(IDocument dom, PhoneInfo info)
 		{
-			var dom = await GetDocument(url);
 			var element = dom.QuerySelector(@"link[rel~=""icon""]");
 			var logoURL = element?.Attributes["href"]?.Value ?? "/favicon.ico";
-			return wrap(url, logoURL);
-		}
-
-		private async Task<IDocument> GetDocument(string url)
-		{
-			return await _browser.OpenAsync(url);
+			return wrap(info.URL, logoURL);
 		}
 
 		private static string wrap(string page, string img) => img.Contains("//") ? img : "https://" + new Url(page).Host + img;
 
-		public async Task<decimal?> GetPrice(PhoneInfo info)
+		private static decimal? GetPrice(IDocument dom, PhoneInfo info)
 		{
-			var text = await GetPriceText(info);
+			var findPrice = PriceFinder(info.Store);
+			var text = findPrice(dom, info.PriceSelector);
 			return decimal.TryParse(text, out var price)
 				? price
 				: null;
-		}
-
-		private async Task<string> GetPriceText(PhoneInfo info)
-		{
-			var findPrice = PriceFinder(info.Store);
-			var dom = await GetDocument(info.URL);
-			return findPrice(dom, info.PriceSelector);
 		}
 
 		private static Func<IDocument, string, string> PriceFinder(string store)
