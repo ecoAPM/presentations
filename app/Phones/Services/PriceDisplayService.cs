@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -33,10 +35,16 @@ namespace Phones.Services
 			};
 		}
 
+		private readonly IDictionary<string,string> _images = new ConcurrentDictionary<string, string>();
 		public string GetImageData(string name)
 		{
-			var contents = File.ReadAllBytes($"{name}.png");
-			return Convert.ToBase64String(contents);
+			if (!_images.ContainsKey(name))
+			{
+				var contents = File.ReadAllBytes($"{name}.png");
+				_images.Add(name, Convert.ToBase64String(contents));
+			}
+
+			return _images[name];
 		}
 
 		private static string GetLogoURL(IDocument dom, PhoneInfo info)
