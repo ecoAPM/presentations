@@ -46,13 +46,18 @@ namespace Phones.Controllers
 			return View(phone);
 		}
 
-		private async Task<PriceViewModel> GetPriceViewModel(PhoneInfo p) =>
-			new PriceViewModel
+		private async Task<PriceViewModel> GetPriceViewModel(PhoneInfo p)
+		{
+			var logoURL = _priceDisplay.GetLogoURL(p.URL);
+			var price = _priceDisplay.GetPrice(p);
+			
+			return new PriceViewModel
 			{
 				Store = p.Store,
 				Link = p.URL,
-				LogoURL = await _priceDisplay.GetLogoURL(p.URL),
-				Price = await _priceDisplay.GetPrice(p)
+				LogoURL = await logoURL,
+				Price = await price
 			};
+		}
 	}
 }
