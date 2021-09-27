@@ -40,7 +40,7 @@ namespace Phones.Controllers
 			var phone = new PhoneViewModel
 			{
 				Name = id,
-				ImageData = _priceDisplay.GetImageData(id),
+				ImageData = await _priceDisplay.GetImageData(id),
 				Prices = prices
 			};
 

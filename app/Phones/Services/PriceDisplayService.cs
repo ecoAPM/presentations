@@ -37,9 +37,9 @@ namespace Phones.Services
 			};
 		}
 
-		public string GetImageData(string name)
+		public async Task<string> GetImageData(string name)
 		{
-			var contents = File.ReadAllBytes($"{name}.png");
+			var contents = await File.ReadAllBytesAsync($"{name}.png");
 			return Convert.ToBase64String(contents);
 		}
 
