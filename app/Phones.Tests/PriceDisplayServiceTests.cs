@@ -32,38 +32,6 @@ namespace Phones.Tests
 		}
 
 		[Fact]
-		public async Task CanGetLogoURLFromHTML()
-		{
-			//arrange
-			var browser = Substitute.For<IBrowsingContext>();
-
-			var link = new HtmlElement(Substitute.For<Document>(browser, new TextSource("")), "link");
-			link.AddAttribute(new Attr("href", "/test.ico"));
-
-			var dom = Substitute.For<IDocument>();
-			dom.QuerySelector(Arg.Any<string>()).Returns(link);
-
-			var handler = Substitute.For<INavigationHandler>();
-			handler.SupportsProtocol(Arg.Any<string>()).Returns(true);
-			handler.NavigateAsync(Arg.Any<DocumentRequest>(), Arg.Any<CancellationToken>()).Returns(Task.FromResult(dom));
-
-			browser.GetServices<INavigationHandler>().Returns(new[] { handler });
-
-			var service = new PriceDisplayService(browser);
-
-			var phone = new PhoneInfo
-			{
-				URL = "http://localhost"
-			};
-
-			//act
-			var vm = await service.GetPriceViewModel(phone);
-
-			//assert
-			Assert.Equal("https://localhost/test.ico", vm.LogoURL);
-		}
-
-		[Fact]
 		public async Task CanGetDefaultLogoURL()
 		{
 			//arrange
