@@ -3,6 +3,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Data.Sqlite;
+using Microsoft.Extensions.Caching.Memory;
 using Phones.Data;
 using Phones.Services;
 using Xunit;
@@ -25,7 +26,8 @@ namespace Phones.Tests
 		public async Task CanGetAllPhones()
 		{
 			//arrange
-			var service = new PhoneInfoService(_db);
+			var cache = new MemoryCache(new MemoryCacheOptions());
+			var service = new PhoneInfoService(_db, cache);
 
 			//act
 			var phones = await service.GetAll();
@@ -38,7 +40,8 @@ namespace Phones.Tests
 		public async Task CanGetPhoneNames()
 		{
 			//arrange
-			var service = new PhoneInfoService(_db);
+			var cache = new MemoryCache(new MemoryCacheOptions());
+			var service = new PhoneInfoService(_db, cache);
 
 			//act
 			var names = await service.GetNames();
@@ -51,7 +54,8 @@ namespace Phones.Tests
 		public async Task CanGetInfoForPhone()
 		{
 			//arrange
-			var service = new PhoneInfoService(_db);
+			var cache = new MemoryCache(new MemoryCacheOptions());
+			var service = new PhoneInfoService(_db, cache);
 
 			//act
 			var info = await service.GetInfo("Moto G");
