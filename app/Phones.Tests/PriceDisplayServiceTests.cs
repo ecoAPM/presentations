@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Net.Http;
 using AngleSharp;
-using AngleSharp.Browser;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
-using AngleSharp.Io;
 using AngleSharp.Text;
 using NSubstitute;
 using Phones.Models;
@@ -21,8 +20,9 @@ namespace Phones.Tests
 		public void ImageDataIsBase64Encoded()
 		{
 			//arrange
+			var http = Substitute.For<IHttpClientFactory>();
 			var browser = Substitute.For<IBrowsingContext>();
-			var service = new PriceDisplayService(browser);
+			var service = new PriceDisplayService(http, browser);
 
 			//act
 			var imageData = service.GetImageData("Moto G");
@@ -35,18 +35,17 @@ namespace Phones.Tests
 		public async Task CanGetDefaultLogoURL()
 		{
 			//arrange
+			var handler = new StubHandler("");
+
+			var http = Substitute.For<IHttpClientFactory>();
+			http.CreateClient().Returns(new HttpClient(handler));
+
 			var browser = Substitute.For<IBrowsingContext>();
 
-			var dom = Substitute.For<IDocument>();
-			dom.QuerySelector(Arg.Any<string>()).Returns(null as IElement);
+			var factory = Substitute.For<IDocumentFactory>();
+			browser.GetServices<IDocumentFactory>().Returns(new [] { factory });
 
-			var handler = Substitute.For<INavigationHandler>();
-			handler.SupportsProtocol(Arg.Any<string>()).Returns(true);
-			handler.NavigateAsync(Arg.Any<DocumentRequest>(), Arg.Any<CancellationToken>()).Returns(Task.FromResult(dom));
-
-			browser.GetServices<INavigationHandler>().Returns(new[] { handler });
-
-			var service = new PriceDisplayService(browser);
+			var service = new PriceDisplayService(http, browser);
 
 			var phone = new PhoneInfo
 			{
@@ -64,18 +63,17 @@ namespace Phones.Tests
 		public async Task CanGetPriceViaRegex()
 		{
 			//arrange
+			var handler = new StubHandler($@"{{""Price"":""$123.45""}}");
+
+			var http = Substitute.For<IHttpClientFactory>();
+			http.CreateClient().Returns(new HttpClient(handler));
+
 			var browser = Substitute.For<IBrowsingContext>();
 
-			var dom = Substitute.For<IDocument>();
-			dom.Source.Returns(new TextSource($@"{{""Price"":""$123.45""}}"));
+			var factory = Substitute.For<IDocumentFactory>();
+			browser.GetServices<IDocumentFactory>().Returns(new [] { factory });
 
-			var handler = Substitute.For<INavigationHandler>();
-			handler.SupportsProtocol(Arg.Any<string>()).Returns(true);
-			handler.NavigateAsync(Arg.Any<DocumentRequest>(), Arg.Any<CancellationToken>()).Returns(Task.FromResult(dom));
-
-			browser.GetServices<INavigationHandler>().Returns(new[] { handler });
-
-			var service = new PriceDisplayService(browser);
+			var service = new PriceDisplayService(http, browser);
 
 			var phone = new PhoneInfo
 			{
@@ -95,6 +93,11 @@ namespace Phones.Tests
 		public async Task CanGetPriceViaDOM()
 		{
 			//arrange
+			var handler = new StubHandler("");
+
+			var http = Substitute.For<IHttpClientFactory>();
+			http.CreateClient().Returns(new HttpClient(handler));
+
 			var browser = Substitute.For<IBrowsingContext>();
 
 			var element = new HtmlElement(Substitute.For<Document>(browser, new TextSource("")), "price")
@@ -105,13 +108,11 @@ namespace Phones.Tests
 			var dom = Substitute.For<IDocument>();
 			dom.QuerySelector(Arg.Any<string>()).Returns(element);
 
-			var handler = Substitute.For<INavigationHandler>();
-			handler.SupportsProtocol(Arg.Any<string>()).Returns(true);
-			handler.NavigateAsync(Arg.Any<DocumentRequest>(), Arg.Any<CancellationToken>()).Returns(Task.FromResult(dom));
+			var factory = Substitute.For<IDocumentFactory>();
+			factory.CreateAsync(Arg.Any<IBrowsingContext>(), Arg.Any<CreateDocumentOptions>(), Arg.Any<CancellationToken>()).Returns(Task.FromResult(dom));
+			browser.GetServices<IDocumentFactory>().Returns(new [] { factory });
 
-			browser.GetServices<INavigationHandler>().Returns(new[] { handler });
-
-			var service = new PriceDisplayService(browser);
+			var service = new PriceDisplayService(http, browser);
 
 			var phone = new PhoneInfo
 			{
