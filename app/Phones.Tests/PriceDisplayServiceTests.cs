@@ -18,7 +18,7 @@ namespace Phones.Tests
 	public class PriceDisplayServiceTests
 	{
 		[Fact]
-		public void ImageDataIsBase64Encoded()
+		public async Task ImageDataIsBase64Encoded()
 		{
 			//arrange
 			var http = Substitute.For<IHttpClientFactory>();
@@ -27,7 +27,7 @@ namespace Phones.Tests
 			var service = new PriceDisplayService(http, browser, cache);
 
 			//act
-			var imageData = service.GetImageData("Moto G");
+			var imageData = await service.GetImageData("Moto G");
 
 			//assert
 			Assert.NotEmpty(Convert.FromBase64String(imageData));
