@@ -30,11 +30,11 @@ namespace Phones.Data
 
 			INSERT INTO PhoneInfo (Name, Store, URL, PriceSelector) VALUES
 			('Moto G', 'Amazon', 'https://www.amazon.com/dp/B08NWGBHG3', '#priceblock_ourprice')
-			, ('Moto G', 'BestBuy', 'https://www.bestbuy.com/site/motorola-moto-g-play-2021-32gb-memory-unlocked-misty-blue/6441176.p?skuId=6441176', '\\""currentPrice\\"":[ ]?([\d\.]+),')
+			, ('Moto G', 'BestBuy', 'https://api.bestbuy.com/v1/products/6441176.json?show=salePrice&apiKey=wSjZmwuDgmxhiKW5iMUuLNEF', '{{""salePrice"":[ ]?([\d\.]+)}}')
 			, ('Moto G', 'Newegg', 'https://www.newegg.com/p/N82E16875209674', '""FinalPrice"":[ ]?([\d\.]+),')
 			, ('Moto G', 'Motorola', 'https://www.motorola.com/us/smartphones-moto-g-play/p?skuId=536', 'property=""product:price:amount"" content=""([\d\.]+)""')
 			, ('Nokia 5.4', 'Amazon', 'https://www.amazon.com/dp/B08STXNT4K', '#priceblock_ourprice')
-			, ('Nokia 5.4', 'BestBuy', 'https://www.bestbuy.com/site/nokia-5-4-128gb-unlocked-polar-night/6453856.p?skuId=6453856', '\\""currentPrice\\"":[ ]?([\d\.]+),')
+			, ('Nokia 5.4', 'BestBuy', 'https://api.bestbuy.com/v1/products/6453856.json?show=salePrice&apiKey=wSjZmwuDgmxhiKW5iMUuLNEF', '{{""salePrice"":[ ]?([\d\.]+)}}')
 			, ('Nokia 5.4', 'Newegg', 'https://www.newegg.com/nokia-5-4-6-39-4g-lte-polar-night/p/N82E16875205602', '""FinalPrice"":[ ]?([\d\.]+),')
 			, ('Nokia 5.4', 'Nokia', 'https://www.nokia.com/phones/en_us/nokia-5-4?sku=HQ5020M515000', 'div.price.lg')
 			");
