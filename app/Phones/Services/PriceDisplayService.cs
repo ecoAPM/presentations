@@ -46,7 +46,10 @@ namespace Phones.Services
 			return wrap(info.URL, logoURL);
 		}
 
-		private static string wrap(string page, string img) => img.Contains("//") ? img : "https://" + new Url(page).Host + img;
+		private static string wrap(string page, string img)
+			=> img.Contains("//")
+				? img
+				: "https://" + new Url(page).Host.Replace("api.", "") + img;
 
 		private static decimal? GetPrice(IDocument dom, PhoneInfo info)
 		{
