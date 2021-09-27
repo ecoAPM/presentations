@@ -21,7 +21,7 @@ namespace Phones.Services
 		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo info)
 		{
 			var dom = await _browser.OpenAsync(info.URL);
-			var logoURL = GetLogoURL(dom, info);
+			var logoURL = "https://" + new Url(info.URL).Host.Replace("api.", "") + "/favicon.ico";
 			var price = GetPrice(dom, info);
 
 			return new PriceViewModel
@@ -38,18 +38,6 @@ namespace Phones.Services
 			var contents = File.ReadAllBytes($"{name}.png");
 			return Convert.ToBase64String(contents);
 		}
-
-		private static string GetLogoURL(IDocument dom, PhoneInfo info)
-		{
-			var element = dom.QuerySelector(@"link[rel~=""icon""]");
-			var logoURL = element?.Attributes["href"]?.Value ?? "/favicon.ico";
-			return wrap(info.URL, logoURL);
-		}
-
-		private static string wrap(string page, string img)
-			=> img.Contains("//")
-				? img
-				: "https://" + new Url(page).Host.Replace("api.", "") + img;
 
 		private static decimal? GetPrice(IDocument dom, PhoneInfo info)
 		{
