@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using AngleSharp;
@@ -11,25 +12,29 @@ namespace Phones.Services
 {
 	public class PriceDisplayService : IPriceDisplayService
 	{
+		private readonly IHttpClientFactory _http;
 		private readonly IBrowsingContext _browser;
 
-		public PriceDisplayService(IBrowsingContext browser)
+		public PriceDisplayService(IHttpClientFactory http, IBrowsingContext browser)
 		{
+			_http = http;
 			_browser = browser;
 		}
 
 		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo info)
 		{
-			var dom = await _browser.OpenAsync(info.URL);
+			var client = _http.CreateClient();
+			var response = await client.GetAsync(info.URL);
 			var logoURL = "https://" + new Url(info.URL).Host.Replace("api.", "") + "/favicon.ico";
-			var price = GetPrice(dom, info);
+			var html = await response.Content.ReadAsStringAsync();
+			var price = GetPrice(info, html);
 
 			return new PriceViewModel
 			{
 				Store = info.Store,
 				Link = info.URL,
 				LogoURL = logoURL,
-				Price = price
+				Price = await price
 			};
 		}
 
@@ -39,16 +44,16 @@ namespace Phones.Services
 			return Convert.ToBase64String(contents);
 		}
 
-		private static decimal? GetPrice(IDocument dom, PhoneInfo info)
+		private async Task<decimal?> GetPrice(PhoneInfo info, string html)
 		{
-			var findPrice = PriceFinder(info.Store);
-			var text = findPrice(dom, info.PriceSelector);
+			var priceFinder = PriceFinder(info.Store);
+			var text = await priceFinder(html, info.PriceSelector);
 			return decimal.TryParse(text, out var price)
 				? price
 				: null;
 		}
 
-		private static Func<IDocument, string, string> PriceFinder(string store)
+		private Func<string, string, Task<string>> PriceFinder(string store)
 		{
 			return store switch
 			{
@@ -59,16 +64,18 @@ namespace Phones.Services
 			};
 		}
 
-		private static string GetRegexPrice(IDocument dom, string selector)
+		private static Task<string> GetRegexPrice(string html, string selector)
 		{
 			var regex = new Regex(selector);
-			var html = dom.Source.Text;
 			var match = regex.Match(html);
 			var capture = match.Groups.Values.Skip(1).FirstOrDefault();
-			return capture?.Value;
+			return Task.FromResult(capture?.Value);
 		}
 
-		private static string GetHTMLPrice(IParentNode dom, string selector)
-			=> dom.QuerySelector(selector)?.TextContent.Trim().Split(" ")[0].Replace("$", "") ?? "";
+		private async Task<string> GetHTMLPrice(string html, string selector)
+		{
+			var dom = await _browser.OpenAsync(r => r.Content(html));
+			return dom.QuerySelector(selector)?.TextContent.Trim().Split(" ")[0].Replace("$", "") ?? "";
+		}
 	}
 }
