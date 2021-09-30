@@ -20,7 +20,7 @@ namespace Phones.Services
 
 		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo info)
 		{
-			var dom = await GetDocument(info.URL);
+			var dom = await _browser.OpenAsync(info.URL);
 			var logoURL = GetLogoURL(dom, info);
 			var price = GetPrice(dom, info);
 
@@ -46,25 +46,15 @@ namespace Phones.Services
 			return wrap(info.URL, logoURL);
 		}
 
-		private async Task<IDocument> GetDocument(string url)
-		{
-			return await _browser.OpenAsync(url);
-		}
-
 		private static string wrap(string page, string img) => img.Contains("//") ? img : "https://" + new Url(page).Host + img;
 
 		private static decimal? GetPrice(IDocument dom, PhoneInfo info)
 		{
-			var text = GetPriceText(dom, info);
+			var findPrice = PriceFinder(info.Store);
+			var text = findPrice(dom, info.PriceSelector);
 			return decimal.TryParse(text, out var price)
 				? price
 				: null;
-		}
-
-		private static string GetPriceText(IDocument dom, PhoneInfo info)
-		{
-			var findPrice = PriceFinder(info.Store);
-			return findPrice(dom, info.PriceSelector);
 		}
 
 		private static Func<IDocument, string, string> PriceFinder(string store)
