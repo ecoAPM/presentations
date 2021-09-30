@@ -18,17 +18,18 @@ namespace Phones.Services
 			_browser = browser;
 		}
 
-		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo p)
+		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo info)
 		{
-			var logoURL = GetLogoURL(p.URL);
-			var price = GetPrice(p);
-			
+			var dom = await GetDocument(info.URL);
+			var logoURL = GetLogoURL(dom, info);
+			var price = GetPrice(dom, info);
+
 			return new PriceViewModel
 			{
-				Store = p.Store,
-				Link = p.URL,
-				LogoURL = await logoURL,
-				Price = await price
+				Store = info.Store,
+				Link = info.URL,
+				LogoURL = logoURL,
+				Price = price
 			};
 		}
 
@@ -38,12 +39,11 @@ namespace Phones.Services
 			return Convert.ToBase64String(contents);
 		}
 
-		public async Task<string> GetLogoURL(string url)
+		private static string GetLogoURL(IDocument dom, PhoneInfo info)
 		{
-			var dom = await GetDocument(url);
 			var element = dom.QuerySelector(@"link[rel~=""icon""]");
 			var logoURL = element?.Attributes["href"]?.Value ?? "/favicon.ico";
-			return wrap(url, logoURL);
+			return wrap(info.URL, logoURL);
 		}
 
 		private async Task<IDocument> GetDocument(string url)
@@ -53,18 +53,17 @@ namespace Phones.Services
 
 		private static string wrap(string page, string img) => img.Contains("//") ? img : "https://" + new Url(page).Host + img;
 
-		public async Task<decimal?> GetPrice(PhoneInfo info)
+		private static decimal? GetPrice(IDocument dom, PhoneInfo info)
 		{
-			var text = await GetPriceText(info);
+			var text = GetPriceText(dom, info);
 			return decimal.TryParse(text, out var price)
 				? price
 				: null;
 		}
 
-		private async Task<string> GetPriceText(PhoneInfo info)
+		private static string GetPriceText(IDocument dom, PhoneInfo info)
 		{
 			var findPrice = PriceFinder(info.Store);
-			var dom = await GetDocument(info.URL);
 			return findPrice(dom, info.PriceSelector);
 		}
 

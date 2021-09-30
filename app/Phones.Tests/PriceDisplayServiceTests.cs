@@ -51,11 +51,16 @@ namespace Phones.Tests
 
 			var service = new PriceDisplayService(browser);
 
+			var phone = new PhoneInfo
+			{
+				URL = "http://localhost"
+			};
+
 			//act
-			var logoURL = await service.GetLogoURL("http://localhost");
+			var vm = await service.GetPriceViewModel(phone);
 
 			//assert
-			Assert.Equal("https://localhost/test.ico", logoURL);
+			Assert.Equal("https://localhost/test.ico", vm.LogoURL);
 		}
 
 		[Fact]
@@ -75,11 +80,16 @@ namespace Phones.Tests
 
 			var service = new PriceDisplayService(browser);
 
+			var phone = new PhoneInfo
+			{
+				URL = "http://localhost"
+			};
+
 			//act
-			var logoURL = await service.GetLogoURL("http://localhost");
+			var vm = await service.GetPriceViewModel(phone);
 
 			//assert
-			Assert.Equal("https://localhost/favicon.ico", logoURL);
+			Assert.Equal("https://localhost/favicon.ico", vm.LogoURL);
 		}
 
 		[Fact]
@@ -107,10 +117,10 @@ namespace Phones.Tests
 			};
 
 			//act
-			var price = await service.GetPrice(phone);
+			var vm = await service.GetPriceViewModel(phone);
 
 			//assert
-			Assert.Equal(123.45m, price);
+			Assert.Equal(123.45m, vm.Price);
 		}
 
 		[Fact]
@@ -143,10 +153,10 @@ namespace Phones.Tests
 			};
 
 			//act
-			var price = await service.GetPrice(phone);
+			var vm = await service.GetPriceViewModel(phone);
 
 			//assert
-			Assert.Equal(123.45m, price);
+			Assert.Equal(123.45m, vm.Price);
 		}
 	}
 }
