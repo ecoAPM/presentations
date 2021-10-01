@@ -1,5 +1,5 @@
-using System.Linq;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Phones.Models;
@@ -26,6 +26,12 @@ namespace Phones.Controllers
 
 		public async Task<IActionResult> Info(string id)
 		{
+			var phone = await GetPhoneViewModel(id);
+			return View(phone);
+		}
+
+		private async Task<PhoneViewModel> GetPhoneViewModel(string id)
+		{
 			var phoneInfo = await _phoneInfo.GetInfo(id);
 
 			var priceTasks = phoneInfo.Select(p => _priceDisplay.GetPriceViewModel(p));
@@ -37,13 +43,11 @@ namespace Phones.Controllers
 				info.PercentOfAverage = info.Price / average;
 			}
 
-			var phone = new PhoneViewModel
+			return new PhoneViewModel
 			{
 				Name = id,
 				Prices = prices
 			};
-
-			return View(phone);
 		}
 
 		public IActionResult Image(string id)
