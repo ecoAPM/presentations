@@ -52,18 +52,6 @@ namespace Phones.Services
 
 		private static readonly IDictionary<string, string> _images = new ConcurrentDictionary<string, string>();
 
-		public async Task<string> GetImageData(string name)
-		{
-			if (!_images.ContainsKey(name))
-			{
-				var contents = await File.ReadAllBytesAsync($"{name}.png");
-				var base64 = Convert.ToBase64String(contents);
-				_images.Add(name, base64);
-			}
-
-			return _images[name];
-		}
-
 		private async Task<decimal?> GetPrice(HttpResponseMessage response, PhoneInfo info)
 		{
 			var priceFinder = PriceFinder(info.Store);

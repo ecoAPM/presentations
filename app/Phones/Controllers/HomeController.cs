@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -38,6 +39,12 @@ namespace Phones.Controllers
 			return View(phone);
 		}
 
+		public IActionResult Image(string id)
+		{
+			var stream = new FileStream($"{id}.png", FileMode.Open);
+			return File(stream, "image/png");
+		}
+
 		private async Task<PhoneViewModel> GetPhoneViewModel(string id)
 		{
 			var phoneInfo = await _phoneInfo.GetInfo(id);
@@ -54,7 +61,6 @@ namespace Phones.Controllers
 			return new PhoneViewModel
 			{
 				Name = id,
-				ImageData = await _priceDisplay.GetImageData(id),
 				Prices = prices
 			};
 		}

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -59,6 +60,24 @@ namespace Phones.Tests
 			//assert
 			var phone = response?.Model as PhoneViewModel;
 			Assert.Equal(3, phone?.Prices.Count());
+		}
+
+		[Fact]
+		public void CanGetImageForPhone()
+		{
+			//arrange
+			var infoService = Substitute.For<IPhoneInfoService>();
+			var displayService = Substitute.For<IPriceDisplayService>();
+			var cache = Substitute.For<IMemoryCache>();
+
+			var controller = new HomeController(infoService, displayService, cache);
+
+			//act
+			var result = controller.Image("Moto G");
+
+			//assert
+			var expected = result as FileStreamResult;
+			Assert.Equal("image/png", expected?.ContentType);
 		}
 	}
 }
