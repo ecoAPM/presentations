@@ -48,12 +48,6 @@ namespace Phones.Services
 					return await _http.GetAsync(info.URL);
 				});
 
-		public async Task<string> GetImageData(string name)
-		{
-			var contents = await File.ReadAllBytesAsync($"{name}.png");
-			return Convert.ToBase64String(contents);
-		}
-
 		private async Task<decimal?> GetPrice(HttpResponseMessage response, PhoneInfo info)
 		{
 			var priceFinder = PriceFinder(info.Store);

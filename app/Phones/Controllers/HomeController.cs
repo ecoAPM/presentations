@@ -1,4 +1,5 @@
-﻿using System.Linq;
+using System.Linq;
+using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Phones.Models;
@@ -39,11 +40,16 @@ namespace Phones.Controllers
 			var phone = new PhoneViewModel
 			{
 				Name = id,
-				ImageData = await _priceDisplay.GetImageData(id),
 				Prices = prices
 			};
 
 			return View(phone);
+		}
+
+		public IActionResult Image(string id)
+		{
+			var stream = new FileStream($"{id}.png", FileMode.Open);
+			return File(stream, "image/png");
 		}
 	}
 }
