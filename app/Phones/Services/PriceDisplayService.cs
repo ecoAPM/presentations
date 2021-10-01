@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using AngleSharp;
 using AngleSharp.Dom;
+using Microsoft.Extensions.Caching.Memory;
 using Phones.Models;
 
 namespace Phones.Services
@@ -14,17 +15,18 @@ namespace Phones.Services
 	{
 		private readonly IHttpClientFactory _http;
 		private readonly IBrowsingContext _browser;
+		private readonly IMemoryCache _cache;
 
-		public PriceDisplayService(IHttpClientFactory http, IBrowsingContext browser)
+		public PriceDisplayService(IHttpClientFactory http, IBrowsingContext browser, IMemoryCache cache)
 		{
 			_http = http;
 			_browser = browser;
+			_cache = cache;
 		}
 
 		public async Task<PriceViewModel> GetPriceViewModel(PhoneInfo info)
 		{
-			var client = _http.CreateClient();
-			var response = await client.GetAsync(info.URL);
+			var response = await GetResponse(info);
 			var logoURL = "https://" + new Url(info.URL).Host.Replace("api.", "") + "/favicon.ico";
 			var html = await response.Content.ReadAsStringAsync();
 			var price = GetPrice(info, html);
@@ -37,6 +39,15 @@ namespace Phones.Services
 				Price = await price
 			};
 		}
+
+		private async Task<HttpResponseMessage> GetResponse(PhoneInfo info)
+			=> await _cache.GetOrCreateAsync(info.URL,
+				async entry =>
+				{
+					entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromHours(1);
+					var client = _http.CreateClient();
+					return await client.GetAsync(info.URL);
+				});
 
 		public string GetImageData(string name)
 		{
