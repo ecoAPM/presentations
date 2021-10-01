@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using NSubstitute;
 using Phones.Controllers;
 using Phones.Models;
@@ -20,8 +21,9 @@ namespace Phones.Tests
 			infoService.GetNames().Returns(new[] { "Phone 1", "Phone 2", "Phone 3" });
 
 			var displayService = Substitute.For<IPriceDisplayService>();
+			var cache = Substitute.For<IMemoryCache>();
 
-			var controller = new HomeController(infoService, displayService);
+			var controller = new HomeController(infoService, displayService, cache);
 
 			//act
 			var response = await controller.Index() as ViewResult;
@@ -47,7 +49,9 @@ namespace Phones.Tests
 			var displayService = Substitute.For<IPriceDisplayService>();
 			displayService.GetPriceViewModel(Arg.Any<PhoneInfo>()).Returns(new PriceViewModel());
 
-			var controller = new HomeController(infoService, displayService);
+			var cache = Substitute.For<IMemoryCache>();
+
+			var controller = new HomeController(infoService, displayService, cache);
 
 			//act
 			var response = await controller.Info("Phone 1") as ViewResult;

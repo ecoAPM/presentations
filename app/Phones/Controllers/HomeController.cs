@@ -1,6 +1,8 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using Phones.Models;
 using Phones.Services;
 
@@ -10,11 +12,13 @@ namespace Phones.Controllers
 	{
 		private readonly IPhoneInfoService _phoneInfo;
 		private readonly IPriceDisplayService _priceDisplay;
+		private readonly IMemoryCache _cache;
 
-		public HomeController(IPhoneInfoService phoneInfo, IPriceDisplayService priceDisplay)
+		public HomeController(IPhoneInfoService phoneInfo, IPriceDisplayService priceDisplay, IMemoryCache cache)
 		{
 			_phoneInfo = phoneInfo;
 			_priceDisplay = priceDisplay;
+			_cache = cache;
 		}
 
 		public async Task<IActionResult> Index()
@@ -25,7 +29,12 @@ namespace Phones.Controllers
 
 		public async Task<IActionResult> Info(string id)
 		{
-			var phone = await GetPhoneViewModel(id);
+			var phone = await _cache.GetOrCreateAsync(id, async entry =>
+			{
+				entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1);
+				return await GetPhoneViewModel(id);
+			});
+
 			return View(phone);
 		}
 
