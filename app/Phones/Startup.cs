@@ -22,6 +22,7 @@ namespace Phones
 		{
 			services.AddControllersWithViews();
 			services.AddHttpClient();
+			services.AddMemoryCache();
 
 			services.AddTransient<IDbConnection>(_ => new NpgsqlConnection(Configuration.GetConnectionString("DB")));
 			services.AddTransient<IPhoneInfoService, PhoneInfoService>();
