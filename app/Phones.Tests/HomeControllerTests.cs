@@ -56,5 +56,22 @@ namespace Phones.Tests
 			var phone = response?.Model as PhoneViewModel;
 			Assert.Equal(3, phone?.Prices.Count());
 		}
+
+		[Fact]
+		public void CanGetImageForPhone()
+		{
+			//arrange
+			var infoService = Substitute.For<IPhoneInfoService>();
+			var displayService = Substitute.For<IPriceDisplayService>();
+
+			var controller = new HomeController(infoService, displayService);
+
+			//act
+			var result = controller.Image("Moto G");
+
+			//assert
+			var expected = result as FileStreamResult;
+			Assert.Equal("image/png", expected?.ContentType);
+		}
 	}
 }

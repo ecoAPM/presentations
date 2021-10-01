@@ -18,22 +18,6 @@ namespace Phones.Tests
 	public class PriceDisplayServiceTests
 	{
 		[Fact]
-		public async Task ImageDataIsBase64Encoded()
-		{
-			//arrange
-			var http = Substitute.For<IHttpClientFactory>();
-			var browser = Substitute.For<IBrowsingContext>();
-			var cache = Substitute.For<IMemoryCache>();
-			var service = new PriceDisplayService(http, browser, cache);
-
-			//act
-			var imageData = await service.GetImageData("Moto G");
-
-			//assert
-			Assert.NotEmpty(Convert.FromBase64String(imageData));
-		}
-
-		[Fact]
 		public async Task CanGetDefaultLogoURL()
 		{
 			//arrange
