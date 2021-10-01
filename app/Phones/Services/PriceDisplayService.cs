@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text.RegularExpressions;
@@ -48,12 +47,6 @@ namespace Phones.Services
 					var client = _http.CreateClient();
 					return await client.GetAsync(info.URL);
 				});
-
-		public async Task<string> GetImageData(string name)
-		{
-			var contents = await File.ReadAllBytesAsync($"{name}.png");
-			return Convert.ToBase64String(contents);
-		}
 
 		private async Task<decimal?> GetPrice(PhoneInfo info, string html)
 		{
