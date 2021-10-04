@@ -37,9 +37,9 @@ namespace Phones.Controllers
 			var priceTasks = phoneInfo.Select(p => _priceDisplay.GetPriceViewModel(p));
 			var prices = await Task.WhenAll(priceTasks);
 
+			var average = prices.Average(i => i.Price);
 			foreach (var info in prices)
 			{
-				var average = prices.Average(i => i.Price);
 				info.PercentOfAverage = info.Price / average;
 			}
 
