@@ -25,11 +25,11 @@ namespace Phones
 			services.AddMemoryCache();
 
 			services.AddTransient<IDbConnection>(_ => new NpgsqlConnection(Configuration.GetConnectionString("DB")));
+			services.AddTransient<IPhoneInfoService, PhoneInfoService>();
 
-			services.AddScoped(_ => AngleSharp.Configuration.Default.WithDefaultLoader());
-			services.AddScoped<IBrowsingContext, BrowsingContext>();
-			services.AddScoped<IPhoneInfoService, PhoneInfoService>();
-			services.AddScoped<IPriceDisplayService, PriceDisplayService>();
+			services.AddSingleton(_ => AngleSharp.Configuration.Default.WithDefaultLoader());
+			services.AddSingleton<IBrowsingContext, BrowsingContext>();
+			services.AddSingleton<IPriceDisplayService, PriceDisplayService>();
 		}
 
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
