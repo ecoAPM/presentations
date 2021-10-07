@@ -1,13 +1,15 @@
-# ecoAPM Presentations
+# Profiling and Fixing Common Performance Bottlenecks
+## Hot Topics — June 3, 2025
 
-## Profiling and Fixing Common Performance Bottlenecks
-### JetBrains Webinar &mdash; October 7, 2021
+Slides are available [here](https://ecoAPM.github.io/presentations/HotTopics-Performance)
 
-[Video](https://youtu.be/DsFolcdyWhs) / [Slides](https://ecoAPM.github.io/presentations/JB2021) / [Demo App](https://github.com/ecoAPM/presentations/tree/JB2021)
+### Requirements
+- .NET 9 SDK
 
-### Instructions
-- use left/right arrow keys to navigate slides
-- move mouse to bottom-left for more actions
-- actions should show automatically on touchscreens
-- first slide intentionally blank
-- built using [slidev](https://sli.dev)
+### Installation
+1. clone this git repo
+1. check out the `HotTopics-Performance` branch
+
+### Usage
+1. open the solution in the `app` directory
+1. use the git history to follow along with improvements
