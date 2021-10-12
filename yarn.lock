@@ -108,17 +108,17 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@slidev/cli@0.27.7":
-  version "0.27.7"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.27.7.tgz#1dc77765e502fc2adc7c66650ab9c91518c1ad36"
-  integrity sha512-lg4XhmECnDoO16wKmTOwBScg33YSAFbEEhvUvxUKWWzSru0vyglXzrkRBJtuTYoEMk06hZ+IgvyITgzyJjFO2g==
+"@slidev/cli@0.27.8":
+  version "0.27.8"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.27.8.tgz#a4a1a816a355c1b409bcf4d939a393e21642ce07"
+  integrity sha512-Vi3f2cNA6X299zjQ0PGx+SC+vu5Q7maWg7VZNfE1BJfZDIpYM9xSj2RNn8SrHpGl9t4DQJI3w7Zm3xYkX8hBrA==
   dependencies:
     "@antfu/utils" "^0.3.0"
     "@iconify-json/carbon" "^1.0.3"
     "@iconify-json/ph" "^1.0.1"
-    "@slidev/client" "0.27.7"
-    "@slidev/parser" "0.27.7"
-    "@slidev/types" "0.27.7"
+    "@slidev/client" "0.27.8"
+    "@slidev/parser" "0.27.8"
+    "@slidev/types" "0.27.8"
     "@vitejs/plugin-vue" "^1.9.2"
     "@vue/compiler-sfc" "^3.2.19"
     cli-progress "^3.9.1"
@@ -157,14 +157,14 @@
     windicss "^3.1.9"
     yargs "^17.2.1"
 
-"@slidev/client@0.27.7":
-  version "0.27.7"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.27.7.tgz#39665f4f15a06a4f83365d87a2ffb822684198b2"
-  integrity sha512-Ygwkkf8n7Wb4jwbTBxLafaEFO8tbBXW7UDrhSoJZUpO03xwvCFtEVV0WjEwg9W5qPGRMmHnQbhXePU97JZAAcQ==
+"@slidev/client@0.27.8":
+  version "0.27.8"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.27.8.tgz#9816fc63b3122ea1350f11f0397d6e7684c2b774"
+  integrity sha512-IlVL8QbHtP3EnpCEw2N1kXwRcnDhaHHjY/ahKP189PLbyRMSRStNQiK++Vxz9TuSMOleYEEzKPSr3dNI1pIfVw==
   dependencies:
     "@antfu/utils" "^0.3.0"
-    "@slidev/parser" "0.27.7"
-    "@slidev/types" "0.27.7"
+    "@slidev/parser" "0.27.8"
+    "@slidev/types" "0.27.8"
     "@vueuse/core" "^6.5.3"
     "@vueuse/head" "^0.6.0"
     "@vueuse/motion" "^2.0.0-beta.4"
@@ -185,12 +185,12 @@
     vue-router "^4.0.11"
     windicss "^3.1.9"
 
-"@slidev/parser@0.27.7":
-  version "0.27.7"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.27.7.tgz#b049776e5f6db62779e63eeb93dcc29c7cfe46ef"
-  integrity sha512-k/4kvStz86nS9KVq4966vnR8fstSM3s9A9jJ2IH0cwkU3lum/SDG0ULRvCcTcV2nqkKI9NHY5EvgLatdX1UOrQ==
+"@slidev/parser@0.27.8":
+  version "0.27.8"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.27.8.tgz#1eda0c2c1c16076f103357b0af01b66f6247eac7"
+  integrity sha512-lSJjcn0JQqnQ9jbm1yCpq6PKEsf9D/w/GXYj5blridg4iixfL6NWbrTkda2ag5Zsg8IOIqD0Iso9kP1jAxUY6A==
   dependencies:
-    "@slidev/types" "0.27.7"
+    "@slidev/types" "0.27.8"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@0.21.0":
@@ -203,10 +203,10 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/types@0.27.7":
-  version "0.27.7"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.27.7.tgz#78b7c57f8562bf14f9af081f8c7109b6f9f5c409"
-  integrity sha512-IXd1pr/t9mxvK6GpZ/d+A3S8l/btmK08oNMShDQwmL3EgtlkYOBEDcT2WCQmJmgkn3FADRFEhwkvZzfgSuQMlg==
+"@slidev/types@0.27.8":
+  version "0.27.8"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.27.8.tgz#df50ef1c89c39ae973d209cd1ffa684564f0a6ca"
+  integrity sha512-FZEGVmtt9CWf9U3P7x+KKmM64FUdTQWlGJC3VsRL6VR4dIPh4abUwMNKlb5kkrj3tz8Iw9flbTTQB/67OxXU6Q==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
