@@ -108,17 +108,17 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@slidev/cli@0.27.9":
-  version "0.27.9"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.27.9.tgz#acc8c9665dbaef23c8c905d75cabc8acbdf7a409"
-  integrity sha512-D+TTZZ0c1MN4ADHt6Roh5a7wFS553MLOdLCAFW/mtoZsTZ2R7lprNuijmWQoCL6CAmZgW7voTxK3gYLsQfKhpw==
+"@slidev/cli@0.27.10":
+  version "0.27.10"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.27.10.tgz#c8de1594b799def57b8a4b95c995be64e1b8963f"
+  integrity sha512-pFVZIOAqPxHEgL1VVBBveJ8+Dg5Ff+d/E8caFPBlfgC6KPJlSvIYlFHTJBmcQn5OZ3C/nCCAmjjgJ9pyuI1C+Q==
   dependencies:
     "@antfu/utils" "^0.3.0"
     "@iconify-json/carbon" "^1.0.7"
     "@iconify-json/ph" "^1.0.1"
-    "@slidev/client" "0.27.9"
-    "@slidev/parser" "0.27.9"
-    "@slidev/types" "0.27.9"
+    "@slidev/client" "0.27.10"
+    "@slidev/parser" "0.27.10"
+    "@slidev/types" "0.27.10"
     "@vitejs/plugin-vue" "^1.9.3"
     "@vue/compiler-sfc" "^3.2.20"
     cli-progress "^3.9.1"
@@ -140,6 +140,7 @@
     nanoid "^3.1.30"
     open "^8.3.0"
     pdf-lib "^1.17.0"
+    plantuml-encoder "^1.4.0"
     prismjs "^1.25.0"
     prompts "^2.4.2"
     resolve "^1.20.0"
@@ -157,14 +158,14 @@
     windicss "^3.1.9"
     yargs "^17.2.1"
 
-"@slidev/client@0.27.9":
-  version "0.27.9"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.27.9.tgz#41c41e92502b4323602530b618817720086ae261"
-  integrity sha512-Eb2vwQ5N3M+3uBNl3gdW8sMZE87iFNITWc5Gek9OWUHn4OHyiOFtPivPdV3whddmn+m4MldRknVT+p2R3s3JWg==
+"@slidev/client@0.27.10":
+  version "0.27.10"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.27.10.tgz#3ec0acbe769a96a805382d1233fa769d353ecbb8"
+  integrity sha512-xU8+5LxmsfTyyvBnd10bKRoq0TzcRuoiGq5Xm4gwkecbdGvHxSDY3kmfDjSYyZXYWyW2OHjAZ74beFnB7IYdlw==
   dependencies:
     "@antfu/utils" "^0.3.0"
-    "@slidev/parser" "0.27.9"
-    "@slidev/types" "0.27.9"
+    "@slidev/parser" "0.27.10"
+    "@slidev/types" "0.27.10"
     "@vueuse/core" "^6.6.2"
     "@vueuse/head" "^0.6.0"
     "@vueuse/motion" "^2.0.0-beta.4"
@@ -185,12 +186,12 @@
     vue-router "^4.0.12"
     windicss "^3.1.9"
 
-"@slidev/parser@0.27.9":
-  version "0.27.9"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.27.9.tgz#a28b8e09d265dc4bdf5d54a45458404b6584fa5c"
-  integrity sha512-MpnYsfzWHRP8miA2/tDCFjiOD141vVHkjnlkdnOhuga5wdlTYibs0fa7Uwy7cEqsznhzuLDIR4EduJwHlLJZ0w==
+"@slidev/parser@0.27.10":
+  version "0.27.10"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.27.10.tgz#481611e9665369416db0412aa83e0dd82208a68a"
+  integrity sha512-JycK18P7bgWIQd5AV33/GmUw2WCkNWTQFdVyHTBno4Ma5Y4OF+kHelSSV/fjfhdlDgfAxQHh3dL4uQ4Y0wiGRw==
   dependencies:
-    "@slidev/types" "0.27.9"
+    "@slidev/types" "0.27.10"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@0.21.0":
@@ -203,10 +204,10 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/types@0.27.9":
-  version "0.27.9"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.27.9.tgz#411bd718264d66c8e7bf52942011a30ac07b5fb9"
-  integrity sha512-K2l+Bt8y8Tvd0rWOBmAny3NKyu3YAz5KBMRkuLMH0HfqiZ6/Lvb0eAvIgPjoH7yCGCIsSUmWhgwqpk/InHiadg==
+"@slidev/types@0.27.10":
+  version "0.27.10"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.27.10.tgz#c61e3d86a786080384b97baec73483a24dfe0352"
+  integrity sha512-I/1+X1uFuneq1PT15bGc2PUNnIkFABvxV16ho1Ob7qOJ4XARZ5b8Gu/+1l4bHCqI1Mi5WY8nlECzYfYneuK0DQ==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
@@ -1928,6 +1929,11 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
+
+plantuml-encoder@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/plantuml-encoder/-/plantuml-encoder-1.4.0.tgz#7899302cf785de956bf1a167e15420feee5975f7"
+  integrity sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==
 
 popmotion@^10.0.1:
   version "10.0.1"
