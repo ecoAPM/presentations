@@ -108,17 +108,17 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@slidev/cli@0.27.13":
-  version "0.27.13"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.27.13.tgz#ea927bb825744177d08e9b7807708347b200f6eb"
-  integrity sha512-NRCGlTzJC4VqvgY8OMu7rwHG1JLmZec1/SkvpCf3goP6L54fCrl/fT6pm5gcNvDti9o9A65KnbMO/9ev8FZbjA==
+"@slidev/cli@0.27.15":
+  version "0.27.15"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.27.15.tgz#18cfe8c69edcfe9e119fffa18b94c65cd0bf97e1"
+  integrity sha512-I20f0te9kAydldusExvX37RhKg8YY8qTZEPxVVD+bN8Lbo+2R678RkMSOQ50EmHRWv6173EX23rrigPlOybX3Q==
   dependencies:
     "@antfu/utils" "^0.3.0"
     "@iconify-json/carbon" "^1.0.7"
     "@iconify-json/ph" "^1.0.1"
-    "@slidev/client" "0.27.13"
-    "@slidev/parser" "0.27.13"
-    "@slidev/types" "0.27.13"
+    "@slidev/client" "0.27.15"
+    "@slidev/parser" "0.27.15"
+    "@slidev/types" "0.27.15"
     "@vitejs/plugin-vue" "^1.9.3"
     "@vue/compiler-sfc" "^3.2.20"
     cli-progress "^3.9.1"
@@ -127,6 +127,7 @@
     debug "^4.3.2"
     fast-glob "^3.2.7"
     fs-extra "^10.0.0"
+    global-dirs "^3.0.0"
     import-from "^4.0.0"
     is-installed-globally "^0.4.0"
     jiti "^1.12.9"
@@ -158,14 +159,14 @@
     windicss "^3.1.9"
     yargs "^17.2.1"
 
-"@slidev/client@0.27.13":
-  version "0.27.13"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.27.13.tgz#4d8fd89facaa7d6c81f67c57ded90607b9671b0c"
-  integrity sha512-XdPyDls6hRva2bDAeRWGV1NnclyfLRXkEwG5k1hWJs8ezw9bnz/dR4qOPyXffj/J9ouYinqwGUMNolaK6CoAAA==
+"@slidev/client@0.27.15":
+  version "0.27.15"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.27.15.tgz#750982cead822080218634e9b7b4ed5939d60f8e"
+  integrity sha512-lbMlRxUM79ux/vVK3rn/5qtvIzo0YD/TFnpW2z7nj7ex5bP/Z7WI76xOS+HvpH6TJFWElgFIUf24qmiHAMq9Og==
   dependencies:
     "@antfu/utils" "^0.3.0"
-    "@slidev/parser" "0.27.13"
-    "@slidev/types" "0.27.13"
+    "@slidev/parser" "0.27.15"
+    "@slidev/types" "0.27.15"
     "@vueuse/core" "^6.6.2"
     "@vueuse/head" "^0.6.0"
     "@vueuse/motion" "^2.0.0-beta.4"
@@ -186,12 +187,12 @@
     vue-router "^4.0.12"
     windicss "^3.1.9"
 
-"@slidev/parser@0.27.13":
-  version "0.27.13"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.27.13.tgz#158c806b7bd2e0c61295a062e9af18fec2ce5bc8"
-  integrity sha512-83cKXQXWz3pHRkGQtDYkmwdcsE/L73t+ErnNxO78Q8QrYQCXXrBB2woEUwQbfrg8D1YVgzXICMpXAXweeSySMA==
+"@slidev/parser@0.27.15":
+  version "0.27.15"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.27.15.tgz#c826808621aef7d450739324177336ee537e561d"
+  integrity sha512-BIg2hZcxdY0W3SoXdDDRHiPfCmsJMAXl0lp44a5DPmccMpM8QVOLRNjNs/KvcD0qetWJNtvbbpoGVnt6/5V4Rw==
   dependencies:
-    "@slidev/types" "0.27.13"
+    "@slidev/types" "0.27.15"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@0.21.0":
@@ -204,10 +205,10 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/types@0.27.13":
-  version "0.27.13"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.27.13.tgz#37e8d1a3e1443da0472d6b6d0d237e276f3a187b"
-  integrity sha512-329n92yi01UbVKuFMRFiAszOzpcdc/PcJ+63C+T7BK57tquvvJrKBkXQiuRNxLxvA2oqp4r+rSyEXP/UftrV2Q==
+"@slidev/types@0.27.15":
+  version "0.27.15"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.27.15.tgz#7968973bff4786781204f824c84a552dd94f8ba3"
+  integrity sha512-l99G+LGHDzKRt4xWPuKrp3cp0T5FTSoNoXj8Ge3s+a1kuhGKkcNrZXf08F2aw1XlT5xZitMNKGByUJaekqM9fA==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
