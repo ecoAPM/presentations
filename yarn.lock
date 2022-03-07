@@ -207,10 +207,10 @@
     "@slidev/types" "0.28.9"
     js-yaml "^4.1.0"
 
-"@slidev/theme-default@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@slidev/theme-default/-/theme-default-0.21.1.tgz#ae321802116df7f599e4e3b6ca07356ed2c6c714"
-  integrity sha512-Hy5MKbkRi5IoKRh4CPjUCdLmjDVubtPfAkKXq6Bvd2VxnYFAbC/82ZY8Jg8NQ7Mkb7p/33POTq0enS0oCmx4lg==
+"@slidev/theme-default@0.21.2":
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/@slidev/theme-default/-/theme-default-0.21.2.tgz#28db9f074cd0b17d19ca6ccd1d4c75db7a24b026"
+  integrity sha512-neUucFs2YrRZZd73QwvLTyRG/o1nerDFUR5t8YAmXVLTMzWfY71flQ6aAhjYf+WjsozYsOHcxi/pZtIzZ4VhTQ==
   dependencies:
     "@slidev/types" "^0.22.7"
     codemirror-theme-vars "^0.1.1"
