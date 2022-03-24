@@ -118,17 +118,17 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@slidev/cli@0.29.0":
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.29.0.tgz#7ff2e1b7791641dcc4b8b5568ee9013e7b5882c9"
-  integrity sha512-MhF3nnYrAn1m2iqBr0mytea6if3eojXnz7nq6OrR+bbsyOKDtP27qzHBrHVKUUF3c/biEL86VC/gl1W1SIuzsA==
+"@slidev/cli@0.29.1":
+  version "0.29.1"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.29.1.tgz#1b9281e7319b2e8ae1d43529127547d98c776c50"
+  integrity sha512-NZD2qLyhGTvUcDHtmZosMo2H+G4sNpfi+ZaCC/DyP4RwrD8Og+bXwcv5o6d2duEceR35MKSdaEyiGCwhYKrwBQ==
   dependencies:
     "@antfu/utils" "^0.5.0"
     "@iconify-json/carbon" "^1.1.2"
     "@iconify-json/ph" "^1.1.1"
-    "@slidev/client" "0.29.0"
-    "@slidev/parser" "0.29.0"
-    "@slidev/types" "0.29.0"
+    "@slidev/client" "0.29.1"
+    "@slidev/parser" "0.29.1"
+    "@slidev/types" "0.29.1"
     "@vitejs/plugin-vue" "^2.2.4"
     "@vue/compiler-sfc" "^3.2.31"
     cli-progress "^3.10.0"
@@ -161,7 +161,7 @@
     unplugin-icons "^0.14.0"
     unplugin-vue-components "^0.18.3"
     vite "^2.8.6"
-    vite-plugin-md "^0.12.0"
+    vite-plugin-md "^0.12.3"
     vite-plugin-remote-assets "^0.2.2"
     vite-plugin-vue-server-ref "^0.2.4"
     vite-plugin-windicss "^1.8.3"
@@ -169,14 +169,14 @@
     windicss "^3.5.1"
     yargs "^17.4.0"
 
-"@slidev/client@0.29.0":
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.29.0.tgz#c89e872400c2ec1521d154dd385bdbcc9b2cb835"
-  integrity sha512-HR4e/DJOvL31RmgVXzATk8ToD78GK9Mqpoyf6IvHJMJbt/Jl2yM1IIcGgaBfLNbLqRR+ig4AwkTahy2YckPAgQ==
+"@slidev/client@0.29.1":
+  version "0.29.1"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.29.1.tgz#57e5c08bf0c21e1f70afa78c53171597cc4bddc0"
+  integrity sha512-11CoYTfbzXldf4ww1JTypyxFF8B/Uj/f1sUl03v3d1bnsjreoe3EMongknXdtP2iU5Gw+oGRVyvyJNlUAI8Nqw==
   dependencies:
     "@antfu/utils" "^0.5.0"
-    "@slidev/parser" "0.29.0"
-    "@slidev/types" "0.29.0"
+    "@slidev/parser" "0.29.1"
+    "@slidev/types" "0.29.1"
     "@vueuse/core" "^8.1.2"
     "@vueuse/head" "^0.7.5"
     "@vueuse/motion" "^2.0.0-beta.12"
@@ -197,12 +197,12 @@
     vue-router "^4.0.14"
     windicss "^3.5.1"
 
-"@slidev/parser@0.29.0":
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.29.0.tgz#14a0dcd97ffd5734c669bb97d30a72bdc4985ce0"
-  integrity sha512-GM1VcK01A26uOUcgSs+szm+MwxOCZi1P5ls8LVJmjsllJOHFky46CrmriCyH1qUymWZ3aJ++QMToDv4D+XrTNQ==
+"@slidev/parser@0.29.1":
+  version "0.29.1"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.29.1.tgz#d610aaf5f642084d083ef40e8239675ec4cf86b6"
+  integrity sha512-oNcrW2fFCtX8sqNZKDgBh4j22kdrIvKSUgW+U9I1oXIGcrsN7rM3lieNNclzxsfgY9FLoLgqbnzbD9l46fsV0w==
   dependencies:
-    "@slidev/types" "0.29.0"
+    "@slidev/types" "0.29.1"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@0.21.2":
@@ -215,10 +215,10 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/types@0.29.0":
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.29.0.tgz#88596f1ddf7fd0d2ce79ebced2e69e3713b36b82"
-  integrity sha512-vDBDyuhyYWLtCEBB/tIWu7YW8/Ze0D0RMboaKWgEudl67lSX9zVDssywQ6jos9oKejC54pzDOHxr+/P+NwKleg==
+"@slidev/types@0.29.1":
+  version "0.29.1"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.29.1.tgz#b2f1a6e4a2e1adb584586ccd47e2a4245571fbfa"
+  integrity sha512-QgQABD0MGruYopPgluN173LlaBkezRWOk0eIY3Ut2oo0PhPuIOuyqzM9+luOvLrxmcokCGpk1UtoGOqa+Kl4Nw==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
@@ -1371,11 +1371,6 @@ font-awesome@4.7.0:
   resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
   integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
 
-fp-ts@^2.11.9:
-  version "2.11.9"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.11.9.tgz#bbc204e0932954b59c98a282635754a4b624a05e"
-  integrity sha512-GhYlNKkCOfdjp71ocdtyaQGoqCswEoWDJLRr+2jClnBBq2dnSOtd6QxmJdALq8UhfqCyZZ0f0lxadU4OhwY9nw==
-
 framesync@6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/framesync/-/framesync-6.0.1.tgz#5e32fc01f1c42b39c654c35b16440e07a25d6f20"
@@ -2301,16 +2296,15 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-vite-plugin-md@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.12.0.tgz#08e86f21b8a79b6024dca4bc92f473f31067ad96"
-  integrity sha512-4jvqIU7ZU7ymiyBQiORz6KkoCQZfgliEXQw+F4trfztUbPOE3ERGyCz4OjL9GHRuD7I2hLd9q3kPljCMmoBLxg==
+vite-plugin-md@^0.12.3:
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.12.3.tgz#8cd6bfed4f9c4fe8b3c360b3f2308e00857c37db"
+  integrity sha512-Iy8u01E5yQ0hSCT9QcmJvahJ3zLwQX5HLFgFqlbakCHpq9j3+xohkzuup2Bf9vMUuTilcJDEPAcLhzNIhzp1+A==
   dependencies:
     "@antfu/utils" "^0.5.0"
     "@rollup/pluginutils" "^4.2.0"
     "@types/markdown-it" "^12.2.3"
     "@vue/runtime-core" "^3.2.31"
-    fp-ts "^2.11.9"
     gray-matter "^4.0.3"
     markdown-it "^12.3.2"
 
