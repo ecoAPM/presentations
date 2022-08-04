@@ -107,28 +107,13 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mdit-vue/plugin-component@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@mdit-vue/plugin-component/-/plugin-component-0.8.1.tgz#f781de7700a2f83f36726c87fc0704863356e06a"
-  integrity sha512-lBkVDc4/uq93CDKBUbKZ25lpBwZ4fghHaBMV956Eb/Qp7isHzqn31qpdJT6S7nPNltt9clkWTVZeZRL7hmRKUw==
+"@mdit-vue/plugin-component@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@mdit-vue/plugin-component/-/plugin-component-0.1.1.tgz#4bd2b89696c1d7b5360cc6d6f220452a1fd8bede"
+  integrity sha512-DC4OEZO737FbvwZxVToO2d9jprbQEs4lor7bylEBrPDYDds8pjRBUIx2BNc54X0effIopsZhq+b4gxkOHJOPNQ==
   dependencies:
     "@types/markdown-it" "^12.2.3"
     markdown-it "^13.0.1"
-
-"@mdit-vue/plugin-frontmatter@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@mdit-vue/plugin-frontmatter/-/plugin-frontmatter-0.8.0.tgz#2a794c2bebedcfe1526a8f91608175a5911c9d7b"
-  integrity sha512-STjTlQ+gxLBprcdyu2dH8kezgBwqS/jlPKLsy18BMSHoElGJeDJM458lwDa3MGL+Mm+g5NK0KoWTnQHj/9Uwow==
-  dependencies:
-    "@mdit-vue/types" "0.8.0"
-    "@types/markdown-it" "^12.2.3"
-    gray-matter "^4.0.3"
-    markdown-it "^13.0.1"
-
-"@mdit-vue/types@0.8.0", "@mdit-vue/types@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@mdit-vue/types/-/types-0.8.0.tgz#e35a5d8d88c23c43d9cf95baee37f09a67c713fd"
-  integrity sha512-g6Tc8JwwJjTnx8sb66ZFCHvJ5TJpvoRnAkGT8Aq0K6UcvAOslODaU4tQ87WZ1ETTeXE9PTYPLGxngRudcyMHoQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -164,18 +149,18 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@slidev/cli@0.35.2":
-  version "0.35.2"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.35.2.tgz#155582819b28dd6a355244086ea94386d13e0553"
-  integrity sha512-6CGAbl1dGSBuDvz+9NiipaCn8ZTHVr7Zwq6KACR3Jw2AfUrGtObvRNWe/URaN4s60lcELYoaaJNfsSLGwEnS3g==
+"@slidev/cli@0.35.4":
+  version "0.35.4"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.35.4.tgz#620511f71d237f7f263d9623d3601528395c8dc0"
+  integrity sha512-roPNDqASWMkUrwPDOUcco+90zE0EIrSXuRWfnAlSygIZMv8JgNvkGsoJQgoRvbpThPmNvWJ6DKBjp4L8YFzY+Q==
   dependencies:
     "@antfu/utils" "^0.5.2"
     "@hedgedoc/markdown-it-task-lists" "^1.0.5"
     "@iconify-json/carbon" "^1.1.7"
     "@iconify-json/ph" "^1.1.2"
-    "@slidev/client" "0.35.2"
-    "@slidev/parser" "0.35.2"
-    "@slidev/types" "0.35.2"
+    "@slidev/client" "0.35.4"
+    "@slidev/parser" "0.35.4"
+    "@slidev/types" "0.35.4"
     "@vitejs/plugin-vue" "^3.0.1"
     "@vue/compiler-sfc" "^3.2.37"
     cli-progress "^3.11.2"
@@ -210,21 +195,21 @@
     unplugin-vue-components "^0.21.2"
     vite "^3.0.4"
     vite-plugin-remote-assets "^0.3.0"
-    vite-plugin-vue-markdown "^0.21.1"
+    vite-plugin-vue-markdown "^0.20.1"
     vite-plugin-vue-server-ref "^0.3.0"
     vite-plugin-windicss "^1.8.7"
     vue "^3.2.37"
     windicss "^3.5.6"
     yargs "^17.5.1"
 
-"@slidev/client@0.35.2":
-  version "0.35.2"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.35.2.tgz#6143c6f532a771efb4266ecdf0160f5ec0278ebc"
-  integrity sha512-XClVmtVcghF6NddG0GO5J1Mh52JV+R5e6rzo5gox5q6UcM77cYjO1sD1VNQcfC7/gPtSVib3X35e6/zc2Z50ng==
+"@slidev/client@0.35.4":
+  version "0.35.4"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.35.4.tgz#2df26beadc486355b63e1ddc9f8be83ee84fac1e"
+  integrity sha512-lJMXzf/AuG/m3CaRdnyWpyvmjjQlhNG1hWfNv1nVrxkvdYHzUbCkGRNK0K0cw1qyafQPwOHOz5MzuhVsgkEdDA==
   dependencies:
     "@antfu/utils" "^0.5.2"
-    "@slidev/parser" "0.35.2"
-    "@slidev/types" "0.35.2"
+    "@slidev/parser" "0.35.4"
+    "@slidev/types" "0.35.4"
     "@unocss/reset" "^0.45.1"
     "@vueuse/core" "^9.0.1"
     "@vueuse/head" "^0.7.8"
@@ -250,12 +235,12 @@
     vue-starport "^0.3.0"
     windicss "^3.5.6"
 
-"@slidev/parser@0.35.2":
-  version "0.35.2"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.35.2.tgz#886a3f9788c44b56aace4b2fdcc78c3eca8f6659"
-  integrity sha512-LMCBQy3m8wYX3FQwJI2u8DCCbL8Zn//oe2raMTEB8s9+0V0SL1vU0WpybPfSXDJ+myyEPUhQgzYrjYuuRDJINg==
+"@slidev/parser@0.35.4":
+  version "0.35.4"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.35.4.tgz#672f2bf26254231021b72ebbf45cff8f35145b80"
+  integrity sha512-EbeLpFsjNxObG70g6sph2V6vQGurs7w0c9NaGFAd7YGmpHQi1B0d+uSozaJAhSkHKh2yJr9iwrXU/0RuIJXtcQ==
   dependencies:
-    "@slidev/types" "0.35.2"
+    "@slidev/types" "0.35.4"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@0.21.2":
@@ -268,10 +253,10 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/types@0.35.2":
-  version "0.35.2"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.35.2.tgz#e55c5cc66f30c03f0d617d0ec256663e37ac6ca3"
-  integrity sha512-1ZUX2bKtvgESTbzDdLedoBEYDvCnFStoCArzOnNsHQ2WU8YzUWOrXj/JJowZf1f6ko1azAbwRjxLb87+wpFlMw==
+"@slidev/types@0.35.4":
+  version "0.35.4"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.35.4.tgz#9d06daefaaf022f1358f7439732d35262398c295"
+  integrity sha512-xQEbr2c/VHAZYoQgaRce0HaDHcn7YSzmnPP/hUIyF4ShVH2GPZ5uzCOqJaFTT/NsQpckFYwM/QzJ1ZGblZXFVA==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
@@ -2739,17 +2724,16 @@ vite-plugin-remote-assets@^0.3.0:
     fs-extra "^10.1.0"
     magic-string "^0.26.2"
 
-vite-plugin-vue-markdown@^0.21.1:
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue-markdown/-/vite-plugin-vue-markdown-0.21.1.tgz#84867b9506b83200972c6989030ac642f3415bf4"
-  integrity sha512-tvHtARDdNK45nSJhyCVaRhSxBAEVmgA6aD+xV1J4xXynNNxRaYXcpHS3l3S7l09j/lR3beRjTfbS+Ro6ipSHmA==
+vite-plugin-vue-markdown@^0.20.1:
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue-markdown/-/vite-plugin-vue-markdown-0.20.1.tgz#0e184ddd39689ba2e441505b27398a4100a08fdd"
+  integrity sha512-OKWb7dtfb8SU2CLUQHWFz54eYN8Y3d3P8FpQCb7yzzh/GetTJVdY57A/orvzNJxAJqjZXx2Af1Q9ncj2wsGkiw==
   dependencies:
     "@antfu/utils" "^0.5.2"
-    "@mdit-vue/plugin-component" "^0.8.1"
-    "@mdit-vue/plugin-frontmatter" "^0.8.0"
-    "@mdit-vue/types" "^0.8.0"
+    "@mdit-vue/plugin-component" "^0.1.1"
     "@rollup/pluginutils" "^4.2.1"
     "@types/markdown-it" "^12.2.3"
+    gray-matter "^4.0.3"
     markdown-it "^13.0.1"
 
 vite-plugin-vue-server-ref@^0.3.0:
