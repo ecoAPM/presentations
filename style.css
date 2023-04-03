@@ -107,6 +107,7 @@ hr {
 .sxs pre {
 	width: 45%;
 	float: left;
+	margin: 2.5%;
 }
 
 .sxs pre ~ p,
@@ -121,11 +122,6 @@ hr {
 }
 
 .sxs ul {
-	float: left;
-	width: 50%;
-}
-
-.sxs li {
 	float: left;
 	width: 50%;
 }
