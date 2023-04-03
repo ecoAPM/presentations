@@ -3,7 +3,7 @@
 ## Profiling and Fixing Common Performance Bottlenecks
 ### JetBrains Webinar &mdash; October 7, 2021
 
-[Slides](https://ecoAPM.github.io/presentations/JB2021) / [Demo App](https://github.com/ecoAPM/presentations/tree/JB2021)
+[Video](https://youtu.be/DsFolcdyWhs) / [Slides](https://ecoAPM.github.io/presentations/JB2021) / [Demo App](https://github.com/ecoAPM/presentations/tree/JB2021)
 
 ### Instructions
 - use left/right arrow keys to navigate slides
