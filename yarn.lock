@@ -588,7 +588,7 @@
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
-"@iconify/utils@^2.1.2", "@iconify/utils@^2.1.5":
+"@iconify/utils@^2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@iconify/utils/-/utils-2.1.5.tgz#75c17410aadec724d2ab7bd71e8710e448102438"
   integrity sha512-6MvDI+I6QMvXn5rK9KQGdpEE4mmLTcuQdLZEiX5N+uZB+vc4Yw9K1OtnOgkl8mp4d9X0UrILREyZgF1NUwUt+Q==
@@ -776,19 +776,19 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@slidev/cli@0.40.5":
-  version "0.40.5"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.40.5.tgz#ab6bc672051ed2e8e815b3379d1102cbc2623c06"
-  integrity sha512-m87IjlHKwyu96s6A+rsNAg95qmslasm7WQDZbxL5ah1yZdhc+4gQNG1t+47jBL/B7wtC3jb0odEz6D8kVyIFSA==
+"@slidev/cli@0.40.6":
+  version "0.40.6"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.40.6.tgz#cde7fe07595bb07b49f0f18645dace8bbb3640eb"
+  integrity sha512-ocIcjCSfMg/TkEa6bwlalD4WqQFZqOaFdhIb0rNvV2WDgQJBTm4yo8Jomv18fJP8kp6sPx6U6PfJor0M3XBnwA==
   dependencies:
     "@antfu/utils" "^0.7.2"
     "@hedgedoc/markdown-it-plugins" "^2.0.0"
     "@iconify-json/carbon" "^1.1.16"
     "@iconify-json/ph" "^1.1.5"
     "@lillallol/outline-pdf" "^4.0.0"
-    "@slidev/client" "0.40.5"
-    "@slidev/parser" "0.40.5"
-    "@slidev/types" "0.40.5"
+    "@slidev/client" "0.40.6"
+    "@slidev/parser" "0.40.6"
+    "@slidev/types" "0.40.6"
     "@vitejs/plugin-vue" "^4.1.0"
     "@vitejs/plugin-vue-jsx" "^3.0.1"
     "@windicss/config" "^1.8.10"
@@ -811,7 +811,7 @@
     markdown-it-footnote "^3.0.3"
     markdown-it-link-attributes "^4.0.1"
     monaco-editor "^0.33.0"
-    nanoid "^4.0.1"
+    nanoid "^4.0.2"
     open "^8.4.1"
     pdf-lib "^1.17.1"
     plantuml-encoder "^1.4.0"
@@ -824,11 +824,11 @@
     resolve-global "^1.0.0"
     shiki "^0.14.1"
     unocss "^0.50.6"
-    unplugin-icons "^0.15.3"
+    unplugin-icons "^0.16.1"
     unplugin-vue-components "^0.24.1"
     vite "^4.2.1"
     vite-plugin-inspect "^0.7.18"
-    vite-plugin-remote-assets "^0.3.1"
+    vite-plugin-remote-assets "^0.3.2"
     vite-plugin-vue-markdown "^0.22.4"
     vite-plugin-vue-server-ref "^0.3.1"
     vite-plugin-windicss "^1.8.10"
@@ -836,14 +836,14 @@
     windicss "^3.5.6"
     yargs "^17.7.1"
 
-"@slidev/client@0.40.5":
-  version "0.40.5"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.40.5.tgz#4b5320868f014328c6d1b4739c345e860a89cde1"
-  integrity sha512-mxThGPUNnE1lMvNb4wlXk0lcA7cA2vMGk1orWpydvMHg4oI8Gnz+PIWFLhmYtKvgZnxHEomwc3+2yjt/9lUfnw==
+"@slidev/client@0.40.6":
+  version "0.40.6"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.40.6.tgz#9f9c1dea94df667147c66c77a534e2e5c9718bb0"
+  integrity sha512-tfpO6pZw2ALzWUPcdxujIGRAp3oSCW2HU9dDkk31E2mpnhql1oM0Cs22RoiC3XJj3bsFRpSKY1cumhMZ3y/ZOg==
   dependencies:
     "@antfu/utils" "^0.7.2"
-    "@slidev/parser" "0.40.5"
-    "@slidev/types" "0.40.5"
+    "@slidev/parser" "0.40.6"
+    "@slidev/types" "0.40.6"
     "@unocss/reset" "^0.50.6"
     "@vueuse/core" "^9.13.0"
     "@vueuse/head" "^1.1.23"
@@ -853,13 +853,14 @@
     defu "^6.1.2"
     drauu "^0.3.2"
     file-saver "^2.0.5"
+    fuse.js "^6.6.2"
     js-base64 "^3.7.5"
     js-yaml "^4.1.0"
     katex "^0.16.4"
     mermaid "^9.4.3"
     monaco-editor "^0.33.0"
-    nanoid "^4.0.1"
-    prettier "^2.8.6"
+    nanoid "^4.0.2"
+    prettier "^2.8.7"
     recordrtc "^5.6.2"
     resolve "^1.22.1"
     unocss "^0.50.6"
@@ -869,12 +870,12 @@
     vue-starport "^0.3.0"
     windicss "^3.5.6"
 
-"@slidev/parser@0.40.5":
-  version "0.40.5"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.40.5.tgz#5cbee47718eac963f9950018a658572961e92675"
-  integrity sha512-qGij4w9p6eZMYkl7w5p9V0PUXykngvV4/5x7XHwA5RetsCpdlJwM/LfjyDpn6Nv5OvB0gNW8vO/uR6ISzxkJPA==
+"@slidev/parser@0.40.6":
+  version "0.40.6"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.40.6.tgz#02742d475bada16a95ab083fdfe1b69dfef2ef59"
+  integrity sha512-QIg6dUHJSzqYx1ZjJotoDZ1eUrhBCD+AFazcRokWvoq9qaDNxIrw2gKvmR++EIYnFtFSBFIwp96dVkMTiw2Gqw==
   dependencies:
-    "@slidev/types" "0.40.5"
+    "@slidev/types" "0.40.6"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@0.21.2":
@@ -887,10 +888,10 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/types@0.40.5":
-  version "0.40.5"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.40.5.tgz#8cefc6bf03e49cfec14ab21173b6a2f72fe8cba4"
-  integrity sha512-da+XroXGHUliqMNqYUpuRIq/v05YrGmWP96218ByVOhCsgjfUwkfzxStQGbj00TaGszp/CLawsmPwFquTh9pVA==
+"@slidev/types@0.40.6":
+  version "0.40.6"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.40.6.tgz#c705baced0e4c248d86c276a8ac96ada0f40b261"
+  integrity sha512-LpIw2BSaSUCkeZ10hKTqBDxF5PB5HZ81gyjjST/+EnorIfgj79j59IZ+MJD0KtOY2P4EwbF6DooiJsnG5muLWg==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
@@ -2350,6 +2351,11 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
+fuse.js@^6.6.2:
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.6.2.tgz#fe463fed4b98c0226ac3da2856a415576dc9a111"
+  integrity sha512-cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==
+
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
@@ -3005,10 +3011,10 @@ nanoid@^3.1.23, nanoid@^3.3.4:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
 
-nanoid@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-4.0.1.tgz#398d7ccfdbf9faf2231b2ca7e8fff5dbca6a509b"
-  integrity sha512-udKGtCCUafD3nQtJg9wBhRP3KMbPglUsgV5JVsXhvyBs/oefqb4sqMEhKBBgqZncYowu58p1prsZQBYvAj/Gww==
+nanoid@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-4.0.2.tgz#140b3c5003959adbebf521c170f282c5e7f9fb9e"
+  integrity sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==
 
 node-fetch-native@^1.0.1:
   version "1.0.1"
@@ -3237,10 +3243,10 @@ postcss@^8.4.21:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-prettier@^2.8.6:
-  version "2.8.6"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.6.tgz#5c174b29befd507f14b83e3c19f83fdc0e974b71"
-  integrity sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==
+prettier@^2.8.7:
+  version "2.8.7"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
+  integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
 
 prism-theme-vars@^0.2.2:
   version "0.2.2"
@@ -3725,18 +3731,18 @@ unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
-unplugin-icons@^0.15.3:
-  version "0.15.3"
-  resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.15.3.tgz#0d7d0cbcd6c420c2638d6a95f9929e75e66f86e6"
-  integrity sha512-YWgJqv5AahrokeOnta8uX/m1damZA6Rf6zPClgHg2Fa/45iyOe3Lj+Wn/Ba+CSsq9yBffn17YfKfJNyWCNZPvw==
+unplugin-icons@^0.16.1:
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.16.1.tgz#e341185e17f4a7a9171b6dd932b5bf26a2f31fb9"
+  integrity sha512-qTunFUkpAyDnwzwV7YV1ZgCWRYfLuURcCurhhXOWMy2ipY88qx1pADvral2hJu4Xymh0X0t3Zcll3BIru2AVLQ==
   dependencies:
     "@antfu/install-pkg" "^0.1.1"
     "@antfu/utils" "^0.7.2"
-    "@iconify/utils" "^2.1.2"
+    "@iconify/utils" "^2.1.5"
     debug "^4.3.4"
     kolorist "^1.7.0"
     local-pkg "^0.4.3"
-    unplugin "^1.0.1"
+    unplugin "^1.3.1"
 
 unplugin-vue-components@^0.24.1:
   version "0.24.1"
@@ -3764,7 +3770,7 @@ unplugin@^1.0.0, unplugin@^1.0.1:
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.5.0"
 
-unplugin@^1.1.0:
+unplugin@^1.1.0, unplugin@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.3.1.tgz#7af993ba8695d17d61b0845718380caf6af5109f"
   integrity sha512-h4uUTIvFBQRxUKS2Wjys6ivoeofGhxzTe2sRWlooyjHXVttcVfV/JiavNd3d4+jty0SVV0dxGw9AkY9MwiaCEw==
@@ -3820,14 +3826,14 @@ vite-plugin-inspect@^0.7.18:
     sirv "^2.0.2"
     ufo "^1.1.1"
 
-vite-plugin-remote-assets@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-remote-assets/-/vite-plugin-remote-assets-0.3.1.tgz#b03b6773a5e3dcfcf536b81b7f4b06efc79f36d7"
-  integrity sha512-sB90UvpdiPSmsBosyYu7IWlGVXmOJ8ArEEhMbGW6HuyDDlrn2Ptx7FRQ3VdNFwJCOnnxvbIygfa4QvaGL3NnVA==
+vite-plugin-remote-assets@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-remote-assets/-/vite-plugin-remote-assets-0.3.2.tgz#e580f59a2c46d4674edb23c3d61e157d81d6b7e6"
+  integrity sha512-E0xS2fHpoJffpsU4W82XDaBRxx2Yh4Zwl4Q668V/HXa/b0nNDaQyo5ff5tS6D4pwGBVuAKlGYyUEE63P/RfiwA==
   dependencies:
     axios "^1.3.4"
     debug "^4.3.4"
-    fs-extra "^11.1.0"
+    fs-extra "^11.1.1"
     magic-string "^0.30.0"
 
 vite-plugin-vue-markdown@^0.22.4:
