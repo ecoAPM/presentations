@@ -783,19 +783,19 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@slidev/cli@0.40.9":
-  version "0.40.9"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.40.9.tgz#1b6abfbfc9320ded44db3492d7e6c4a444e4c10e"
-  integrity sha512-AwkkJeoPYwy4xC3tU0RA/wyhF/3hYtgGn1U9fqN0543wpkCWwYjFkSLAvXgBxz5gX1QkSOX3btI+URDJKAfijA==
+"@slidev/cli@0.40.10":
+  version "0.40.10"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.40.10.tgz#22400c81d56557ecd0a2fbeedc182c9655ff1d29"
+  integrity sha512-4UwRzO/+V1WI3PdUgwAtzEYXSnmwtgrvAvOwMaFdq66K+TA8VMkP5xAAb11KD1WatUKVtS7dH3XB3PFaPdNxcw==
   dependencies:
     "@antfu/utils" "^0.7.2"
     "@hedgedoc/markdown-it-plugins" "^2.0.0"
     "@iconify-json/carbon" "^1.1.16"
     "@iconify-json/ph" "^1.1.5"
     "@lillallol/outline-pdf" "^4.0.0"
-    "@slidev/client" "0.40.9"
-    "@slidev/parser" "0.40.9"
-    "@slidev/types" "0.40.9"
+    "@slidev/client" "0.40.10"
+    "@slidev/parser" "0.40.10"
+    "@slidev/types" "0.40.10"
     "@vitejs/plugin-vue" "^4.1.0"
     "@vitejs/plugin-vue-jsx" "^3.0.1"
     "@windicss/config" "^1.8.10"
@@ -836,6 +836,7 @@
     vite "^4.2.1"
     vite-plugin-inspect "^0.7.19"
     vite-plugin-remote-assets "^0.3.2"
+    vite-plugin-static-copy "^0.13.1"
     vite-plugin-vue-markdown "^0.22.4"
     vite-plugin-vue-server-ref "^0.3.1"
     vite-plugin-windicss "^1.8.10"
@@ -843,14 +844,14 @@
     windicss "^3.5.6"
     yargs "^17.7.1"
 
-"@slidev/client@0.40.9":
-  version "0.40.9"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.40.9.tgz#d2ba7bb56fc724880196a8a0939a7c7a26462fc3"
-  integrity sha512-WPSEYSVYpn0qulx83tgrqqeRaXoSTD2BT+/oIjM74XmfKmBEPYUaplw5wqpODCtyJpjTRHtmV2bq2Uy53xQAJg==
+"@slidev/client@0.40.10":
+  version "0.40.10"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.40.10.tgz#7c6faa6e2e1cf3c815b7e1fddf8c9577d67adca3"
+  integrity sha512-r9kKFhfUIpNmU5Wp8UFtdQkPwGcWxtmEYIB2NJtegFYr8YsaM9wbeRXVVEdVUtCMSKrLgeAaj2+E1N8JHdvP3Q==
   dependencies:
     "@antfu/utils" "^0.7.2"
-    "@slidev/parser" "0.40.9"
-    "@slidev/types" "0.40.9"
+    "@slidev/parser" "0.40.10"
+    "@slidev/types" "0.40.10"
     "@unocss/reset" "^0.51.0"
     "@vueuse/core" "^9.13.0"
     "@vueuse/head" "^1.1.23"
@@ -877,12 +878,12 @@
     vue-starport "^0.3.0"
     windicss "^3.5.6"
 
-"@slidev/parser@0.40.9":
-  version "0.40.9"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.40.9.tgz#6c98e91e4e4460ea5b4048f6113579563399951a"
-  integrity sha512-MdZ5m5d5aLShv0DdqbtFNw53srbv5beYAjYVyDZ/RbagGSSIz9du+QEA118jFLQDsc8k00qE4O+RC/6S73dqyA==
+"@slidev/parser@0.40.10":
+  version "0.40.10"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.40.10.tgz#3e77109ab89dd496756f29dc6898b75572a9239c"
+  integrity sha512-prIWfPcKdiCXLXIF9wjQ8M/OBHDuMSojzpIigAzxhEOeNQYL786jbSKzzHkP6fkyWVv4L7d9wdqpAn/flRzNjA==
   dependencies:
-    "@slidev/types" "0.40.9"
+    "@slidev/types" "0.40.10"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@0.21.2":
@@ -895,10 +896,10 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/types@0.40.9":
-  version "0.40.9"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.40.9.tgz#d5ffff78507d3216cc8e2ab6220ed4fc1b44eeed"
-  integrity sha512-PM0Cmi3yeqAOuk3DL/gpYGsR4W+aas8uffpvFvsek6GAz49c/95iC1zridxbvXDyWqxVcUaQ4wCmL/KtqdN+bw==
+"@slidev/types@0.40.10":
+  version "0.40.10"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.40.10.tgz#37169b214b82083798eb8cd12987e25265b6b1cc"
+  integrity sha512-CEcF/7G9JQiXKnzynWsu/VxQnQr+EmFja8cZKJZYm5dx3du59G0gqfGQ4qr7KnCXhshVMSnKFe6QsQfCZNWZvg==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
@@ -2371,7 +2372,7 @@ framesync@6.1.2, framesync@^6.1.2:
   dependencies:
     tslib "2.4.0"
 
-fs-extra@^11.1.1:
+fs-extra@^11.1.0, fs-extra@^11.1.1:
   version "11.1.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.1.tgz#da69f7c39f3b002378b0954bb6ae7efdc0876e2d"
   integrity sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==
@@ -3884,6 +3885,16 @@ vite-plugin-remote-assets@^0.3.2:
     debug "^4.3.4"
     fs-extra "^11.1.1"
     magic-string "^0.30.0"
+
+vite-plugin-static-copy@^0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-static-copy/-/vite-plugin-static-copy-0.13.1.tgz#0560c904f3c6b0acf756bd81d53131f4a8072d55"
+  integrity sha512-KwIcGBT1aOxSq+laK3VmSngoEa3HXWj/6ZEXdv+y59eZ7p/XSuPahoDo+CfYW22JjTdnstgeKWiX+78KNgDu6g==
+  dependencies:
+    chokidar "^3.5.3"
+    fast-glob "^3.2.11"
+    fs-extra "^11.1.0"
+    picocolors "^1.0.0"
 
 vite-plugin-vue-markdown@^0.22.4:
   version "0.22.4"
