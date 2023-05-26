@@ -567,6 +567,16 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.17.12.tgz#3a11d13e9a5b0c05db88991b234d8baba1f96487"
   integrity sha512-JOOxw49BVZx2/5tW3FqkdjSD/5gXYeVGPDcB0lvap0gLQshkh1Nyel1QazC+wNxus3xPlsYAgqU1BUmrmCvWtw==
 
+"@fontsource/noto-sans@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans/-/noto-sans-5.0.1.tgz#ad387514540ea0b5eae7bfad96e721aad5b3bb8b"
+  integrity sha512-leKUNPNAfScPqradE7k8D5sPMjyxZddkVP3yx2m68hvgsgzbwGX+mLh53nD2dbHyJLjylPSAtA02UsWOkaee2g==
+
+"@fortawesome/fontawesome-free@6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.4.0.tgz#1ee0c174e472c84b23cb46c995154dc383e3b4fe"
+  integrity sha512-0NyytTlPJwB/BF5LtRV8rrABDbe3TdTXqNB3PdZ+UUUZAEIrdOJdmABqKjt4AXwIoJNaRVVZEXxpNrqvE1GAYQ==
+
 "@hedgedoc/markdown-it-plugins@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@hedgedoc/markdown-it-plugins/-/markdown-it-plugins-2.0.0.tgz#29c66ab30bfba164b851980f689f832ca9ca5f63"
@@ -2378,11 +2388,6 @@ follow-redirects@^1.14.0, follow-redirects@^1.15.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
   integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
-font-awesome@4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
-  integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
-
 form-data@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
@@ -3113,11 +3118,6 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
-
-notosans@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/notosans/-/notosans-5.0.0.tgz#77ee612a9de2a6b79f82c16a6accbfd6f9be33e5"
-  integrity sha512-P43+ZKprxdmpq2Qvy6KZCA6aNXHI33kMRgFi46HWSW+Q7wMhuFnnJcscwyasUA8dSnyxGtVWXBgdFO/QtlpkTQ==
 
 npm-run-path@^4.0.1:
   version "4.0.1"

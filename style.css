@@ -1,5 +1,7 @@
-@import url("notosans/noto.css");
-@import url("font-awesome/css/font-awesome.min.css");
+@import url("@fontsource/noto-sans/latin-300.css");
+@import url("@fortawesome/fontawesome-free/css/fontawesome.min.css");
+@import url("@fortawesome/fontawesome-free/css/solid.min.css");
+@import url("@fortawesome/fontawesome-free/css/brands.min.css");
 
 .slidev-layout {
 	font-size: 250% !important;
@@ -9,6 +11,9 @@ a,
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 li,
 p,
 td,
