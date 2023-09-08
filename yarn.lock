@@ -928,10 +928,10 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@slidev/cli@0.43.0":
-  version "0.43.0"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.43.0.tgz#2fc323beec5b656bbbcc8758c5965edcbf341056"
-  integrity sha512-txJ+t7VsZVfDoLvU8KiKtBVaj37rI30/5y11f/wiLbnxWXcDYx+ZWfxMNxfvL7WxgDFAv2k7Euj4Hf/+NCVgQA==
+"@slidev/cli@0.43.1":
+  version "0.43.1"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-0.43.1.tgz#4f121e72deb2c9e04155c8bf34c2e1539f094db2"
+  integrity sha512-n0JUzHyFZ2rXa7XvnRGjJTjEmznKJfO8vruA3XbpBP84OvbXpxAk7SbjvgXLpdkC304/7q0ZJQKEegukvHVFSA==
   dependencies:
     "@antfu/utils" "^0.7.6"
     "@hedgedoc/markdown-it-plugins" "^2.1.4"
@@ -939,10 +939,10 @@
     "@iconify-json/ph" "^1.1.6"
     "@lillallol/outline-pdf" "^4.0.0"
     "@mrdrogdrog/optional" "^1.2.1"
-    "@slidev/client" "0.43.0"
-    "@slidev/parser" "0.43.0"
-    "@slidev/types" "0.43.0"
-    "@unocss/extractor-mdc" "^0.55.6"
+    "@slidev/client" "0.43.1"
+    "@slidev/parser" "0.43.1"
+    "@slidev/types" "0.43.1"
+    "@unocss/extractor-mdc" "^0.55.7"
     "@vitejs/plugin-vue" "^4.3.4"
     "@vitejs/plugin-vue-jsx" "^3.0.2"
     "@windicss/config" "^1.9.1"
@@ -952,12 +952,12 @@
     debug "^4.3.4"
     fast-glob "^3.3.1"
     fs-extra "^11.1.1"
-    get-port-please "^3.0.2"
+    get-port-please "^3.1.1"
     global-dirs "^3.0.1"
     htmlparser2 "^9.0.0"
     import-from "^4.0.0"
     is-installed-globally "^0.4.0"
-    jiti "^1.19.3"
+    jiti "^1.20.0"
     js-base64 "^3.7.5"
     katex "^0.16.8"
     kolorist "^1.8.0"
@@ -965,7 +965,7 @@
     markdown-it "^13.0.1"
     markdown-it-footnote "^3.0.3"
     markdown-it-link-attributes "^4.0.1"
-    markdown-it-mdc "^0.1.3"
+    markdown-it-mdc "^0.1.4"
     monaco-editor "^0.37.1"
     nanoid "^4.0.2"
     open "^8.4.1"
@@ -977,8 +977,8 @@
     resolve "^1.22.4"
     resolve-from "^5.0.0"
     resolve-global "^1.0.0"
-    shiki "npm:shikiji-compat@^0.6.6"
-    unocss "^0.55.6"
+    shiki "npm:shikiji-compat@^0.6.7"
+    unocss "^0.55.7"
     unplugin-icons "^0.17.0"
     unplugin-vue-components "^0.25.2"
     unplugin-vue-markdown "^0.24.3"
@@ -993,15 +993,15 @@
     windicss "^3.5.6"
     yargs "^17.7.2"
 
-"@slidev/client@0.43.0":
-  version "0.43.0"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.43.0.tgz#0058495c899568dfffe5a7877451376d5ce1e181"
-  integrity sha512-DbYcpzGEeAWQjselJnLnkW+3+4+DhLcHGrljdQlMBIps3B8wtSkO3iPWvy2wybPevAsqYgbQFMR0XrRzM55+Sg==
+"@slidev/client@0.43.1":
+  version "0.43.1"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.43.1.tgz#7619444ff4d5d2d468fadc68df194b0c361b9793"
+  integrity sha512-4ALMoStjyay/ZC/1Yek1wnJzCFZihMYwc/2FX6VvEIkmFtNjbtMYx8d6pNPOsvvX+mx4skG0IDz/5YSfQU7hFw==
   dependencies:
     "@antfu/utils" "^0.7.6"
-    "@slidev/parser" "0.43.0"
-    "@slidev/types" "0.43.0"
-    "@unocss/reset" "^0.55.6"
+    "@slidev/parser" "0.43.1"
+    "@slidev/types" "0.43.1"
+    "@unocss/reset" "^0.55.7"
     "@vueuse/core" "^10.4.1"
     "@vueuse/head" "^1.3.1"
     "@vueuse/math" "^10.4.1"
@@ -1020,19 +1020,19 @@
     prettier "^3.0.3"
     recordrtc "^5.6.2"
     resolve "^1.22.4"
-    unocss "^0.55.6"
+    unocss "^0.55.7"
     vite-plugin-windicss "^1.9.1"
     vue "^3.3.4"
     vue-router "^4.2.4"
     vue-starport "^0.3.0"
     windicss "^3.5.6"
 
-"@slidev/parser@0.43.0":
-  version "0.43.0"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.43.0.tgz#9b73e13e2efc45dd5c528be5726da544c09b11b2"
-  integrity sha512-aM4iksxc/0qqLxD0njrm4D52+GmrApM0aCEzpZR4D234UtTOSpTEnWoxBDPgQoXPsJ4i6Efma1fPkWeYyR98jA==
+"@slidev/parser@0.43.1":
+  version "0.43.1"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.43.1.tgz#2cbe45ecda05aca03ba18af429c4b1d94db72888"
+  integrity sha512-JdNwhjpn4mCv+cqGQFP/ZLbqq60IqTd/AyxQoQC5/xX10GMlux4zyWBEDPGNfj6F1smFKO4nXYZP9radFst0lw==
   dependencies:
-    "@slidev/types" "0.43.0"
+    "@slidev/types" "0.43.1"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@0.21.2":
@@ -1045,10 +1045,10 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/types@0.43.0":
-  version "0.43.0"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.43.0.tgz#464c4821caaeebd543a242f02d08d968e6a38415"
-  integrity sha512-qAwkBMgr4lH9aexD5aSuqKRBz5+rA/Ma8LYSfy2INqQs6mNppZ7CbGoLyx8BY6qazSxxKsWqhrwStH+8e2d0tg==
+"@slidev/types@0.43.1":
+  version "0.43.1"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.43.1.tgz#31c91f8f12e50190ee648c94e18302f52515c9a9"
+  integrity sha512-PkCOMFkGXY4eOwF2khDgpbwWy6x4i3FdeC5fpPq2uklwr+C+phzud+tEpJZ4kyevg7FRxOQH4rA39SaT+0aHbQ==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
@@ -1245,7 +1245,7 @@
   dependencies:
     "@unocss/core" "0.55.7"
 
-"@unocss/extractor-mdc@^0.55.6":
+"@unocss/extractor-mdc@^0.55.7":
   version "0.55.7"
   resolved "https://registry.yarnpkg.com/@unocss/extractor-mdc/-/extractor-mdc-0.55.7.tgz#3690b803146de535e39d059af2caebcedebc9696"
   integrity sha512-ZxfgpA5UcJ1N6mah9fMTB6L+dcAatJ752zzXpKnjicIRGf+rM2I9mbstSo4tNo5l68zHKAAgkl7FqydKabNihw==
@@ -1334,7 +1334,7 @@
     "@unocss/core" "0.55.7"
     "@unocss/preset-mini" "0.55.7"
 
-"@unocss/reset@0.55.7", "@unocss/reset@^0.55.6":
+"@unocss/reset@0.55.7", "@unocss/reset@^0.55.7":
   version "0.55.7"
   resolved "https://registry.yarnpkg.com/@unocss/reset/-/reset-0.55.7.tgz#9489a49c74795ea1488e3afbeb743e67e90c7749"
   integrity sha512-yvmLhxqUNgf6wue7IvhV/FdrQW9H9LF1Bmmhwwaiz2aV0E74aN4pbuYPZwNq3YafsQvNQ0UdtuXjddY4QMRCPw==
@@ -2797,10 +2797,10 @@ get-caller-file@^2.0.5:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-port-please@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/get-port-please/-/get-port-please-3.0.2.tgz#72c1880307ab077942d728744eb17257a0beb195"
-  integrity sha512-c14cAITf0E+uqdxGALvyYHwOL7UsnWcv3oDtgDAZksiVSGN87xlWVUWGZcmWQU3cICdaOxT+6LdQzUfK2ei1SA==
+get-port-please@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/get-port-please/-/get-port-please-3.1.1.tgz#2556623cddb4801d823c0a6a15eec038abb483be"
+  integrity sha512-3UBAyM3u4ZBVYDsxOQfJDxEa6XTbpBDrOjp4mf7ExFRt5BKs/QywQQiJsh2B+hxcZLSapWqCRvElUe8DnKcFHA==
 
 get-stream@^6.0.0, get-stream@^6.0.1:
   version "6.0.1"
@@ -3193,10 +3193,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-jiti@^1.18.2, jiti@^1.19.1, jiti@^1.19.3:
-  version "1.19.3"
-  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.19.3.tgz#ef554f76465b3c2b222dc077834a71f0d4a37569"
-  integrity sha512-5eEbBDQT/jF1xg6l36P+mWGGoH9Spuy0PCdSr2dtWRDGC6ph/w9ZCL4lmESW8f8F7MwT3XKescfP0wnZWAKL9w==
+jiti@^1.18.2, jiti@^1.19.1, jiti@^1.20.0:
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.20.0.tgz#2d823b5852ee8963585c8dd8b7992ffc1ae83b42"
+  integrity sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==
 
 js-base64@^3.7.5:
   version "3.7.5"
@@ -3391,10 +3391,10 @@ markdown-it-link-attributes@^4.0.1:
   resolved "https://registry.yarnpkg.com/markdown-it-link-attributes/-/markdown-it-link-attributes-4.0.1.tgz#25751f2cf74fd91f0a35ba7b3247fa45f2056d88"
   integrity sha512-pg5OK0jPLg62H4k7M9mRJLT61gUp9nvG0XveKYHMOOluASo9OEF13WlXrpAp2aj35LbedAy3QOCgQCw0tkLKAQ==
 
-markdown-it-mdc@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/markdown-it-mdc/-/markdown-it-mdc-0.1.3.tgz#720aebff6b97d310e6f849f784d3915206cea20a"
-  integrity sha512-HHpN0KiRG96C/FhipO6/fAN/v0FgrM96AZLPiywQHuDIT/9GZN82xviuQPnR+u8rz0j66LVxlCkT2d0be0qgWw==
+markdown-it-mdc@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/markdown-it-mdc/-/markdown-it-mdc-0.1.4.tgz#57cb29490cb5046aa1cbf00dfdf01d749502aef3"
+  integrity sha512-9+DN+a7aA3dywExjFxfEcH6JFEpEcysnysqWVDXcgcYvI3Ej0dYNdXLF2YLDMu8je/Qpf9QiHLA9L8tJbb1aog==
   dependencies:
     js-yaml "^4.1.0"
 
@@ -4329,17 +4329,17 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-"shiki@npm:shikiji-compat@^0.6.6":
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/shikiji-compat/-/shikiji-compat-0.6.6.tgz#8788a94b56d67821894644377c6c69ceb336a990"
-  integrity sha512-cBAVeHsuNVS+oq0jmvaNNDOmWcTv77Rb6sCAlHSjiPltWKdtl0i7gLV0HAJ5yoPnJQsqcWQWY5rx6JJywDN50A==
+"shiki@npm:shikiji-compat@^0.6.7":
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/shikiji-compat/-/shikiji-compat-0.6.8.tgz#5ea0b60e4c5ddd39ac97ca19a89a9d3bec67d385"
+  integrity sha512-/zU/ovJAOm+a0gnTf1PlOvvKHeWUOCqwXDt35KzYsPVvQoDCxUicHVrgiCcgSG79gGsMizR+x0CJDw//wQQpyQ==
   dependencies:
-    shikiji "0.6.6"
+    shikiji "0.6.8"
 
-shikiji@0.6.6:
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/shikiji/-/shikiji-0.6.6.tgz#dc06197117cb2c56d38dbcf5c87eaee4d7123539"
-  integrity sha512-l9/mbXakfVl85gNd4wdQyvpiZN6qZiWVffGc8M2WpPeByS8aCJPAKZu38m89acosxQMbWvcFEKUMF8KvswYKGw==
+shikiji@0.6.8:
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/shikiji/-/shikiji-0.6.8.tgz#27d8d25ecfe823450167825e620dfb84ae983837"
+  integrity sha512-K0axxNAdB9KvLUflU7QoLC7p6i2p1R2MFG0eP+iclbjtuEZqng99jHcg3VJL0GWRO67yozTICnykjo1HjOzdkg==
   dependencies:
     hast-util-to-html "^9.0.0"
 
@@ -4677,7 +4677,7 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-unocss@^0.55.6:
+unocss@^0.55.7:
   version "0.55.7"
   resolved "https://registry.yarnpkg.com/unocss/-/unocss-0.55.7.tgz#79e1284c0a3f6c262aa78670cfac0ae344387830"
   integrity sha512-3W9P7vj2EhSk/4oPCHBS0VgrwSf5zZL6Az1/XARVOpBnRJtCM2szFInYxHkMgt9pkZTsW8SFCuk/g+QIJ6A8tg==
