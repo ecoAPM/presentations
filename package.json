@@ -4,7 +4,7 @@
     "build": "slidev build"
   },
   "devDependencies": {
-    "@slidev/cli": "0.43.9",
+    "@slidev/cli": "0.43.12",
     "@slidev/theme-default": "0.21.2",
     "@fortawesome/fontawesome-free": "6.4.2",
     "@fontsource/noto-sans": "5.0.17"
