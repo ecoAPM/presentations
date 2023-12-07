@@ -742,10 +742,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.19.8.tgz#c8285183dbdb17008578dbacb6e22748709b4822"
   integrity sha512-bfZ0cQ1uZs2PqpulNL5j/3w+GDhP36k1K5c38QdQg+Swy51jFZWWeIkteNsufkQxp986wnqRRsb/bHbY1WQ7TA==
 
-"@fontsource/noto-sans@5.0.17":
-  version "5.0.17"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans/-/noto-sans-5.0.17.tgz#ce2044d79516c000b6e1e2bd76356e322360a5a1"
-  integrity sha512-VcnKA99cE8OgRiy6O3T6xCKirsguD5+MYrGrbBWYA3m3fqDArCr66eEvR3iuTngGLbTODJq4bzc6yfaiGZu/pQ==
+"@fontsource/noto-sans@5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans/-/noto-sans-5.0.18.tgz#810600bc614b7a89eb7ef097c3cf608246c96edb"
+  integrity sha512-tPMBWiI268eApqBl6QyAH0I3dvLaHuECJ9H1S0Ve2qd380tuPcHSJaeBv4CEha643hJ+KH1Nm7FnHhQSeZvHHw==
 
 "@fortawesome/fontawesome-free@6.5.1":
   version "6.5.1"
