@@ -109,6 +109,18 @@ hr {
 	margin: 1rem !important;
 }
 
+img {
+	max-height: 640px;
+}
+
+.sxs img {
+	float: left;
+	width: calc(50% - 2rem);
+	padding: 1rem;
+	margin: 1rem;
+	background-color: white;
+}
+
 .sxs pre {
 	width: 45%;
 	float: left;
@@ -143,4 +155,8 @@ hr {
 
 .grid-container .grid-section.note * {
 	font-size: 2rem;
+}
+
+.img-white img {
+	background-color: white;
 }

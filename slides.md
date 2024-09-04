@@ -4,71 +4,127 @@ theme: default
 colorSchema: dark
 class: text-center
 highlighter: prism
-title: Not Your Parents' .NET
+title: Domain Driven Design
 ---
 
-# Not Your Parents' .NET
+# Ithaca Web People
 
-<img src="/steve.jpg" alt="Steve" class="profile" />
-<img src="/logo.png" alt="ecoAPM logo" class="logo" />
+## Domain Driven Design Discussion
 
-## Steve Desmond
+### September 9, 2024
 
-### (date)
-
-#### (location)
+#### Rev Startup Works
 
 ---
 
 ## Agenda
 
-1. ...
+1. Definition/Origin
+1. Principles/Patterns
+1. Related Practices
+1. Discussion
 
 ---
-class: 'contact'
+
+## Definition
+
+> [DDD] centers the development on programming a domain model that has a rich understanding of the processes and rules of a domain
+
+&mdash; Martin Fowler
+
 ---
 
-<img src="/steve.jpg" alt="Steve" />
+## Origin
 
-# Steve Desmond
+![DDD Book cover](https://learning.oreilly.com/library/cover/0321125215/250w/)
 
-### Lead Developer @ ecoAPM
+---
 
-<img src="/logo.png" alt="ecoAPM logo" />
+## Principles/Patterns
 
-<i class="fa-solid fa-earth-america"></i> [SteveDesmond.ca](https://SteveDesmond.ca) | [ecoAPM.com](https://ecoAPM.com)
+- Ubiquitous Language
+- Domain Models
+   - Entities
+   - Value Objects
+   - Service Objects
+- Aggregates
+- Bounded Contexts
 
-<i class="fa-brands fa-github"></i> [SteveDesmond-ca](https://github.com/SteveDesmond-ca) | [ecoAPM](https://github.com/ecoAPM)
+---
 
-<i class="fa-brands fa-linkedin"></i> [Steve-Desmond](https://linkedin.com/in/Steve-Desmond) | [ecoAPM](https://linkedin.com/company/ecoAPM)
+### Ubiquitous Language
 
-<i class="fa-brands fa-mastodon"></i> [@ecoSteve @ mastodon.social](https://mastodon.social/ecoSteve)
-<span style="float:right;"> | [@ecoAPM @ fosstodon.org](https://fosstodon.org/@ecoAPM)</span>
+![Ubiquitous Language](/ubiquitous.png)
+
+---
+
+### Domain Models
+
+![Domain Models](http://seedstack.org/docs/business/img/all-domain.png)
+
+---
+
+### Aggregates
+
+- Order
+  - Customer
+    - Name
+	- Address
+  - Cart
+    - Items, Quanities
+
+---
+class: img-white
+---
+
+### Bounded Contexts
+
+![Bounded Contexts](https://martinfowler.com/bliki/images/boundedContext/sketch.png)
+
+---
+
+## Related Practices / Implementations
+
+- CQRS
+- Event Sourcing
+- Microservices
+
+---
+class: img-white
+---
+
+### CQRS
+
+![CQRS](https://martinfowler.com/bliki/images/cqrs/cqrs.png)
+
+---
+class: 'sxs'
+---
+
+### Event Sourcing
+
+![Simple](https://martinfowler.com/eaaDev/eventSourcing/simpleService.gif)
+
+![Event Sourcing](https://martinfowler.com/eaaDev/eventSourcing/simpleEventCd.gif)
+
+---
+class: img-white
+---
+
+### Microservices
+
+![Bounded Contexts](https://martinfowler.com/bliki/images/boundedContext/sketch.png)
+
+---
+
+## Resources
+
+- https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/
+- https://martinfowler.com/bliki/DomainDrivenDesign.html
 
 ---
 layout: cover
 class: 'text-center'
 ---
 
-# Thanks!
-
----
-class: 'contact'
----
-
-<img src="/steve.jpg" alt="Steve" />
-
-# Steve Desmond
-
-### Lead Developer @ ecoAPM
-
-<img src="/logo.png" alt="ecoAPM logo" />
-
-<i class="fa-solid fa-earth-america"></i> [SteveDesmond.ca](https://SteveDesmond.ca) | [ecoAPM.com](https://ecoAPM.com)
-
-<i class="fa-brands fa-github"></i> [SteveDesmond-ca](https://github.com/SteveDesmond-ca) | [ecoAPM](https://github.com/ecoAPM)
-
-<i class="fa-brands fa-linkedin"></i> [Steve-Desmond](https://linkedin.com/in/Steve-Desmond) | [ecoAPM](https://linkedin.com/company/ecoAPM)
-
-<i class="fa-brands fa-mastodon"></i> [@ecoSteve @ mastodon.social](https://mastodon.social/ecoSteve)
-<span style="float:right;"> | [@ecoAPM @ fosstodon.org](https://fosstodon.org/@ecoAPM)</span>
+# Let's talk!
