@@ -6,7 +6,7 @@
   "devDependencies": {
     "@slidev/cli": "52.11.5",
     "@slidev/theme-default": "0.25.0",
-    "@fortawesome/fontawesome-free": "7.1.0",
+    "@fortawesome/fontawesome-free": "7.2.0",
     "@fontsource/noto-sans": "5.2.10"
   }
 }
