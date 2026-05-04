@@ -1,0 +1,3096 @@
+[
+  {
+    "name": "Space-Themed Code Golf",
+    "date": "2026-04-06T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 2,
+    "who": [
+      "Steve Desmond",
+      "John White"
+    ]
+  },
+  {
+    "name": "What's new in tech?",
+    "date": "2026-03-09T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 2,
+    "who": [
+      "Steve Desmond",
+      "Ian London"
+    ]
+  },
+  {
+    "name": "Lightning Talks: Favorite OSS Projects",
+    "date": "2026-02-09T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 3,
+    "who": [
+      "Steve Desmond",
+      "Chuck Houpt",
+      "Marianna Shvartsapel"
+    ]
+  },
+  {
+    "name": "Post-Holiday Casual Socialization",
+    "date": "2026-01-12T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 2,
+    "who": [
+      "Steve Desmond",
+      "pratyushsudhakar03"
+    ]
+  },
+  {
+    "name": "Advent of Code Mob Programming",
+    "date": "2025-12-01T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 3,
+    "who": [
+      "Steve Desmond",
+      "User 391170961",
+      "Chuck Houpt"
+    ]
+  },
+  {
+    "name": "Ithaca College Computer Science visit",
+    "date": "2025-11-03T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Steve Desmond",
+      "DeAun",
+      "Michael",
+      "Jeff Szuc..",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Lightning Talks: AI Show & Tell",
+    "date": "2025-10-06T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Joe Nolan",
+      "Michael",
+      "Leo Tohill",
+      "Jeff Szuc.."
+    ]
+  },
+  {
+    "name": "All The New Hotness",
+    "date": "2025-09-08T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 3,
+    "who": [
+      "Steve Desmond",
+      "Michael",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Happy Hour",
+    "date": "2025-08-12T17:30:00-04:00",
+    "location": "Personal Best, 321 W State St,, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Steve Desmond",
+      "griffinstanui99",
+      "Chris Marx",
+      "Rich Andrulis",
+      "Michael"
+    ]
+  },
+  {
+    "name": "Profiling and Fixing Common Performance Bottlenecks",
+    "date": "2025-07-07T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "wilmer abreu",
+      "Chris Marx",
+      "Max",
+      "Chuck Houpt",
+      "Michael",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Lightning Talks: Summer Side Project Showcase",
+    "date": "2025-06-09T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "John White",
+      "sk4577121",
+      "Rich Andrulis",
+      "Max",
+      "Chuck Houpt",
+      "Michael",
+      "Leo Tohill",
+      "Jeff Szuc.."
+    ]
+  },
+  {
+    "name": "Lightning Talks: Front-End Showdown",
+    "date": "2025-05-05T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Sudeshna Pontula",
+      "Mike Ryan",
+      "Chuck Houpt",
+      "Mark",
+      "Michael",
+      "Doug Turnbull",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Reactive Programming and RxJS",
+    "date": "2025-04-07T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 10,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Aidan",
+      "Chris Marx",
+      "Mike Ryan",
+      "Michael",
+      "Chris Marx",
+      "David",
+      "Todd",
+      "Michael Sprague"
+    ]
+  },
+  {
+    "name": "DIY Thoughtworks Tech Radar",
+    "date": "2025-03-03T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Nithin",
+      "Mike Ryan"
+    ]
+  },
+  {
+    "name": "Introduction to GraphQL",
+    "date": "2025-02-03T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "Jared Beck",
+      "Sudeshna Pontula",
+      "Shunsuke Tada",
+      "Adam Shay",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Post-Holiday Hangout & 2025 Planning",
+    "date": "2025-01-06T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Sudeshna Pontula",
+      "Michael",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Advent of Code Mob Programming Session",
+    "date": "2024-12-02T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "kateghost76",
+      "Sudeshna Pontula",
+      "wilmer abreu",
+      "Shunsuke Tada",
+      "Chuck Houpt"
+    ]
+  },
+  {
+    "name": "New website hackathon",
+    "date": "2024-11-11T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Al",
+      "Abdiladif Farah",
+      "Dilip Kharel",
+      "Erin Murphy",
+      "Chuck Houpt",
+      "Michael"
+    ]
+  },
+  {
+    "name": "Lightning Talks: Resource Sharing",
+    "date": "2024-10-07T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Joe Nolan",
+      "wilmer abreu",
+      "Erin Murphy",
+      "Chris Marx",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Domain Driven Design Discussion",
+    "date": "2024-09-09T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Shunsuke Tada",
+      "Erin Murphy",
+      "Rich Andrulis",
+      "Michael",
+      "Leo Tohill",
+      "Chris Marx",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "IWP Happy Hour, Round 2",
+    "date": "2024-08-14T18:00:00-04:00",
+    "location": "Salt Point Brewing Co., 6 Louise Bement Ln, Lansing, NY, US",
+    "attendees": 5,
+    "who": [
+      "Steve Desmond",
+      "Erin Murphy",
+      "Nick Romans",
+      "Michael",
+      "Chris Marx"
+    ]
+  },
+  {
+    "name": "\"School's Out\" Happy Hour",
+    "date": "2024-07-03T18:00:00-04:00",
+    "location": "Salt Point Brewing Co., 6 Louise Bement Ln, Lansing, NY, US",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Michael",
+      "Dustin LeBlanc",
+      "Leon Miller-Out",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Estimation Discussion/Debate",
+    "date": "2024-06-03T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Al",
+      "Janet Dragojevic",
+      "Rich Andrulis"
+    ]
+  },
+  {
+    "name": "Professional Communication and Reflective Listening with Gina Williams of CDRC",
+    "date": "2024-05-06T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Steve Desmond",
+      "Jared Beck",
+      "Cat",
+      "Kelly Hays",
+      "John White",
+      "Anna",
+      "Shunsuke Tada",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Allison Usavage"
+    ]
+  },
+  {
+    "name": "Mob Session: Advent of Code",
+    "date": "2024-04-01T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Shunsuke Tada",
+      "Pete Thompson",
+      "Chuck Houpt",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "git monorepo conversion with John White",
+    "date": "2024-03-04T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Steve Desmond",
+      "Shunsuke Tada",
+      "Pete Thompson",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Leo Tohill",
+      "Chris Marx",
+      "Paul Stonier",
+      "Jared Beck",
+      "Michael Sprague"
+    ]
+  },
+  {
+    "name": "Quasar Framework with Michael Miles",
+    "date": "2024-02-05T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Sancha Spiller",
+      "Erin Murphy",
+      "Omar Shehata",
+      "Chuck Houpt",
+      "Michael",
+      "Armand Zerilli",
+      "Michael Sprague"
+    ]
+  },
+  {
+    "name": "Roundtable Discussion",
+    "date": "2024-01-08T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Erin Murphy",
+      "Nick Romans",
+      "Rich Andrulis",
+      "Michael",
+      "Michael Sprague"
+    ]
+  },
+  {
+    "name": "Mob Session: Advent of Code",
+    "date": "2023-12-04T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 8,
+    "who": [
+      "Steve Desmond",
+      "Erin Murphy",
+      "Ed H",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Michael",
+      "Chris Marx",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Lightning Talks: all things git",
+    "date": "2023-11-06T18:00:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Erin Murphy",
+      "Michael O'Neill",
+      "mbncatx",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Michael",
+      "Leo Tohill",
+      "Chris Marx"
+    ]
+  },
+  {
+    "name": "Code Review Discussion/Debate",
+    "date": "2023-10-02T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Chris Marx",
+      "Dilip Kharel",
+      "manvi mahajan",
+      "Ed H",
+      "Lazarus Alfred",
+      "Rich Andrulis",
+      "Ezra Davis",
+      "Armand Zerilli"
+    ]
+  },
+  {
+    "name": "Welcome Back Hangout",
+    "date": "2023-09-11T18:00:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Steve Desmond",
+      "Janet Dragojevic",
+      "Rich Andrulis",
+      "Armand Zerilli",
+      "Stephen Shaffer",
+      "Paul Stonier",
+      "Ty Finck"
+    ]
+  },
+  {
+    "name": "Not Your Parents' .NET",
+    "date": "2023-06-05T18:00:00-04:00",
+    "location": "Tompkins County Public Library, 101 E Green St, Ithaca, NY, US",
+    "attendees": 20,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Melissa Bolt",
+      "John White",
+      "Adam Shay",
+      "Imonee House",
+      "Betty Gebru",
+      "Rich Andrulis",
+      "Agnes",
+      "Michael"
+    ]
+  },
+  {
+    "name": "Strictly Social / Open Mic",
+    "date": "2023-05-08T18:00:00-04:00",
+    "location": "Tompkins County Public Library, 101 E Green St, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Al",
+      "Aaron Schneider",
+      "Tyler Bailey",
+      "Rich Andrulis",
+      "Omar Shehata",
+      "Michael",
+      "Paul Swann",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Lightning Talks: Teach Us Something Cool!",
+    "date": "2023-04-03T18:00:00-04:00",
+    "location": "Tompkins County Public Library, 101 E Green St, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "Cat",
+      "Al",
+      "Andy",
+      "Khensu-Ra Love El",
+      "Chuck Houpt"
+    ]
+  },
+  {
+    "name": "March Mobness",
+    "date": "2023-03-06T18:00:00-05:00",
+    "location": "Tompkins County Public Library, 101 E Green St, Ithaca, NY, US",
+    "attendees": 13,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Matthew Eng",
+      "Khensu-Ra Love El",
+      "Ty Russell",
+      "Rich Andrulis",
+      "Carmen Coppola",
+      "Agnes",
+      "Chuck Houpt",
+      "Andrew"
+    ]
+  },
+  {
+    "name": "\"#include <kids.h>\" with Michael Darfler",
+    "date": "2023-02-06T18:00:00-05:00",
+    "location": "Tompkins County Public Library, 101 E Green St, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Khensu-Ra Love El",
+      "Robin Varghese",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Seth Art"
+    ]
+  },
+  {
+    "name": "Authentication Deep Dive, with Jared Beck",
+    "date": "2023-01-09T18:00:00-05:00",
+    "location": "Tompkins County Public Library, 101 E Green St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Andy",
+      "Janet Dragojevic",
+      "Mandi Meidlinger",
+      "Rich Andrulis",
+      "Carmen Coppola",
+      "Omar Shehata",
+      "Chuck Houpt",
+      "Michael"
+    ]
+  },
+  {
+    "name": "(In-Person!) Lightning Talks: What I Did During Pandemic Break",
+    "date": "2022-12-05T18:00:00-05:00",
+    "location": "Tompkins County Public Library, 101 E Green St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Alan Willett",
+      "Andy",
+      "Robin Varghese",
+      "Timothy Weber",
+      "wrkprty®",
+      "Rich Andrulis",
+      "Omar Shehata",
+      "Chuck Houpt"
+    ]
+  },
+  {
+    "name": "Planning talks for 2023!",
+    "date": "2022-11-07T18:00:00-05:00",
+    "location": "Online",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "John White",
+      "Jin Choo",
+      "Mike Rotondo",
+      "Rich Andrulis",
+      "Dirk"
+    ]
+  },
+  {
+    "name": "Show & Tell",
+    "date": "2022-09-12T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 3,
+    "who": [
+      "Steve Desmond",
+      "Mike Rotondo",
+      "Rich Andrulis"
+    ]
+  },
+  {
+    "name": "Code Review workshop and TIS-100 programming game",
+    "date": "2022-08-01T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "Jin Choo",
+      "Mike Rotondo",
+      "Hetal Jariwala",
+      "Victor Aprea",
+      "Jeff Szuc.."
+    ]
+  },
+  {
+    "name": "Code Review and Elevator Automation",
+    "date": "2022-07-11T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 7,
+    "who": [
+      "Steve Desmond",
+      "Abdou Seye",
+      "Jin Choo",
+      "Mike Rotondo",
+      "Chris Marx",
+      "Jane",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Coding puzzles",
+    "date": "2022-06-06T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "Jose Espinoza",
+      "Grace Truong",
+      "Suhyun烂裤裆傻逼",
+      "Tyler Bailey",
+      "Chris Marx",
+      "Jeff Szuc..",
+      "Jared Beck",
+      "Serigne"
+    ]
+  },
+  {
+    "name": "AoC x2",
+    "date": "2022-05-16T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 6,
+    "who": [
+      "Steve Desmond",
+      "ninja nathan",
+      "Tyler Bailey",
+      "Mike Rotondo",
+      "Chris Marx",
+      "Dirk"
+    ]
+  },
+  {
+    "name": "Elevator Saga",
+    "date": "2022-04-04T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 2,
+    "who": [
+      "Steve Desmond",
+      "Mike Rotondo"
+    ]
+  },
+  {
+    "name": "Socializing / Advent of Code",
+    "date": "2022-03-07T18:00:00-05:00",
+    "location": "Online",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "Sharon Beltaine",
+      "Mike Rotondo",
+      "Michael",
+      "Amber Harris",
+      "Chris Marx",
+      "Dirk",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "TIS-100: Retro Mob Programming Game",
+    "date": "2022-02-07T18:00:00-05:00",
+    "location": "Online",
+    "attendees": 4,
+    "who": [
+      "Steve Desmond",
+      "Mike Rotondo",
+      "Armand Zerilli",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Mob Programming Game: TIS-100",
+    "date": "2021-11-01T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 4,
+    "who": [
+      "Steve Desmond",
+      "Emir  Eken",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Lightning Talks: What I Did Over Summer Break",
+    "date": "2021-09-06T17:30:00-04:00",
+    "location": "Online",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Brendyn",
+      "Kwasi Baryeh",
+      "Janet Dragojevic",
+      "Omar Shehata",
+      "Sunny",
+      "Nancy"
+    ]
+  },
+  {
+    "name": "Lightning Talks: \"What I Did On Pandemic Break\"",
+    "date": "2021-08-02T18:00:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 15,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Richard Rosario",
+      "Carol L Todes",
+      "Alex Cooper",
+      "Rich Andrulis",
+      "Omar Shehata",
+      "Eric Woods",
+      "Doug Turnbull",
+      "Amber Harris"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2021-07-05T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 2,
+    "who": [
+      "Steve Desmond",
+      "John Robson"
+    ]
+  },
+  {
+    "name": "Spring Cleaning and Mob Programming",
+    "date": "2021-06-07T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 8,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Rich Andrulis",
+      "Chris Marx",
+      "Andrew D",
+      "Glenn Allen"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2021-05-03T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 8,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Keith Darlin",
+      "Steph",
+      "Rich Andrulis",
+      "Michael",
+      "Jared Beck",
+      "Glenn Allen"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2021-04-05T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 13,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Victor Aprea",
+      "Rich Andrulis",
+      "Ezra Davis",
+      "Michael",
+      "Amber Harris",
+      "Sireesha Anil",
+      "Jared Beck",
+      "Glenn Allen"
+    ]
+  },
+  {
+    "name": "IWP Mob: Advent of Code",
+    "date": "2021-03-01T18:00:00-05:00",
+    "location": "Online",
+    "attendees": 10,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Eric Bible",
+      "Carol L Todes",
+      "Rich Andrulis",
+      "Chris Marx",
+      "Jared Beck",
+      "Glenn Allen"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2021-02-01T18:00:00-05:00",
+    "location": "Online",
+    "attendees": 11,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Acmed \"ozzy\" Sage",
+      "Eric Bible",
+      "Carol L Todes",
+      "Deb024",
+      "Rich Andrulis",
+      "Margaret Wakeley",
+      "Michael",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Lightning Talks: 2020/2021 Show and Tell",
+    "date": "2021-01-04T18:00:00-05:00",
+    "location": "Online",
+    "attendees": 14,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Eric Bible",
+      "Peter",
+      "Carol L Todes",
+      "Amanda Ruby",
+      "Lauren Suna",
+      "Rich Andrulis",
+      "Ezra Davis",
+      "Andrew D"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2020-12-07T18:00:00-05:00",
+    "location": "Online",
+    "attendees": 16,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Sherry",
+      "Richmond fidelis",
+      "Geizer Tony Edwardo",
+      "Prem Dahal",
+      "Becky Molinari Dickinson",
+      "Eric Bible",
+      "Tanz",
+      "Patrick Meehan"
+    ]
+  },
+  {
+    "name": "IWP November Meetup: CSS discussion",
+    "date": "2020-11-02T18:00:00-05:00",
+    "location": "Online",
+    "attendees": 13,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Sherry",
+      "Eric Bible",
+      "Barak Harari",
+      "Michael",
+      "Armand Zerilli",
+      "Terry Hayes",
+      "Jared Beck",
+      "Marshall Swatt"
+    ]
+  },
+  {
+    "name": "FeathersJS and API design discussion",
+    "date": "2020-10-05T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 15,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Sherry",
+      "Eric Bible",
+      "Yange Bian",
+      "Lauren Suna",
+      "Rich Andrulis",
+      "Tad Merchant",
+      "LostInSearch",
+      "Michael"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2020-09-07T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 13,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Sherry",
+      "Etab Khodor",
+      "Eric Bible",
+      "Rich Andrulis",
+      "Amber Harris",
+      "Thomas Ulrich",
+      "Glenn Allen"
+    ]
+  },
+  {
+    "name": "Lightning Talks: Accessibility",
+    "date": "2020-08-03T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 13,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Eric Bible",
+      "Kevin Earley",
+      "James H.",
+      "Jeremy Block",
+      "Rich Andrulis",
+      "Leo Tohill",
+      "Terry Hayes",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2020-07-06T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 12,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Carol L Todes",
+      "Katarzyna Mazur",
+      "Chris Marx",
+      "Margaret",
+      "Glenn Allen",
+      "Ty Finck"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2020-06-01T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 8,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Caroline Rasmussen",
+      "Michael",
+      "Amber Harris",
+      "Glenn Allen"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2020-05-04T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Lev",
+      "Amber Harris",
+      "Chris Marx",
+      "Greg Kops",
+      "Leon Miller-Out",
+      "Jared Beck",
+      "Glenn Allen"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2020-04-06T18:00:00-04:00",
+    "location": "Online",
+    "attendees": 9,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Tyler Bailey",
+      "André Nascimento",
+      "Rich Andrulis",
+      "Miles",
+      "Paul Stonier",
+      "Glenn Allen"
+    ]
+  },
+  {
+    "name": "Ethical Hacking and more Lightning Talks!",
+    "date": "2020-03-02T18:00:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 16,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Michael Zhou",
+      "Tyler Bailey",
+      "Carol L Todes",
+      "Laura Mortelliti",
+      "Amanda Ruby",
+      "Chuck Houpt",
+      "Elliot Wells",
+      "Michael"
+    ]
+  },
+  {
+    "name": "Recommender Systems with Doug Turnbull and Lightning Talks with You!",
+    "date": "2020-02-03T18:00:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 20,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Michael Zhou",
+      "Jared Clifton-Lee",
+      "Tyler Bailey",
+      "Carol L Todes",
+      "Mitesh Gandhi",
+      "Amanda Ruby",
+      "Chuck Houpt",
+      "Michael"
+    ]
+  },
+  {
+    "name": "Gameplay with Boardgame.io | Intro to Ionic Framework",
+    "date": "2020-01-07T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 13,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Amanda Ruby",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Ezra Davis",
+      "Michael",
+      "Doug Turnbull",
+      "Chris Marx",
+      "Armand Zerilli"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2019-12-03T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 8,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Amanda Ruby",
+      "Lauren Suna",
+      "Timothy Weber",
+      "Chuck Houpt",
+      "Doug Turnbull"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2019-11-05T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Forrest Wargo",
+      "Tim Clerico",
+      "Amanda Ruby",
+      "Jared Clifton",
+      "Michael",
+      "Seth Art",
+      "Doug Turnbull",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2019-10-01T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 18,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Jeff Maggard",
+      "Amber Elliott",
+      "Rup Patel",
+      "Andrea Nosler",
+      "Tim Clerico",
+      "Mar",
+      "Chuck Houpt",
+      "Charles Eldermire"
+    ]
+  },
+  {
+    "name": "Spacial Computing | Bitcoin 3.0",
+    "date": "2019-09-03T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 21,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Jeff Maggard",
+      "Vera Crabtree",
+      "Andrea Nosler",
+      "Todd Stratton",
+      "Tim Clerico",
+      "Timothy Weber",
+      "Pietro",
+      "Rich Andrulis"
+    ]
+  },
+  {
+    "name": "Ithaca Web People",
+    "date": "2019-08-06T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 19,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Tim Clerico",
+      "Amanda Ruby",
+      "Timothy Weber",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Michael",
+      "Seth Art",
+      "Doug Turnbull"
+    ]
+  },
+  {
+    "name": "UI Design Trends | Personal Projects: Facilitated Demos + Group Chat",
+    "date": "2019-07-02T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 15,
+    "who": [
+      "Steve Desmond",
+      "John Robson",
+      "Vianca Hurtado",
+      "Tim Clerico",
+      "Amanda Ruby",
+      "Levent Ozgur",
+      "Timothy Weber",
+      "Rich Andrulis",
+      "Michael",
+      "Doug Turnbull"
+    ]
+  },
+  {
+    "name": "12-Factor Apps | Blockchain 3.0",
+    "date": "2019-06-04T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 19,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Ahmadjan",
+      "Amanda Ruby",
+      "Buddha Buck",
+      "Emilia",
+      "Timothy Weber",
+      "Jeff Gilmore",
+      "Rich Andrulis",
+      "Chuck Houpt"
+    ]
+  },
+  {
+    "name": "Docker: the Good, Bad, and Ugly | Self-Healing Software",
+    "date": "2019-05-07T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 28,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Amanda Ruby",
+      "Buddha Buck",
+      "Timothy Weber",
+      "Daryl McCullough",
+      "Rich Andrulis",
+      "LostInSearch",
+      "Matthew Donovan",
+      "Jared Clifton"
+    ]
+  },
+  {
+    "name": "Storytelling for the Web | An Update on Net Neutrality",
+    "date": "2019-04-02T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 16,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Amanda Ruby",
+      "Jeremy Block",
+      "Benjamin Landers",
+      "Chuck Houpt",
+      "Michael",
+      "Andrew",
+      "Ron Gilmour",
+      "Doug Turnbull"
+    ]
+  },
+  {
+    "name": "Custom Blocks for WordPress Gutenberg Editor | Introduction to SAP Technology",
+    "date": "2019-03-05T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 20,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Amanda Ruby",
+      "Levent Ozgur",
+      "Jeremy Block",
+      "Jeff Gilmore",
+      "Rich Andrulis",
+      "LostInSearch",
+      "Chuck Houpt",
+      "Charles Eldermire"
+    ]
+  },
+  {
+    "name": "Parallel & Pipelined ETLs in GO | Custom Blocks for WordPress Gutenberg Editor",
+    "date": "2019-02-05T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 23,
+    "who": [
+      "John Robson",
+      "Tim Clerico",
+      "ЛяЛя Тополя",
+      "Amanda Ruby",
+      "Jeremy Block",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Andrew",
+      "Ron Gilmour"
+    ]
+  },
+  {
+    "name": "Closed for New Years! See you in February!",
+    "date": "2019-01-01T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "ThrackleGuy"
+    ]
+  },
+  {
+    "name": "Using Big Data to Fight Human Trafficking | Show us YOUR First Web Project!",
+    "date": "2018-12-04T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 18,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Amarachi",
+      "Jeremy Block",
+      "Emilia",
+      "Timothy Weber",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Charles Eldermire"
+    ]
+  },
+  {
+    "name": "SOLID: principles and patterns and Q&A with IC Students",
+    "date": "2018-11-06T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 16,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Brandon Moore",
+      "Jeremy Block",
+      "Timothy Weber",
+      "Rich Andrulis",
+      "Andrew",
+      "Doug Turnbull",
+      "Chris Marx"
+    ]
+  },
+  {
+    "name": "\"ML: How do I know which model to use?\" & \"What's in Your Toolbox\" ⚡️ Talks",
+    "date": "2018-10-02T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 19,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Blanca Ximena Yáñez",
+      "Jeremy Block",
+      "Timothy Weber",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Michael",
+      "Andrew"
+    ]
+  },
+  {
+    "name": "Intro to the Internet of Things | Pros/Cons of Static Website Generators",
+    "date": "2018-09-04T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 21,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Minimalist Tech",
+      "Jeremiah Flemming",
+      "Jeremy Block",
+      "Timothy Weber",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Charles Eldermire"
+    ]
+  },
+  {
+    "name": "Security: real vs hype | Socket.IO for User Presence",
+    "date": "2018-08-07T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 18,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Katie Thomas",
+      "Timothy Weber",
+      "LostInSearch",
+      "Charles Eldermire",
+      "Michael",
+      "Seth Art",
+      "Andrew"
+    ]
+  },
+  {
+    "name": "July IWP: Peer to Peer Technologies and the Executive Rebellion Against Agile",
+    "date": "2018-07-03T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "John Robson",
+      "Steve Desmond",
+      "Michael Alderson",
+      "Emilia",
+      "Timothy Weber",
+      "Alan Willett",
+      "Chuck Houpt",
+      "Devon",
+      "Andrew",
+      "Jayme Peck"
+    ]
+  },
+  {
+    "name": "June IWP: TST Pathways to Technology and Product Prioritization",
+    "date": "2018-06-05T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 13,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Jeremy Block",
+      "Timothy Weber",
+      "Chuck Houpt",
+      "Michael",
+      "Andrew",
+      "Doug Turnbull",
+      "Chris Marx"
+    ]
+  },
+  {
+    "name": "May IWP: Cesium JS Mapping and Building Up Your \"Quiver\" of Design Skills",
+    "date": "2018-05-01T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 16,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Levent Ozgur",
+      "Yvette Burggren",
+      "Khalfani Pierre",
+      "Jeremy Block",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Michael"
+    ]
+  },
+  {
+    "name": "April IWP: Architecting Microservices and Speed from a Design Perspective",
+    "date": "2018-04-03T17:30:00-04:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 25,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Derek Baker",
+      "Shane Cavanaugh",
+      "Mike Charnoky",
+      "Houston",
+      "Rich Andrulis",
+      "Matthew Donovan",
+      "Chuck Houpt"
+    ]
+  },
+  {
+    "name": "Tuesday Tech Talk (First Tuesday of the month)",
+    "date": "2018-03-06T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 23,
+    "who": [
+      "John Robson",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Shane Cavanaugh",
+      "Monica Lakshmi Sunkara",
+      "Conor Garity",
+      "Luke Waldner",
+      "Andrea Hazard",
+      "Jeremy Block",
+      "Christel "
+    ]
+  },
+  {
+    "name": "Tuesday Tech Talk (First Tuesday of the month) @ Funkhaus",
+    "date": "2018-02-06T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 29,
+    "who": [
+      "Steve Desmond",
+      "Monica Lakshmi Sunkara",
+      "Isha sharma",
+      "ThrackleGuy",
+      "Jeremy Block",
+      "CMS",
+      "Alex Cooper",
+      "Houston",
+      "Chuck Houpt",
+      "Charles Eldermire"
+    ]
+  },
+  {
+    "name": "Tech Talk Tuesday: WebAssembly, Harold Mills; TBD, Carsten Hess",
+    "date": "2018-01-02T17:30:00-05:00",
+    "location": "Foundry, 416 E State St, Ithaca, NY, US",
+    "attendees": 22,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Michael Haupt",
+      "LostInSearch",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Michael",
+      "Nate Mallison",
+      "Scott Everts",
+      "Seth Art"
+    ]
+  },
+  {
+    "name": "Image Uploading with Jesse Miner and Estimating Round Table",
+    "date": "2017-12-05T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 13,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Michael Haupt",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Michael",
+      "Chris Marx",
+      "Stephen Shaffer",
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "\"Recommended For You\" Blog Feature and IC students Q&A",
+    "date": "2017-11-07T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 17,
+    "who": [
+      "Jared Beck",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Luke Waldner",
+      "Jonathan Burger",
+      "ThrackleGuy",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Michael"
+    ]
+  },
+  {
+    "name": "Elm: JS without the framework and Developing with Fewer Dependencies",
+    "date": "2017-10-03T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 16,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Jonathan Burger",
+      "ThrackleGuy",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Michael",
+      "Chris Marx",
+      "John Robson",
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Javascript Framework Bake-Off",
+    "date": "2017-09-05T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 25,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "ThrackleGuy",
+      "Jeremy Block",
+      "Timothy Weber",
+      "Aaron Zufall",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Michael"
+    ]
+  },
+  {
+    "name": "dotfiles: customize your dev env & \"What's your side project?\" lightning talks",
+    "date": "2017-08-01T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 17,
+    "who": [
+      "Ben Darfler",
+      "Buddha Buck",
+      "ThrackleGuy",
+      "Timothy Weber",
+      "Natisha Foster",
+      "Shane Cavanaugh",
+      "Chuck Houpt",
+      "Michael",
+      "jenn",
+      "Tom Hart"
+    ]
+  },
+  {
+    "name": "Tuesday Tech Talk (First Tuesday of the month)",
+    "date": "2017-07-04T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 1,
+    "who": [
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Intro to Web Map Services & Agile Coffee Talk",
+    "date": "2017-06-06T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 22,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Jeremy Block",
+      "Mandi Meidlinger",
+      "Mike Charnoky",
+      "Timothy Weber",
+      "Natisha Foster",
+      "smboro - Svetla Borovska",
+      "Aaron Zufall",
+      "Rich Andrulis"
+    ]
+  },
+  {
+    "name": "Load Testing and Remote Working",
+    "date": "2017-05-02T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 23,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Daniel Pecoraro",
+      "Mandi Meidlinger",
+      "Timothy Weber",
+      "Natisha Foster",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Devon"
+    ]
+  },
+  {
+    "name": "Reframe: An Isomorphic JS Framework & Practical Processing of Natural Language",
+    "date": "2017-04-04T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 22,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Peter Champelli",
+      "Katie Thomas",
+      "Colin V",
+      "Timothy Weber",
+      "James",
+      "Christel ",
+      "Rich Andrulis",
+      "Chuck Houpt"
+    ]
+  },
+  {
+    "name": "\"Low Latency Systems: How do they do it?\" and assorted lightning talks",
+    "date": "2017-03-07T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 19,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Mike Charnoky",
+      "Timothy Weber",
+      "Hiromi Hamada",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Devon",
+      "Doug Turnbull",
+      "Chris Marx"
+    ]
+  },
+  {
+    "name": "\"Refreshing Frontends with ClojureScript\" by Benjamin Picolo",
+    "date": "2017-02-07T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 17,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Prabhakar Sharma",
+      "Chuck Houpt",
+      "Devon",
+      "Doug Turnbull",
+      "Jeremy Feinstein",
+      "Evan Sobkowicz",
+      "Greg Kops",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Intro to Penetration Testing and How to Build a FB Chat Bot",
+    "date": "2017-01-03T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 17,
+    "who": [
+      "Jared Beck",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Victor Aprea",
+      "william smith",
+      "Prabhakar Sharma",
+      "Leigh McGonagle",
+      "Chuck Houpt",
+      "Paul Sydlansky",
+      "Devon"
+    ]
+  },
+  {
+    "name": "Accessibility by Lauren Woodrick, Chatbots by Paul Houle",
+    "date": "2016-12-06T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 18,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Elena",
+      "Christel ",
+      "Chuck Houpt",
+      "Michael",
+      "Evan Sobkowicz",
+      "Ken Rother",
+      "Stephen Shaffer",
+      "Dennis Conard"
+    ]
+  },
+  {
+    "name": "An Introduction to ES6 and SEO for Developers",
+    "date": "2016-11-01T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 13,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Elena",
+      "Harold Mills",
+      "Rich Andrulis",
+      "Devon",
+      "Evan Sobkowicz",
+      "Ken Rother",
+      "Stephen Shaffer",
+      "Candace"
+    ]
+  },
+  {
+    "name": "Halloween Party at University Park Apts.",
+    "date": "2016-10-31T19:00:00-04:00",
+    "location": "Location not specified yet",
+    "who": []
+  },
+  {
+    "name": "Redux & React, Greg Kops; The Exceptional Engineer, Alan Willett",
+    "date": "2016-10-04T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 17,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Mer Boel",
+      "Alan Willett",
+      "Christel ",
+      "Bryan Gorges",
+      "Charles Eldermire",
+      "Chris Marx",
+      "John Robson",
+      "Evan Sobkowicz"
+    ]
+  },
+  {
+    "name": "Intro to Web Components with Joshua Masland-Sarani",
+    "date": "2016-09-06T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 22,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Oscar Li",
+      "Daniel Botteron",
+      "Chuck Houpt",
+      "Michael",
+      "Chris Marx",
+      "Andy Monroe",
+      "Evan Sobkowicz",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Continuous Integration with Steve D. and How to go Freelance with Dain M.",
+    "date": "2016-08-02T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 19,
+    "who": [
+      "Armand Zerilli",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Keith Liblick",
+      "Charlotte Sharkey",
+      "Peter Vaillancourt",
+      "Chuck Houpt",
+      "Nate Mallison",
+      "Seth Art",
+      "Tom Hart"
+    ]
+  },
+  {
+    "name": "Introduction to Scala by Ben D., Web Scraping by Alexy M.",
+    "date": "2016-07-05T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 27,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Peter Vaillancourt",
+      "Alex Cooper",
+      "Harold Mills",
+      "Daniel Botteron",
+      "Alexy Mikhailichenko",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Nate Mallison"
+    ]
+  },
+  {
+    "name": "Getting to know Sass and Accepting CC Payments Responsibly",
+    "date": "2016-06-07T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 13,
+    "who": [
+      "Armand Zerilli",
+      "Jared Beck",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "David M. O'Neill",
+      "John Robson",
+      "Stephen Shaffer",
+      "Mark Pruce"
+    ]
+  },
+  {
+    "name": "HTTP/2, and The 7 Types of Tech Debt",
+    "date": "2016-05-03T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 17,
+    "who": [
+      "Armand Zerilli",
+      "Jared Beck",
+      "Ben Darfler",
+      "Steve Desmond",
+      "Harold Mills",
+      "Aaron Zufall",
+      "Chuck Houpt",
+      "Eric Banford",
+      "Chris Marx",
+      "Evan Sobkowicz"
+    ]
+  },
+  {
+    "name": "Intro to webpack by Lenny Sirivong, Intro to docker by Armand Zerilli",
+    "date": "2016-04-05T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Ben Darfler",
+      "Aaron Zufall",
+      "Xander Jackson",
+      "Pranay Shekhar Kona",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Paul Davis",
+      "Armand Zerilli",
+      "Stephen Shaffer",
+      "John Barker"
+    ]
+  },
+  {
+    "name": "React and Rails, Continued by Mitch VanDuyn, CDNs by Jesse Miner",
+    "date": "2016-03-01T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 19,
+    "who": [
+      "Ben Darfler",
+      "Adrienne",
+      "Rich Andrulis",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Jesse Miner",
+      "Karli",
+      "Armand Zerilli",
+      "Evan Sobkowicz",
+      "Ken Rother"
+    ]
+  },
+  {
+    "name": "Semantic HTML5 Elements & Rolling Your Own Materialized Views",
+    "date": "2016-02-02T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 15,
+    "who": [
+      "Ben Darfler",
+      "Rich Andrulis",
+      "Daniel Botteron",
+      "Tad Merchant",
+      "Scott Everts",
+      "Chris Marx",
+      "Armand Zerilli",
+      "Evan Sobkowicz",
+      "Ken Rother",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Intro to Elixir and PatternLab (Atomic Design)",
+    "date": "2016-01-05T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Ben Darfler",
+      "Shane Cavanaugh",
+      "Chuck Houpt",
+      "Seth Art",
+      "Armand Zerilli",
+      "Jeff Szuc..",
+      "Ken Rother",
+      "Greg Kops",
+      "Stephen Shaffer",
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Intro to the MEAN stack (Michael Miles) and React, Relay, Rails (Greg Kops)",
+    "date": "2015-12-01T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Ben Darfler",
+      "Chuck Houpt",
+      "Michael",
+      "Nate Mallison",
+      "Chris Marx",
+      "Armand Zerilli",
+      "Deeksha PP",
+      "Greg Kops",
+      "Stephen Shaffer",
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Intro to Flexbox (Kevin McGuire) and the Rails Asset Pipeline (Ben Darfler)",
+    "date": "2015-11-03T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Ben Darfler",
+      "Scott P Calkins",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Michael",
+      "Scott Everts",
+      "Armand Zerilli",
+      "Bob Marteal",
+      "Stephen Shaffer",
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Optimizing The Rails Asset Pipeline, and Introduction to codepen.io",
+    "date": "2015-10-06T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 8,
+    "who": [
+      "Ben Darfler",
+      "J",
+      "Michael",
+      "Armand Zerilli",
+      "Jared Beck",
+      "Nancy"
+    ]
+  },
+  {
+    "name": "Responsive Images and Intro to Ruby Object Mapper",
+    "date": "2015-09-01T17:30:00-04:00",
+    "location": "Rev Lite, 123 E State St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Ben Darfler",
+      "Steve Desmond",
+      "Chuck Houpt",
+      "Matthew Knight",
+      "Michael",
+      "Yassi Hafezi",
+      "Alec Mitchell",
+      "Armand Zerilli",
+      "Leon Miller-Out",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Bitcoins and AWS",
+    "date": "2015-08-04T17:30:00-04:00",
+    "location": "Rev Lite, 123 E State St, Ithaca, NY, US",
+    "attendees": 13,
+    "who": [
+      "Ben Darfler",
+      "Chuck Houpt",
+      "Matthew Knight",
+      "Michael",
+      "Kwame Amponsah",
+      "Scott Everts",
+      "Aaron Godert",
+      "Stephen Shaffer",
+      "Leon Miller-Out",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Chrome Performance Debugging and Windows Azure Cloud",
+    "date": "2015-07-07T17:30:00-04:00",
+    "location": "Rev Lite, 123 E State St, Ithaca, NY, US",
+    "attendees": 18,
+    "who": [
+      "Ben Darfler",
+      "Charles Eldermire",
+      "Matthew Knight",
+      "Michael",
+      "Eric Banford",
+      "Armand Zerilli",
+      "Stephen Shaffer",
+      "Dennis Conard",
+      "Michal Kuklis",
+      "Mark Pruce"
+    ]
+  },
+  {
+    "name": "Tuesday Tech Talk (First Tuesday of the month)",
+    "date": "2015-06-02T17:30:00-04:00",
+    "location": "Rev Lite, 123 E State St, Ithaca, NY, US",
+    "attendees": 16,
+    "who": [
+      "Ben Darfler",
+      "Chuck Houpt",
+      "Charles Eldermire",
+      "Matthew Knight",
+      "Michael",
+      "Patrick Steadman",
+      "Eric Banford",
+      "Armand Zerilli",
+      "Stephen Shaffer",
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Thoughtbot CSS Stack, Error Handling w/o Exceptions, Workflows w/ State Machines",
+    "date": "2015-05-05T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 29,
+    "who": [
+      "Ben Darfler",
+      "Carrie L.",
+      "Chuck Houpt",
+      "Matthew Knight",
+      "Michael",
+      "Luke Waldner",
+      "Scott Everts",
+      "Chris Marx",
+      "Armand Zerilli",
+      "Kyle Oliveira"
+    ]
+  },
+  {
+    "name": "Tuesday Tech Talk (First Tuesday of the month)",
+    "date": "2015-04-07T17:30:00-04:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 28,
+    "who": [
+      "Ben Darfler",
+      "john hohm",
+      "Chuck Houpt",
+      "Nichole Burton",
+      "Matthew Knight",
+      "Michael",
+      "Alexander Stick",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Ben Haller"
+    ]
+  },
+  {
+    "name": "Tuesday Tech Talk (First Tuesday of the month)",
+    "date": "2015-03-03T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 18,
+    "who": [
+      "Jared Beck",
+      "Charles Eldermire",
+      "Michelle Sawyer",
+      "Laurence Welch",
+      "jenn",
+      "Chris Marx",
+      "Ben Haller",
+      "Evan Sobkowicz",
+      "Ken Rother",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Monthly Tech Talk",
+    "date": "2015-02-03T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Ben Darfler",
+      "Matthew Knight",
+      "Ihar",
+      "Scott Everts",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Ben Haller",
+      "Evan Sobkowicz",
+      "Ken Rother",
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Monthly Tech Talk",
+    "date": "2015-01-06T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 17,
+    "who": [
+      "Ben Darfler",
+      "David S.",
+      "Matthew Knight",
+      "Dirk",
+      "Michael",
+      "Scott Everts",
+      "Eric Banford",
+      "Chris Marx",
+      "Armand Zerilli",
+      "Allen Ward"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-12-02T17:30:00-05:00",
+    "location": "Rev Ithaca, 314 E State St, Ithaca, NY, US",
+    "attendees": 20,
+    "who": [
+      "Ben Darfler",
+      "Ihar",
+      "jenn",
+      "Eric Woods",
+      "Eric Banford",
+      "Armand Zerilli",
+      "Julian Trutmann",
+      "Evan Sobkowicz",
+      "Aaron Godert",
+      "Greg Kops"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-11-04T17:30:00-05:00",
+    "location": "GiveGab, 130 E Seneca St, Ithaca, NY, US",
+    "attendees": 13,
+    "who": [
+      "Ben Darfler",
+      "Michael",
+      "Scott Everts",
+      "Armand Zerilli",
+      "Julian Trutmann",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Leon Miller-Out",
+      "Jared Beck",
+      "Aaron Froehlich"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-10-07T17:30:00-04:00",
+    "location": "GiveGab, 130 E Seneca St, Ithaca, NY, US",
+    "attendees": 20,
+    "who": [
+      "Ben Darfler",
+      "Michael",
+      "Ihar",
+      "Scott Everts",
+      "Olivier Z.",
+      "Evan Sobkowicz",
+      "Greg Kops",
+      "Stephen Shaffer",
+      "Leon Miller-Out",
+      "Ted"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-09-02T17:30:00-04:00",
+    "location": "GiveGab, 130 E Seneca St, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Ben Darfler",
+      "Ihar",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Evan Sobkowicz",
+      "Greg Kops"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-08-05T17:30:00-04:00",
+    "location": "GiveGab, 130 E Seneca St, Ithaca, NY, US",
+    "attendees": 19,
+    "who": [
+      "Ben Darfler",
+      "Ihar",
+      "Scott Everts",
+      "Armand Zerilli",
+      "Aaron Godert",
+      "Stephen Shaffer",
+      "Travelingforlife",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-06-03T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 8,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-05-06T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Leon Miller-Out",
+      "Scott Everts",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Jared Beck",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-04-01T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Leon Miller-Out",
+      "Scott Everts",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-03-04T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Clojure Dojo!",
+    "date": "2014-02-18T18:00:00-05:00",
+    "location": "CoLab Coop, 141 Ithaca Cmns, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Chris Berry",
+      "Armand Zerilli",
+      "David Furber"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-02-04T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Leon Miller-Out",
+      "Chris Berry",
+      "Suchan Lee",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2014-01-21T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "Jared Beck",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2014-01-07T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Ken Rother",
+      "Jason Woodward",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-12-17T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 3,
+    "who": [
+      "Leon Miller-Out",
+      "Evan Sobkowicz",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-12-03T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-11-19T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 10,
+    "who": [
+      "Leon Miller-Out",
+      "Chris Marx",
+      "Armand Zerilli",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "David Furber",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "JavaScript - ClojureScript",
+    "date": "2013-11-14T18:00:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 3,
+    "who": [
+      "Kyle Oliveira",
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-11-05T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 8,
+    "who": [
+      "Leon Miller-Out",
+      "Ron Gilmour",
+      "Armand Zerilli",
+      "Evan Sobkowicz",
+      "David Furber"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-10-15T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Leon Miller-Out",
+      "Eric Banford",
+      "Meredith",
+      "Kyle Oliveira",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "Ben Darfler",
+      "Stéphane Jean-Baptiste"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-10-01T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 8,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-09-17T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Leon Miller-Out",
+      "Steven Freidmutter",
+      "Armand Zerilli",
+      "Monika Norwid",
+      "Kyle Oliveira",
+      "Evan Sobkowicz",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-09-03T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Leon Miller-Out",
+      "Jason Woodward",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "OpenJS: the Responsive UI",
+    "date": "2013-08-29T17:30:00-04:00",
+    "location": "ChemSW Lt, 401 E State St, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Chris Marx",
+      "Armand Zerilli",
+      "Peter Ozolins",
+      "Greg Kops",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "David Furber"
+    ]
+  },
+  {
+    "name": "StartFast Demo Day (in Syracuse)",
+    "date": "2013-08-22T08:00:00-04:00",
+    "location": "Landmark Theater, 362 South Salina Street, Syracuse, NY, US",
+    "attendees": 4,
+    "who": [
+      "Aaron Godert",
+      "Nasir Ali",
+      "Rob",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-08-20T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Leon Miller-Out",
+      "Bob Marteal",
+      "Jason Woodward",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-08-06T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Member ID: #57904672",
+      "Ben Darfler"
+    ]
+  },
+  {
+    "name": "Startfast Tech Meet-up Night",
+    "date": "2013-08-01T18:30:00-04:00",
+    "location": "StartFast HQ, 499 South Warren St, Syracuse, NY, US",
+    "attendees": 4,
+    "who": [
+      "Aaron Froehlich",
+      "Leon Miller-Out",
+      "Rob"
+    ]
+  },
+  {
+    "name": "Open JS: Angles and Angular",
+    "date": "2013-07-25T17:30:00-04:00",
+    "location": "ChemSW Lt, 401 E State St, Ithaca, NY, US",
+    "attendees": 14,
+    "who": [
+      "Chris Marx",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Peter Ozolins",
+      "Ken Rother",
+      "Greg Kops",
+      "Jason Woodward"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-07-16T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Leon Miller-Out",
+      "Kyle Oliveira"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-07-02T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Bryan Root",
+      "Kyle Oliveira",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "Lukas Mueller"
+    ]
+  },
+  {
+    "name": "Little Big Data (in the Browser)",
+    "date": "2013-06-27T17:30:00-04:00",
+    "location": "ChemSW Lt, 401 E State St, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Kyle Oliveira",
+      "Greg Kops",
+      "Stephen Shaffer",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-06-18T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Erin Caruth",
+      "Jason Woodward",
+      "Stéphane Jean-Baptiste"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-06-04T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Armand Zerilli",
+      "Olivier Z.",
+      "Jason Woodward",
+      "Lukas Mueller",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-05-21T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Armand Zerilli",
+      "Kyle Oliveira",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "Lukas Mueller",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-05-07T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-04-16T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Leon Miller-Out",
+      "Armand Zerilli",
+      "Monika Norwid",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-04-02T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Leon Miller-Out",
+      "Monika Norwid",
+      "Lukas Mueller"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-03-19T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Leon Miller-Out",
+      "Bob Marteal",
+      "Erin Caruth",
+      "David M Palmer",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-03-05T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 3,
+    "who": [
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-02-19T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Leon Miller-Out",
+      "Kyle Oliveira",
+      "Peter Ozolins",
+      "Erin Caruth",
+      "Aaron Godert",
+      "David M Palmer"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-02-05T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Leon Miller-Out",
+      "Kyle Oliveira",
+      "Bob Marteal"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2013-01-15T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Leon Miller-Out",
+      "Nicholas Jamelski",
+      "Erin Caruth",
+      "Stephen Shaffer",
+      "David Furber"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2013-01-01T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 1,
+    "who": [
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2012-12-18T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Leon Miller-Out",
+      "Aaron Godert",
+      "David M Palmer"
+    ]
+  },
+  {
+    "name": "Global Day of Code Retreat",
+    "date": "2012-12-08T08:30:00-05:00",
+    "location": "GORGES Web Development & Internet Solutions, 105 North Tioga Street #200, Ithaca, NY, US",
+    "attendees": 2,
+    "who": [
+      "Leon Miller-Out",
+      "David Furber"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-12-04T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Leon Miller-Out",
+      "Kyle Oliveira",
+      "Lukas Mueller"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2012-11-20T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Leon Miller-Out",
+      "Kyle Oliveira",
+      "Erin Caruth",
+      "Stephen Shaffer"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-11-06T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Manuel Bevia",
+      "Stephen Shaffer",
+      "Lukas Mueller"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2012-10-16T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Leon Miller-Out",
+      "Kyle Oliveira",
+      "Peter Ozolins",
+      "Erin Caruth",
+      "Stephen Shaffer",
+      "Lukas Mueller",
+      "Colleen Clark-Boyer"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-10-02T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Leon Miller-Out",
+      "Lukas Mueller",
+      "Aaron Froehlich"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2012-09-18T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Leon Miller-Out",
+      "Kyle Oliveira",
+      "Bob Marteal",
+      "Erin Caruth",
+      "Aaron Godert",
+      "Stephen Shaffer",
+      "Rob",
+      "Lukas Mueller",
+      "Paul Stonier",
+      "Colleen Clark-Boyer"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-09-04T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Leon Miller-Out",
+      "Kyle Oliveira",
+      "Stephen Shaffer",
+      "Stéphane Jean-Baptiste"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2012-08-21T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 2,
+    "who": [
+      "Leon Miller-Out",
+      "Neil Zusman"
+    ]
+  },
+  {
+    "name": "Third Tuesday",
+    "date": "2012-08-14T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 1,
+    "who": [
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-08-02T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 1,
+    "who": [
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Third Thursday",
+    "date": "2012-07-19T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Bob Marteal",
+      "Rob",
+      "Paul Stonier",
+      "Colleen Clark-Boyer"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-07-12T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 1,
+    "who": [
+      "Leon Miller-Out"
+    ]
+  },
+  {
+    "name": "Third Thursday",
+    "date": "2012-06-21T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Greg Kops",
+      "Paul Stonier"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-06-07T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Erin Caruth",
+      "Dirk",
+      "Stephen Shaffer",
+      "Jason Woodward",
+      "Rob",
+      "Aaron Froehlich"
+    ]
+  },
+  {
+    "name": "Third Thursday",
+    "date": "2012-05-17T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 3,
+    "who": [
+      "Stephen Shaffer",
+      "Rob",
+      "Paul Stonier"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-05-03T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 5,
+    "who": [
+      "Leon Miller-Out",
+      "Stephen Shaffer",
+      "Paul Stonier",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Thursday",
+    "date": "2012-04-19T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Leon Miller-Out",
+      "Dirk",
+      "Greg Kops",
+      "Paul Stonier",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-04-05T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 6,
+    "who": [
+      "Leon Miller-Out",
+      "Stephen Shaffer",
+      "Rob",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Thursday",
+    "date": "2012-03-15T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Leon Miller-Out",
+      "David M Palmer",
+      "Stephen Shaffer",
+      "Michal Kuklis",
+      "Jared Beck",
+      "Aaron Froehlich",
+      "Ethan Winn"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-03-01T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Leon Miller-Out",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Thursday",
+    "date": "2012-02-16T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Leon Miller-Out",
+      "Stephen Shaffer",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Beer and Code",
+    "date": "2012-02-02T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Leon Miller-Out",
+      "Stephen Shaffer",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Thursday",
+    "date": "2012-01-19T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 9,
+    "who": [
+      "Leon Miller-Out",
+      "Stephen Shaffer",
+      "Jared Beck",
+      "Aaron Froehlich"
+    ]
+  },
+  {
+    "name": "Open Hackfest (aka Beer and Code)",
+    "date": "2012-01-05T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Leon Miller-Out",
+      "Dirk",
+      "Stephen Shaffer",
+      "Chuck Stormon",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Ithaca Web Meetup",
+    "date": "2011-12-15T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 7,
+    "who": [
+      "Stephen Shaffer",
+      "Leon Miller-Out",
+      "Ted",
+      "Michal Kuklis",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Open Source Hacktime",
+    "date": "2011-12-03T22:00:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 1,
+    "who": [
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Third Thursday",
+    "date": "2011-11-17T17:30:00-05:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Ken Rother",
+      "Stephen Shaffer",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "OSS Hackfest",
+    "date": "2011-11-05T10:00:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Leon Miller-Out",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Monthly Meetup",
+    "date": "2011-10-20T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 11,
+    "who": [
+      "Alex Garcia",
+      "Stephen Shaffer",
+      "Jayme Peck",
+      "Leon Miller-Out",
+      "Michal Kuklis",
+      "Mark Swain",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Open Source Hacktime",
+    "date": "2011-10-01T10:00:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 3,
+    "who": [
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Monthly Meetup",
+    "date": "2011-09-15T17:30:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 12,
+    "who": [
+      "Stephen Shaffer",
+      "Jayme Peck",
+      "Leon Miller-Out",
+      "Michal Kuklis",
+      "Nasir Ali",
+      "David Furber",
+      "Aaron H",
+      "Mark Swain",
+      "Jared Beck"
+    ]
+  },
+  {
+    "name": "Open Source Hacktime",
+    "date": "2011-09-03T10:00:00-04:00",
+    "location": "Singlebrook Technology, 119 South Cayuga Street #202, Ithaca, NY, US",
+    "attendees": 4,
+    "who": [
+      "Leon Miller-Out",
+      "Jared Beck"
+    ]
+  }
+]

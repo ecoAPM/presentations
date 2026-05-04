@@ -3,72 +3,160 @@ canvasWidth: 1280
 theme: default
 colorSchema: dark
 class: text-center
-highlighter: prism
-title: Not Your Parents' .NET
+highlighter: shiki
+title: IWP, This Is Your Life!
+layout: cover
 ---
 
-# Not Your Parents' .NET
+# Ithaca Web People
 
-<img src="/steve.jpg" alt="Steve" class="profile" />
-<img src="/logo.png" alt="ecoAPM logo" class="logo" />
-
-## Steve Desmond
-
-### (date)
-
-#### (location)
+<img src="/title.png" class="m-auto"/>
 
 ---
 
-## Agenda
+## History
 
-1. ...
+- started in 2011 by Leon Miller-Out (Singlebrook) and maybe Jared?
+- 2-3x/month: hack time, "beer & code", tech talks
+
+<img src="/2011.avif" class="m-auto w-75%"/>
 
 ---
-class: 'contact'
+
+## Locations
+
+- Singlebrook (2011-2014)
+- Gorges, ChemSW, CoLab, GiveGab (2012-2014)
+- Rev / Rev Lite (2014-2018)
+- Foundry (2018-2020)
+- Online (2020-2022)
+- TCPL (2022-2023)
+- Rev (2023-2026)
+
 ---
 
-<img src="/steve.jpg" alt="Steve" />
+## 2017
 
-# Steve Desmond
+<img src="/2017.avif" class="m-auto w-75%"/>
 
-### Lead Developer @ ecoAPM
+---
 
-<img src="/logo.png" alt="ecoAPM logo" />
+## Topics & Technologies
 
-<i class="fa-solid fa-earth-america"></i> [SteveDesmond.ca](https://SteveDesmond.ca) | [ecoAPM.com](https://ecoAPM.com)
+- 2013: Angular, Responsive Web Design, ClojureScript
+- 2014: Clojure
+- 2015: Azure, AWS, Bitcoin, Ruby, Rails, codepen.io, Flexbox, React
+- 2016: Elixer, PatternLab, CDNs, WebPack, Docker, HTTP/2, Sass, Scala, Redux
+- 2017: Chatbots, Elm, Lightning Talks, JS Bake-Off
+- 2018: WebAssembly, Microservices, Cesium, P2P, IoT, SOLID
+- 2019: Go, WordPress, more Docker, more Blockchain, 12 Factor Apps
 
-<i class="fa-brands fa-github"></i> [SteveDesmond-ca](https://github.com/SteveDesmond-ca) | [ecoAPM](https://github.com/ecoAPM)
+---
 
-<i class="fa-brands fa-linkedin"></i> [Steve-Desmond](https://linkedin.com/in/Steve-Desmond) | [ecoAPM](https://linkedin.com/company/ecoAPM)
+## 2018
 
-<i class="fa-brands fa-mastodon"></i> [@ecoSteve @ mastodon.social](https://mastodon.social/ecoSteve)
-<span style="float:right;"> | [@ecoAPM @ fosstodon.org](https://fosstodon.org/@ecoAPM)</span>
+<img src="/2018.avif" class="m-auto w-75%"/>
+
+---
+
+## Organizers
+
+- Leon Miller-Out
+- Jared Beck
+- Ben Darfler
+- John Robson
+- Beth Watson
+- Steve Desmond
+
+---
+
+## 2019
+
+<img src="/2019.jpg" class="m-auto w-75%"/>
+
+---
+layout: cover
+class: text-center
+---
+
+## and then COVID
+
+---
+layout: cover
+class: text-center
+---
+
+## COVID was long
+
+---
+layout: cover
+class: text-center
+---
+
+## and quiet
+
+---
+layout: cover
+class: text-center
+---
+
+## and things were never the same
+
+---
+
+## 2022
+
+<img src="/2022.jpg" class="m-auto w-75%"/>
+
+---
+
+## Attendees
+
+<img src="/attendees.png" class="m-auto w-75%"/>
+
+---
+
+## More Topics, Tech and Beyond
+
+- 2020: Boardgame.io, Ionic
+- 2021: Advent of Code
+- 2023: Authentication, Programming w/kids, .NET, git
+- 2024: Quasar, monorepos, estimating, Domain Driven Design
+- 2025: GraphQL, RxJS, performance, AI, OSS projects
+
+---
+
+## 2023
+
+<img src="/2023.jpg" class="m-auto w-75%"/>
+
+---
+
+## Hall of Fame
+
+- Steve Desmond
+- Leon Miller-Out
+- Ben Darfler
+- Chuck Houpt
+- Stephen Shaffer
+- Jared Beck
+- Michael Miles
+- Rich Andrulis
+- Armand Zerilli
+- John Robson
+- Chris Marx
+
+---
+
+## 2024
+
+<img src="/2024.jpg" class="m-auto w-75%"/>
 
 ---
 layout: cover
 class: 'text-center'
 ---
 
-# Thanks!
-
----
-class: 'contact'
----
-
-<img src="/steve.jpg" alt="Steve" />
-
-# Steve Desmond
-
-### Lead Developer @ ecoAPM
-
-<img src="/logo.png" alt="ecoAPM logo" />
-
-<i class="fa-solid fa-earth-america"></i> [SteveDesmond.ca](https://SteveDesmond.ca) | [ecoAPM.com](https://ecoAPM.com)
-
-<i class="fa-brands fa-github"></i> [SteveDesmond-ca](https://github.com/SteveDesmond-ca) | [ecoAPM](https://github.com/ecoAPM)
-
-<i class="fa-brands fa-linkedin"></i> [Steve-Desmond](https://linkedin.com/in/Steve-Desmond) | [ecoAPM](https://linkedin.com/company/ecoAPM)
-
-<i class="fa-brands fa-mastodon"></i> [@ecoSteve @ mastodon.social](https://mastodon.social/ecoSteve)
-<span style="float:right;"> | [@ecoAPM @ fosstodon.org](https://fosstodon.org/@ecoAPM)</span>
+# Thank you!
+## Thank you!
+### Thank you!
