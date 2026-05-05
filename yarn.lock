@@ -315,6 +315,21 @@
   dependencies:
     tslib "^2.4.0"
 
+"@fix-webm-duration/fix@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@fix-webm-duration/fix/-/fix-1.0.1.tgz#c2832b99b0a1a1e23a24ddd3e46b9f65aae11fa0"
+  integrity sha512-rRN4CpWQaXRbCXYqKIxnsUq8OSWSGq/SVlnxxkx0HxMZZ1u0qnB24P766o8QS5YaMMqAOFAzmsMmfZ2OWucOLQ==
+  dependencies:
+    "@fix-webm-duration/parser" "1.0.1"
+    tslib "^2.3.0"
+
+"@fix-webm-duration/parser@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@fix-webm-duration/parser/-/parser-1.0.1.tgz#ca25f171bd302d995b9ec39b5602bd5147f1bcea"
+  integrity sha512-Z6el7ohBBpym4iOmxDxumN715cHzLcAbtOtYfIbvoyToVtAuxvHt3ELXGff83iAXEU1Yj7g+obQBdiKJYVhbWw==
+  dependencies:
+    tslib "^2.3.0"
+
 "@floating-ui/core@^1.1.0":
   version "1.7.5"
   resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.7.5.tgz#d4af157a03330af5a60e69da7a4692507ada0622"
@@ -864,10 +879,10 @@
   resolved "https://registry.yarnpkg.com/@shikijs/vscode-textmate/-/vscode-textmate-10.0.2.tgz#a90ab31d0cc1dfb54c66a69e515bf624fa7b2224"
   integrity sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==
 
-"@slidev/cli@52.15.0":
-  version "52.15.0"
-  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-52.15.0.tgz#bd63b4ccfaddffc4a19e80c2addb512a4f1994e5"
-  integrity sha512-I4rghsOt/RTRWWyf0yiPGlXwQ09Csj249zporpA93hNVuMHqigrnfwXkbKBG9S1dvieYN3mHslLDNQla/HQ7cw==
+"@slidev/cli@52.15.1":
+  version "52.15.1"
+  resolved "https://registry.yarnpkg.com/@slidev/cli/-/cli-52.15.1.tgz#aeba4ff1c1a50ff1882d96a492527fa88fe35e14"
+  integrity sha512-17w0+8eGpEcoqDWyFadNK5DxypKaF7H6V08yZcNyUfFJCAaYBjnfR8UaaScMprAFugBjE05lWkfyVbaIeDMqXw==
   dependencies:
     "@antfu/ni" "^30.1.0"
     "@antfu/utils" "^9.3.0"
@@ -879,9 +894,9 @@
     "@shikijs/markdown-it" "^4.0.2"
     "@shikijs/twoslash" "^4.0.2"
     "@shikijs/vitepress-twoslash" "^4.0.2"
-    "@slidev/client" "52.15.0"
-    "@slidev/parser" "52.15.0"
-    "@slidev/types" "52.15.0"
+    "@slidev/client" "52.15.1"
+    "@slidev/parser" "52.15.1"
+    "@slidev/types" "52.15.1"
     "@unocss/extractor-mdc" "^66.6.8"
     "@unocss/reset" "^66.6.8"
     "@vitejs/plugin-vue" "^6.0.6"
@@ -941,21 +956,22 @@
     yaml "^2.8.3"
     yargs "^18.0.0"
 
-"@slidev/client@52.15.0":
-  version "52.15.0"
-  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-52.15.0.tgz#4e94e74ebf09bd559a6fbf619ff73947b48963a9"
-  integrity sha512-xAQjerJuDCpqPdBP+xCTIQgfCbyDZQaArIk4JgjUajypbtDLXDSUXE6LS4dyvuiL+vzPnoI1cgYegzcsF3DnKg==
+"@slidev/client@52.15.1":
+  version "52.15.1"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-52.15.1.tgz#d62038c6db1727c576f68fb907e6476cd6416426"
+  integrity sha512-A/CZAuDQ8tEjAaGJ0R9d6bidetnE8AWOlZBkfX2jCkNdkj5YVXAIer1s2FoerQrKYJeBTMjlIxm3XuENo4WZmA==
   dependencies:
     "@antfu/utils" "^9.3.0"
+    "@fix-webm-duration/fix" "^1.0.1"
     "@iconify-json/carbon" "^1.2.20"
     "@iconify-json/ph" "^1.2.2"
     "@iconify-json/svg-spinners" "^1.2.4"
     "@shikijs/engine-javascript" "^4.0.2"
     "@shikijs/monaco" "^4.0.2"
     "@shikijs/vitepress-twoslash" "^4.0.2"
-    "@slidev/parser" "52.15.0"
+    "@slidev/parser" "52.15.1"
     "@slidev/rough-notation" "^0.1.0"
-    "@slidev/types" "52.15.0"
+    "@slidev/types" "52.15.1"
     "@typescript/ata" "^0.9.8"
     "@unhead/vue" "^2.1.13"
     "@unocss/extractor-mdc" "^66.6.8"
@@ -967,7 +983,6 @@
     ansis "^4.2.0"
     drauu "^1.0.0"
     file-saver "^2.0.5"
-    fix-webm-duration "^1.0.6"
     floating-vue "^5.2.2"
     fuse.js "^7.3.0"
     katex "^0.16.45"
@@ -985,13 +1000,13 @@
     vue-router "^5.0.6"
     yaml "^2.8.3"
 
-"@slidev/parser@52.15.0":
-  version "52.15.0"
-  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-52.15.0.tgz#be93937c8fefcaac11d1483cc35c3e322e070a61"
-  integrity sha512-Ic/QbooZwx+AoGS2Im9IpWO7JT0KumqXD7knYmPiQo1gPXRE6LP9iqhBQe4A2uLQXwhXItFJwkUjvbKOHQ8ofA==
+"@slidev/parser@52.15.1":
+  version "52.15.1"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-52.15.1.tgz#654849f8aada40e52950aca05c7c09827d950a7f"
+  integrity sha512-beB5K9yNoQdIHJrkut40Km9ilewyBRn7NbhC0bCdwCnAQkZq/p0bCdZd7ejJ1rqWCutE2omIpwrOG1dVQaa/zw==
   dependencies:
     "@antfu/utils" "^9.3.0"
-    "@slidev/types" "52.15.0"
+    "@slidev/types" "52.15.1"
     yaml "^2.8.3"
 
 "@slidev/rough-notation@^0.1.0":
@@ -1010,10 +1025,10 @@
     codemirror-theme-vars "^0.1.2"
     prism-theme-vars "^0.2.4"
 
-"@slidev/types@52.15.0":
-  version "52.15.0"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-52.15.0.tgz#b6ff44ecba9ff0e7ecca158e23ad5eac5093f96f"
-  integrity sha512-9ynICo+RogQeo7cke2Sod0yvIME4q+Qr9ln/6yzDDmPBJlO121SS+wGMV7QQLAFr2alnkNuwdclnbEjHuhSm8g==
+"@slidev/types@52.15.1":
+  version "52.15.1"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-52.15.1.tgz#44baf2231d495f82fdddb05d8a9fb83cddb2e2c0"
+  integrity sha512-kt8LLf5xu24HXBvNYuuX2xk0APZZR3pXlzevsXk6Q+QnCLLOYt2+0U97la8p8P2Nj8Q0wb58cfGoVsbA1Ra6fw==
   dependencies:
     "@antfu/utils" "^9.3.0"
     "@shikijs/markdown-it" "^4.0.2"
@@ -2782,11 +2797,6 @@ finalhandler@1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-fix-webm-duration@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/fix-webm-duration/-/fix-webm-duration-1.0.6.tgz#c2de812c5207ba01e0f0b3ae497e64edc45e6c1e"
-  integrity sha512-zVAqi4gE+8ywxJuAyV/rlJVX6CMtvyapEbQx6jyoeX9TMjdqAlt/FdG5d7rXSSkDVzTvS0H7CtwzHcH/vh4FPA==
-
 floating-vue@^5.2.2:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/floating-vue/-/floating-vue-5.2.2.tgz#e263932042753f59f3e36e7c1188f3f3e272a539"
@@ -4505,7 +4515,7 @@ tslib@^1.11.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.4.0:
+tslib@^2.3.0, tslib@^2.4.0:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
