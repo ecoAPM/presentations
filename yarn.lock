@@ -632,10 +632,10 @@
   dependencies:
     "@chevrotain/types" "~11.1.2"
 
-"@modelcontextprotocol/core@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@modelcontextprotocol/core/-/core-2.0.0.tgz#c918a4c6aef22a7c59dfb0aabc2a82c187cce157"
-  integrity sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==
+"@modelcontextprotocol/core@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@modelcontextprotocol/core/-/core-2.3.1.tgz#14e177b68558bb47b584dc1457617a2155c83e73"
+  integrity sha512-laVmIhPGpWi7rG9q+0UigblRN0Hws/Yjlb6qLFtVqryXVLkc4h+yN8z731POD2LnAGQlFe7/tXhUm7Bi0YB91g==
   dependencies:
     zod "^4.2.0"
 
@@ -647,11 +647,11 @@
     "@hono/node-server" "^1.19.9"
 
 "@modelcontextprotocol/server@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@modelcontextprotocol/server/-/server-2.0.0.tgz#4fae5ccb8f7925ed9a6bf6595bb3b58617063ffd"
-  integrity sha512-YhHWdHfpFMQfd0prsEnxKeS3Qz3ytIGmsS0sth4KDjnacIT7hxk6hXHkJ9KysxlkvTM+WZAtQbbcUhdoP4Hvtw==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@modelcontextprotocol/server/-/server-2.3.1.tgz#a15440d5c06f3bad67360952fe58e6965b4a4ac7"
+  integrity sha512-e59MfWuSssj6DoQ96JCTqdW1AXT5/XtnTl0WWd6MU1Ka434fFUGGosCLJbGNySDhHGvxQWoRWK137FXYFkYNWw==
   dependencies:
-    "@modelcontextprotocol/core" "2.0.0"
+    "@modelcontextprotocol/core" "2.3.1"
     zod "^4.2.0"
 
 "@nodelib/fs.scandir@2.1.5":
